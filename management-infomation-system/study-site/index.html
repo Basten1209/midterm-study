@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIS Midterm Study</title>
+    <meta
+      name="description"
+      content="MIS 중간고사 대비용 모바일 학습 웹사이트. 요약 읽기, 빈칸 채우기, 플래시카드, 예상 에세이 학습을 한 번에 지원합니다."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="site-frame">
+      <div class="ambient ambient-a" aria-hidden="true"></div>
+      <div class="ambient ambient-b" aria-hidden="true"></div>
+      <main class="app-shell">
+        <noscript>
+          <section class="card error-card">
+            <h1>JavaScript가 필요합니다.</h1>
+            <p>이 학습 사이트는 브라우저에서 직접 동작하는 단일 웹앱입니다.</p>
+          </section>
+        </noscript>
+        <div id="app"></div>
+      </main>
+    </div>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
