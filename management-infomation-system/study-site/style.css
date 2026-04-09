@@ -28,6 +28,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  overflow-x: clip;
   background:
     radial-gradient(circle at top left, rgba(26, 79, 208, 0.12), transparent 30rem),
     radial-gradient(circle at bottom right, rgba(239, 141, 34, 0.14), transparent 26rem),
@@ -56,7 +57,8 @@ button {
 .site-frame {
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: clip;
+  overflow-y: visible;
 }
 
 .ambient {
@@ -95,11 +97,16 @@ button {
   animation: rise-in 0.45s ease;
 }
 
+.page > * {
+  min-width: 0;
+}
+
 .topbar {
   position: sticky;
   top: 0;
   z-index: 10;
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
   gap: 12px;
@@ -110,6 +117,7 @@ button {
 .brand-block {
   display: grid;
   gap: 4px;
+  min-width: 0;
 }
 
 .eyebrow {
@@ -126,6 +134,7 @@ button {
   align-items: center;
   gap: 10px;
   width: fit-content;
+  max-width: 100%;
   padding: 10px 14px;
   border: 1px solid rgba(26, 79, 208, 0.14);
   border-radius: 999px;
@@ -133,6 +142,10 @@ button {
   box-shadow: 0 8px 20px rgba(22, 32, 50, 0.08);
   font-family: "Space Grotesk", sans-serif;
   font-weight: 700;
+}
+
+.brand span:last-child {
+  min-width: 0;
 }
 
 .brand-mark {
@@ -159,6 +172,7 @@ button {
   box-shadow: var(--shadow);
   padding: 18px;
   backdrop-filter: blur(16px);
+  min-width: 0;
 }
 
 .hero-card {
@@ -191,11 +205,13 @@ button {
   font-size: clamp(1.9rem, 6vw, 3.2rem);
   line-height: 0.98;
   letter-spacing: -0.05em;
+  overflow-wrap: anywhere;
 }
 
 .section-title {
   font-size: 1.35rem;
   line-height: 1.15;
+  overflow-wrap: anywhere;
 }
 
 .hero-subtitle,
@@ -212,6 +228,7 @@ button {
   max-width: 36rem;
   margin-top: 10px;
   font-size: 1rem;
+  overflow-wrap: anywhere;
 }
 
 .stat-grid,
@@ -317,7 +334,8 @@ button {
 }
 
 .chip-row {
-  grid-template-columns: repeat(auto-fit, minmax(96px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(84px, 1fr));
+  min-width: 0;
 }
 
 .chip.is-active {
@@ -389,11 +407,17 @@ button {
 .essay-stack {
   display: grid;
   gap: 14px;
+  min-width: 0;
 }
 
 .summary-section {
   display: grid;
   gap: 12px;
+  min-width: 0;
+}
+
+.summary-section > div {
+  min-width: 0;
 }
 
 .summary-section p {
@@ -403,6 +427,7 @@ button {
 .summary-list {
   margin: 0;
   padding-left: 1.15rem;
+  min-width: 0;
 }
 
 .summary-list li + li {
@@ -423,6 +448,7 @@ code {
 }
 
 .table-scroll {
+  max-width: 100%;
   overflow-x: auto;
   margin: 4px -4px 0;
   padding: 0 4px 4px;
@@ -460,6 +486,7 @@ code {
 
 .meter-head {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
@@ -487,6 +514,7 @@ code {
 .quiz-prompt {
   font-size: 1.1rem;
   line-height: 1.65;
+  overflow-wrap: anywhere;
 }
 
 .quiz-note {
@@ -546,6 +574,7 @@ code {
 .flashcard-shell {
   display: grid;
   gap: 14px;
+  min-width: 0;
 }
 
 .flashcard {
@@ -595,6 +624,7 @@ code {
   font-size: clamp(2rem, 8vw, 3.2rem);
   line-height: 0.98;
   letter-spacing: -0.05em;
+  overflow-wrap: anywhere;
 }
 
 .flash-definition {
@@ -613,6 +643,7 @@ code {
 .essay-question {
   font-size: 1.1rem;
   line-height: 1.65;
+  overflow-wrap: anywhere;
 }
 
 .essay-answer {
@@ -691,5 +722,35 @@ code {
 
   .utility-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .app-shell {
+    padding-inline: 12px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mode-grid,
+  .utility-grid,
+  .pager,
+  .control-row {
+    grid-template-columns: 1fr;
+  }
+
+  .flashcard,
+  .flashcard-inner {
+    min-height: 300px;
+  }
+
+  .flash-face {
+    padding: 18px;
   }
 }
