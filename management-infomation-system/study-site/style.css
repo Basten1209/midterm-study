@@ -587,7 +587,6 @@ code {
   position: relative;
   width: 100%;
   min-height: 360px;
-  transition: transform 0.65s ease;
   transform-style: preserve-3d;
 }
 
