@@ -253,6 +253,14 @@ button {
   overflow-wrap: anywhere;
 }
 
+.section h4 {
+  margin: 12px 0 6px;
+  color: var(--accent-strong);
+  font-size: 0.96rem;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
 .section p,
 .section ul,
 .section ol {

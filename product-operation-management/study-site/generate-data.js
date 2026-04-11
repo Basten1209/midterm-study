@@ -130,6 +130,13 @@ function markdownToHtml(lines) {
       continue;
     }
 
+    const subheadingMatch = line.match(/^###\s+(.+)$/u);
+    if (subheadingMatch) {
+      html.push(`<h4>${formatInline(subheadingMatch[1].trim())}</h4>`);
+      index += 1;
+      continue;
+    }
+
     if (line.trim().startsWith("|")) {
       const tableLines = [];
       while (index < lines.length && lines[index].trim().startsWith("|")) {
@@ -166,7 +173,8 @@ function markdownToHtml(lines) {
       lines[index].trim() &&
       !lines[index].trim().startsWith("|") &&
       !/^\s*-\s+/u.test(lines[index]) &&
-      !/^\s*\d+\.\s+/u.test(lines[index])
+      !/^\s*\d+\.\s+/u.test(lines[index]) &&
+      !/^###\s+/.test(lines[index])
     ) {
       paragraph.push(lines[index].trim());
       index += 1;

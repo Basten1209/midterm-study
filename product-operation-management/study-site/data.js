@@ -1,5 +1,5 @@
 window.POM_SUMMARIES = {
-  "generatedAt": "2026-04-11T18:19:53.240Z",
+  "generatedAt": "2026-04-11T18:31:33.048Z",
   "categories": [
     {
       "key": "lecture",
@@ -181,24 +181,12 @@ window.POM_SUMMARIES = {
           "label": "Discussion Topics",
           "sections": [
             {
-              "heading": "핵심 주제",
-              "html": "<ul><li>단순한 <strong>flow diagram</strong>이 실제 bottleneck, capacity constraint, rework, delay를 숨길 수 있는지 논의한다.</li><li><strong>Supply-constrained</strong> 환경에서 bottleneck 중심 설계와 non-bottleneck capacity buffer의 의미를 비교한다.</li></ul>"
+              "heading": "Topic 1 : 단순한 Flow Diagram이 실제 Bottleneck, Rework, Delay, Capacity Constraint를 숨길 수 있는가?",
+              "html": "<ul><li>이 주제는 깔끔한 process map이 운영 분석에 충분한지, 실제 공정의 복잡성을 지나치게 단순화하는지 묻는다.</li><li>핵심은 flow diagram의 clarity와 실제 capacity analysis의 accuracy 사이의 균형이다.</li></ul><h4>찬성측</h4><ul><li>단순한 <strong>flow diagram</strong>은 happy path만 보여주기 쉬워 error, rework, waiting, delay를 놓칠 수 있다.</li><li>표면적으로는 공정이 매끄러워 보여도 실제로는 특정 단계에서 WIP가 쌓이는 <strong>hidden bottleneck</strong>이 존재할 수 있다.</li><li>Defect나 재작업이 반복되면 실제 capacity가 줄어드는데, 단순 diagram은 이런 변동성을 충분히 표현하지 못한다.</li><li>운영 개선을 위해서는 흐름의 순서뿐 아니라 processing time, queue, resource utilization, exception path까지 함께 봐야 한다.</li></ul><h4>반대측</h4><ul><li>단순한 flow diagram은 복잡한 공정을 빠르게 이해하게 해 주는 전략적 커뮤니케이션 도구다.</li><li>처음부터 모든 예외와 변동성을 넣으면 분석이 지나치게 복잡해져 핵심 bottleneck을 찾기 어려울 수 있다.</li><li>High-level map은 세부 capacity analysis로 들어가기 전 공정 경계와 주요 단계에 대한 공통 이해를 만든다.</li><li>문제는 단순 diagram 자체가 아니라, 그것을 실제 운영의 완전한 representation으로 오해하는 데 있다.</li></ul>"
             },
             {
-              "heading": "핵심 개념",
-              "html": "<ul><li><strong>Simplified Flow Diagram</strong>: 프로세스 흐름을 단순화해 보여주는 그림. 명확성은 높지만 실제 변동성과 예외 경로를 누락할 수 있다.</li><li><strong>Happy Path</strong>: 문제가 없을 때의 정상 흐름. 실제 운영에서는 error, rework, waiting, delay가 capacity를 바꾼다.</li><li><strong>Hidden Bottleneck</strong>: 표면적 flowchart에는 드러나지 않지만 실제로 WIP와 delay를 만드는 제약.</li><li><strong>Utilization Gap</strong>: bottleneck과 다른 resource 사이의 utilization 차이.</li><li><strong>Theory of Constraints (TOC)</strong>: 전체 시스템 성과가 가장 약한 제약에 의해 결정된다는 관점.</li><li><strong>Resilience Buffer</strong>: 낭비처럼 보일 수 있지만 변동성과 충격을 흡수하기 위해 의도적으로 남겨둔 여유 capacity.</li></ul>"
-            },
-            {
-              "heading": "수업/자료의 논리 흐름",
-              "html": "<ul><li>단순 flowchart는 전략적 커뮤니케이션에는 유용하지만, 실제 capacity 분석에서는 rework, defect, waiting, variability를 숨길 수 있다.</li><li>찬성 논리는 &quot;지도는 실제 영토가 아니다&quot;라는 관점이다. 깔끔한 process map만 믿으면 병목과 traffic jam을 놓칠 수 있다.</li><li>반대 논리는 &quot;위성사진보다 나침반이 필요하다&quot;는 관점이다. 지나치게 복잡한 분석은 방향성을 흐릴 수 있고, 단순도는 전략 수립에 도움이 된다.</li><li>Supply-constrained 환경에서는 bottleneck이 전체 속도를 정하므로 시스템을 bottleneck 중심으로 설계해야 한다.</li><li>Bottleneck은 100% 일하고 다른 resource가 크게 idle하면 과잉 capacity를 산 것처럼 볼 수도 있고, 변동성에 대비한 insurance로 볼 수도 있다.</li></ul>"
-            },
-            {
-              "heading": "사례 및 적용 포인트",
-              "html": "<ul><li>Non-bottleneck 설비가 지나치게 많은 capacity를 가지면 capital efficiency가 낮아질 수 있다.</li><li>반대로 demand volatility, equipment failure, quality issue가 크다면 non-bottleneck slack은 system resilience를 높일 수 있다.</li></ul>"
-            },
-            {
-              "heading": "에세이 대비 연결 포인트",
-              "html": "<ul><li>단순 diagram을 비판할 때는 &quot;틀렸다&quot;보다 &quot;분석 목적에 따라 충분하지 않을 수 있다&quot;로 설명하는 것이 정확하다.</li><li>Utilization gap은 무조건 waste가 아니라 design failure와 resilience buffer 두 해석이 모두 가능하므로, context를 붙여 판단해야 한다.</li></ul>"
+              "heading": "Topic 2 : Supply-Constrained 환경에서 Non-Bottleneck Capacity Buffer는 Waste인가, Resilience Buffer인가?",
+              "html": "<ul><li>이 주제는 bottleneck이 전체 output을 결정할 때, 다른 resource의 낮은 utilization을 낭비로 볼지 운영 안정성을 위한 여유로 볼지 묻는다.</li><li>핵심은 capital efficiency와 system resilience 사이의 trade-off를 판단하는 것이다.</li></ul><h4>찬성측</h4><ul><li>Bottleneck이 전체 throughput을 결정한다면 non-bottleneck에 과도한 capacity를 두는 것은 capital efficiency를 낮출 수 있다.</li><li>특정 resource가 계속 idle하면 조직은 실제 output 증가 없이 설비와 인력 비용만 부담하게 된다.</li><li>Utilization gap이 크면 process design이 bottleneck 중심으로 최적화되지 않았다는 신호일 수 있다.</li><li>제한된 자본은 non-bottleneck capacity보다 bottleneck 제거, 품질 개선, setup reduction에 우선 배분되어야 한다.</li></ul><h4>반대측</h4><ul><li>Non-bottleneck slack은 demand volatility, equipment failure, quality issue를 흡수하는 <strong>resilience buffer</strong>가 될 수 있다.</li><li>모든 resource를 100% utilization에 가깝게 운영하면 작은 disruption도 전체 flow를 쉽게 멈추게 만든다.</li><li>Bottleneck 앞뒤의 여유 capacity는 bottleneck이 굶거나 막히지 않도록 보호해 overall throughput을 안정화한다.</li><li>Supply-constrained system에서는 efficiency뿐 아니라 reliability와 recovery speed도 함께 고려해야 한다.</li></ul>"
             }
           ]
         },
@@ -316,24 +304,12 @@ window.POM_SUMMARIES = {
           "label": "Discussion Topics",
           "sections": [
             {
-              "heading": "핵심 주제",
-              "html": "<ul><li>고도로 세분화된 assembly line이 항상 효율적인지, 또는 <strong>parallel work cells</strong>가 더 나은 상황이 있는지 논의한다.</li><li>TPS식 idle time 제거가 productivity에는 도움이 되지만, root-cause problem solving을 위한 <strong>slack</strong>을 없앨 위험이 있는지 검토한다.</li></ul>"
+              "heading": "Topic 1 : 고도로 세분화된 Assembly Line보다 Parallel Work Cells가 더 나은 상황이 있는가?",
+              "html": "<ul><li>이 주제는 task specialization이 항상 efficiency를 높이는지, 또는 작업을 지나치게 잘게 나누면 coordination cost와 품질 문제가 커지는지 묻는다.</li><li>핵심은 specialization의 learning effect와 parallel work cells의 flexibility를 비교하는 것이다.</li></ul><h4>찬성측</h4><ul><li>작업은 물리적, 기술적, 인지적 이유로 무한히 쪼갤 수 없으므로 과도한 세분화는 오히려 비효율을 만들 수 있다.</li><li><strong>Parallel work cells</strong>에서는 작업자가 여러 단계를 함께 이해하므로 품질 문제와 예외 상황에 더 빠르게 대응할 수 있다.</li><li>제품 mix가 다양하거나 demand pattern이 변동적이면 rigid assembly line보다 flexible cell 구조가 더 안정적일 수 있다.</li><li>한 사람이 지나치게 단순한 반복 작업만 수행하면 motivation과 ownership이 낮아져 장기 productivity가 떨어질 수 있다.</li></ul><h4>반대측</h4><ul><li>고도로 세분화된 assembly line은 반복 학습을 통해 속도, 정확성, cost advantage를 만들 수 있다.</li><li>Task specialization은 training을 단순화하고 작업 표준화를 쉽게 만들어 high-volume production에 적합하다.</li><li>작업이 명확히 나뉘면 책임 범위와 performance measurement가 분명해져 관리가 쉬워진다.</li><li>Parallel work cells는 작업자에게 더 넓은 skill을 요구하므로 training cost와 performance variability가 커질 수 있다.</li></ul>"
             },
             {
-              "heading": "핵심 개념",
-              "html": "<ul><li><strong>Task Specialization</strong>: 일을 작은 반복 작업으로 나누어 작업자가 특정 작업만 수행하게 하는 방식.</li><li><strong>Parallel Work Cells</strong>: 여러 작업자가 각각 여러 단계를 묶어 수행하거나 완제품 단위로 병렬 처리하는 구조.</li><li><strong>Indivisibility of Work</strong>: 작업을 무한히 잘게 나눌 수 없다는 한계.</li><li><strong>Slack</strong>: 당장의 생산에는 쓰이지 않지만 문제 탐색과 개선에 쓸 수 있는 여유 시간 또는 여유 capacity.</li><li><strong>Idle Time as Waste</strong>: 생산에 직접 기여하지 않는 대기 시간을 waste로 보는 관점.</li><li><strong>Root-Cause Problem Solving</strong>: 표면 증상이 아니라 결함이나 지연의 근본 원인을 찾아 제거하는 활동.</li></ul>"
-            },
-            {
-              "heading": "수업/자료의 논리 흐름",
-              "html": "<ul><li>찬성 논리는 high-volume assembly에서도 작업을 지나치게 잘게 자르면 coordination cost와 motivation 문제가 커질 수 있다는 관점이다.</li><li>작업 분할에는 물리적, 기술적, 인지적 한계가 있으므로, 어떤 상황에서는 각 작업자가 여러 단계를 맡는 parallel cells가 더 빠르거나 안정적일 수 있다.</li><li>반대 논리는 specialization이 산업화의 핵심 엔진이라는 관점이다. 반복 작업은 학습효과와 속도, cost advantage를 만들 수 있다.</li><li>Idle time 제거 논의에서는 100% 바쁘게 만드는 것이 단기 productivity는 높일 수 있지만, 문제 원인을 찾고 개선할 여유를 없앨 수 있다는 우려가 제기된다.</li><li>반대 관점에서는 idleness를 줄이면 discipline이 생기고 문제가 더 빨리 드러나 quality improvement로 이어질 수 있다고 본다.</li></ul>"
-            },
-            {
-              "heading": "사례 및 적용 포인트",
-              "html": "<ul><li>&quot;Stop slicing the cake into crumbs&quot;는 과도한 작업 세분화가 오히려 비효율을 만들 수 있음을 설명하는 비유다.</li><li>&quot;Breathing room to think&quot;는 slack이 단순한 낭비가 아니라 improvement capacity가 될 수 있음을 설명한다.</li></ul>"
-            },
-            {
-              "heading": "에세이 대비 연결 포인트",
-              "html": "<ul><li>Specialization vs parallel cells는 속도와 비용만이 아니라 작업 분할 가능성, motivation, quality feedback, flexibility를 함께 봐야 한다.</li><li>Idle time 논의는 waste reduction과 kaizen을 구분해서, 제거해야 할 idle과 의도적으로 남길 slack을 나눠 설명하면 좋다.</li></ul>"
+              "heading": "Topic 2 : TPS식 Idle Time 제거는 Productivity를 높이는가, Root-Cause Problem Solving을 위한 Slack을 없애는가?",
+              "html": "<ul><li>이 주제는 idle time을 waste로 보고 제거하는 것이 좋은지, 문제 탐색과 개선을 위한 여유를 남겨야 하는지 묻는다.</li><li>핵심은 waste reduction과 improvement capacity를 구분해서 판단하는 것이다.</li></ul><h4>찬성측</h4><ul><li>Idle time 제거는 자원 활용도를 높이고 같은 인력과 설비로 더 많은 output을 만들게 한다.</li><li>TPS 관점에서 낭비를 줄이면 문제가 더 빨리 드러나고, 팀이 표준 작업과 flow 개선에 집중하게 된다.</li><li>불필요한 대기 시간이 줄어들면 cycle time이 짧아지고 customer response가 빨라질 수 있다.</li><li>Discipline 있는 운영은 느슨한 buffer에 의존하지 않고 defect와 delay의 원인을 지속적으로 제거하게 만든다.</li></ul><h4>반대측</h4><ul><li>모든 시간을 production으로 채우면 작업자가 defect, delay, process instability의 root cause를 분석할 여유가 사라질 수 있다.</li><li><strong>Slack</strong>은 단순한 낭비가 아니라 kaizen, training, problem solving을 가능하게 하는 improvement capacity가 될 수 있다.</li><li>100% utilization에 가까운 시스템은 작은 변동에도 queue와 delay가 급격히 증가할 위험이 있다.</li><li>제거해야 할 idle time과 의도적으로 남겨야 할 learning time을 구분하지 않으면 단기 productivity가 장기 품질 개선을 해칠 수 있다.</li></ul>"
             }
           ]
         },
@@ -451,24 +427,12 @@ window.POM_SUMMARIES = {
           "label": "Discussion Topics",
           "sections": [
             {
-              "heading": "핵심 주제",
-              "html": "<ul><li>Variability를 줄이는 것과 inventory buffer를 추가하는 것 중 무엇이 output 개선에 더 적합한지 논의한다.</li><li><strong>Zero Inventory</strong>를 실천적 목표로 볼지, 계산된 buffer 수준으로 대체할지 비교한다.</li></ul>"
+              "heading": "Topic 1 : 공장은 Output 개선을 위해 Inventory 추가보다 Variability Reduction을 우선해야 하는가?",
+              "html": "<ul><li>이 주제는 output을 개선할 때 root cause인 variability를 줄여야 하는지, 불확실성을 흡수하기 위해 inventory buffer를 둬야 하는지 묻는다.</li><li>핵심은 inventory를 waste로 볼지, variability를 관리하는 engineering tool로 볼지 비교하는 것이다.</li></ul><h4>찬성측</h4><ul><li>Inventory는 unreliable process를 가리는 buffer가 되어 root cause를 해결하려는 urgency를 낮출 수 있다.</li><li>WIP buffer가 많아지면 carrying cost, longer lead time, delayed defect detection 같은 hidden cost가 발생한다.</li><li>Toyota식 low inventory는 문제를 노출시켜 variability reduction과 continuous improvement를 촉진한다.</li><li><strong>VUT Equation</strong> 관점에서 variability를 줄이면 cycle time 압박을 구조적으로 낮출 수 있다.</li></ul><h4>반대측</h4><ul><li>Equipment, material, demand에서 발생하는 variability는 완전히 제거할 수 없으므로 일정 수준의 buffer가 필요하다.</li><li>Strategic inventory는 낭비가 아니라 disruption을 흡수하고 service level을 지키는 운영 설계 도구가 될 수 있다.</li><li>Variability reduction에는 diminishing returns가 있어 어느 시점부터는 buffer가 더 경제적인 선택일 수 있다.</li><li>Buffer 없이 공정을 운영하면 작은 공급 충격이나 품질 문제가 곧바로 output failure로 이어질 수 있다.</li></ul>"
             },
             {
-              "heading": "핵심 개념",
-              "html": "<ul><li><strong>Variability</strong>: 수요, 설비, 작업시간, 품질 등에서 발생하는 변동성.</li><li><strong>Inventory / WIP Buffer</strong>: 변동성을 흡수하기 위해 공정 사이에 두는 재고.</li><li><strong>VUT Equation</strong>: <code>Cycle Time = Variability x Utilization x Process Time</code>으로 정리되는 사고방식. Variability와 utilization이 높을수록 cycle time 압박이 커진다.</li><li><strong>Zero Inventory</strong>: 재고를 궁극적으로 없애려는 lean 지향점.</li><li><strong>Safety Stock / Buffer</strong>: 서비스 수준과 불확실성을 고려해 의도적으로 보유하는 재고.</li><li><strong>Risk Exposure</strong>: buffer를 줄였을 때 disruption에 노출되는 정도.</li></ul>"
-            },
-            {
-              "heading": "수업/자료의 논리 흐름",
-              "html": "<ul><li>Variability reduction 찬성 논리는 inventory가 root cause를 가리고 개선 압력을 줄인다는 점을 강조한다.</li><li>Buffer 찬성 논리는 variability는 완전히 제거할 수 없으므로 inventory를 engineering tool로 써야 한다는 점을 강조한다.</li><li>Zero Inventory 찬성 논리는 comfort를 줄이고 문제를 계속 드러내는 aspirational target의 역할을 본다.</li><li>Calculated buffer 찬성 논리는 demand variability, lead time, service level을 계산해 buffer를 정해야 하며, 구호만으로 buffer를 줄이면 operational failure가 생긴다고 본다.</li></ul>"
-            },
-            {
-              "heading": "사례 및 적용 포인트",
-              "html": "<ul><li>Toyota식 low inventory는 문제를 드러내고 개선하게 만드는 장점이 있지만, 공급 충격이나 수요 변동이 크면 buffer 없는 시스템은 취약해진다.</li><li>Inventory는 carrying cost, longer lead time, delayed defect detection을 만들 수 있다.</li></ul>"
-            },
-            {
-              "heading": "에세이 대비 연결 포인트",
-              "html": "<ul><li>Inventory를 무조건 waste로만 보지 말고, 문제 은폐 비용과 risk absorption 기능을 함께 설명해야 한다.</li><li>Zero inventory는 실제 재고 0을 당장 강제하는 정책보다 개선 방향을 유지하는 목표로 이해하는 편이 균형적이다.</li></ul>"
+              "heading": "Topic 2 : Zero Inventory는 Calculated Buffer로 대체하지 말고 Aspirational Target으로 유지해야 하는가?",
+              "html": "<ul><li>이 주제는 <strong>Zero Inventory</strong>를 지속적인 개선 방향으로 유지할지, data 기반의 calculated buffer 수준으로 대체할지 묻는다.</li><li>핵심은 lean ideal과 quantitative risk management 사이의 균형이다.</li></ul><h4>찬성측</h4><ul><li>Zero Inventory는 실제 재고를 즉시 0으로 만들라는 명령보다 문제를 계속 드러내는 improvement target으로 기능한다.</li><li>높은 buffer를 편안하게 받아들이면 overstock이 정당화되고 process improvement 압력이 약해질 수 있다.</li><li>재고를 줄이려는 목표는 defect, setup time, supplier reliability 같은 근본 문제를 해결하게 만든다.</li><li>Toyota의 성공은 &quot;안전한 재고 수준&quot;에 안주하지 않고 zero에 가까워지려는 지속적 노력과 연결된다.</li></ul><h4>반대측</h4><ul><li>정량적 근거 없는 zero inventory 구호는 reckless buffer cut으로 이어져 real operational failure를 만들 수 있다.</li><li>Demand variability, lead time, service level을 계산해 필요한 safety stock을 정하는 것이 더 책임 있는 의사결정이다.</li><li>Supply disruption이나 demand spike가 큰 환경에서는 inventory가 고객 서비스와 매출을 보호하는 risk buffer가 된다.</li><li>Aspirational target만 강조하면 현장의 실제 uncertainty와 recovery time을 과소평가할 위험이 있다.</li></ul>"
             }
           ]
         },
@@ -586,24 +550,12 @@ window.POM_SUMMARIES = {
           "label": "Discussion Topics",
           "sections": [
             {
-              "heading": "핵심 주제",
-              "html": "<ul><li>서비스 기업에서 높은 labor cost를 superior performance를 위한 investment로 볼지, 최소화해야 할 expense로 볼지 논의한다.</li><li>Demand가 capacity를 초과할 때 price increase와 capacity expansion 중 어떤 대응이 적절한지 비교한다.</li></ul>"
+              "heading": "Topic 1 : Service Companies는 높은 Labor Cost를 Expense보다 Superior Performance를 위한 Investment로 봐야 하는가?",
+              "html": "<ul><li>이 주제는 서비스 기업의 높은 인건비를 줄여야 할 비용으로 볼지, 서비스 품질과 customer loyalty를 만드는 투자로 볼지 묻는다.</li><li>핵심은 labor cost minimization과 <strong>Service-Profit Chain</strong> 관점의 장기 performance를 비교하는 것이다.</li></ul><h4>찬성측</h4><ul><li>서비스 품질은 사람에게 크게 의존하므로 낮은 임금과 부족한 training은 turnover와 inconsistent service를 만들 수 있다.</li><li>높은 labor spending은 직원 만족, service quality, customer loyalty, profitability로 이어지는 investment가 될 수 있다.</li><li>Costco와 Trader Joe&#39;s처럼 labor를 investment로 보는 기업은 안정적인 인력과 높은 고객 경험을 만들 수 있다.</li><li>단기 임금 절감이 turnover, 재교육, 품질 실패 비용을 키우면 total cost는 오히려 높아질 수 있다.</li></ul><h4>반대측</h4><ul><li>Labor는 service operations에서 가장 큰 controllable cost 중 하나이므로 disciplined cost management가 필요하다.</li><li>Standardization과 automation을 활용하면 premium wage 없이도 consistent service를 제공할 수 있다.</li><li>높은 labor cost는 margin을 압박하고 price flexibility를 낮춰 cost leadership 전략과 충돌할 수 있다.</li><li>Walmart나 Ryanair처럼 낮은 비용 구조를 통해 가격 경쟁력과 operational discipline을 확보하는 전략도 가능하다.</li></ul>"
             },
             {
-              "heading": "핵심 개념",
-              "html": "<ul><li><strong>Service-Profit Chain</strong>: 직원 만족, 서비스 품질, 고객 충성도, 수익성이 연결된다는 관점.</li><li><strong>Labor as Investment</strong>: 임금과 교육을 비용이 아니라 품질과 loyalty를 만드는 투자로 보는 관점.</li><li><strong>Cost Leadership</strong>: 낮은 비용 구조를 통해 가격 경쟁력과 profitability를 확보하는 전략.</li><li><strong>Demand-Capacity Gap</strong>: demand가 available capacity를 초과하는 상태.</li><li><strong>Pricing Power</strong>: 초과수요 상황에서 가격을 올려도 고객 이탈이 제한될 수 있는 힘.</li><li><strong>ROIC Trade-off</strong>: price increase는 margin을 빠르게 높일 수 있고, capacity expansion은 fixed cost와 invested capital을 늘릴 수 있다.</li></ul>"
-            },
-            {
-              "heading": "수업/자료의 논리 흐름",
-              "html": "<ul><li>Labor investment 찬성 논리는 서비스 품질이 사람에게 의존하므로 낮은 임금이 turnover와 품질 불안정을 불러 더 큰 total cost를 만들 수 있다고 본다.</li><li>Labor cost minimization 찬성 논리는 노동이 가장 큰 controllable cost이며, standardization과 automation으로 premium wage 없이도 일관된 서비스를 만들 수 있다고 본다.</li><li>Price increase 찬성 논리는 초과수요가 pricing power를 의미하며, 신규 capacity 투자보다 즉각적으로 margin과 ROIC를 개선한다고 본다.</li><li>Capacity expansion 찬성 논리는 가격 인상이 고객 이탈과 brand damage를 부를 수 있고, 접근성과 delivery speed가 장기 market share를 좌우한다고 본다.</li></ul>"
-            },
-            {
-              "heading": "사례 및 적용 포인트",
-              "html": "<ul><li>Costco와 Trader Joe&#39;s는 labor spending을 service quality와 loyalty의 investment로 보는 사례로 연결된다.</li><li>Walmart와 Ryanair는 cost discipline과 process standardization의 사례로 연결된다.</li><li>초과수요에서 capacity expansion은 long-term share를 지킬 수 있지만, demand가 사라지면 fixed cost risk가 남는다.</li></ul>"
-            },
-            {
-              "heading": "에세이 대비 연결 포인트",
-              "html": "<ul><li>서비스 labor cost 논의는 단기 비용과 장기 품질/turnover 효과를 구분해서 써야 한다.</li><li>초과수요 대응은 price, capacity, ROIC, market share의 trade-off로 설명하면 운영과 재무를 함께 연결할 수 있다.</li></ul>"
+              "heading": "Topic 2 : Demand가 Capacity를 초과할 때 Price Increase를 Capacity Expansion보다 우선해야 하는가?",
+              "html": "<ul><li>이 주제는 초과수요 상황에서 가격을 올려 margin을 확보할지, capacity를 늘려 market share와 접근성을 지킬지 묻는다.</li><li>핵심은 ROIC, fixed cost risk, customer loyalty 사이의 trade-off를 판단하는 것이다.</li></ul><h4>찬성측</h4><ul><li>초과수요는 pricing power를 의미하므로 price increase는 기존 capacity로 margin과 ROIC를 빠르게 개선할 수 있다.</li><li>Capacity expansion은 큰 capital investment와 fixed cost를 만들며, demand가 줄어들면 되돌리기 어렵다.</li><li>가격 인상은 structural cost를 추가하지 않고 demand를 조절하는 비교적 빠른 방법이다.</li><li>불확실한 shortage period에는 새 설비나 인력 확충보다 가격 조정이 더 낮은 risk를 가질 수 있다.</li></ul><h4>반대측</h4><ul><li>Price increase는 customer defection과 brand damage를 만들 수 있으며, 경쟁사가 displaced demand를 가져갈 수 있다.</li><li>Quality-driven market에서는 delivery speed와 accessibility가 loyalty를 결정하므로 capacity expansion이 장기 market share를 지킨다.</li><li>Capacity 부족이 계속되면 lead time이 길어지고 고객은 더 안정적인 공급자를 찾게 된다.</li><li>초과수요가 구조적 성장 신호라면 expansion은 단기 비용보다 장기 성장 기회를 확보하는 선택일 수 있다.</li></ul>"
             }
           ]
         },
@@ -695,24 +647,8 @@ window.POM_SUMMARIES = {
           "label": "Discussion Topics",
           "sections": [
             {
-              "heading": "핵심 주제",
-              "html": "<ul><li><strong>Toyota Production System (TPS)</strong>을 도입할지, 도입한다면 어떤 business context에서 어떤 방식으로 구현할지 논의한다.</li><li>High-mix high-volume electronics manufacturer와 service-oriented companies를 비교한다.</li></ul>"
-            },
-            {
-              "heading": "핵심 개념",
-              "html": "<ul><li><strong>TPS</strong>: Just-in-Time, jidoka, standardized work, kaizen 등을 통해 waste를 줄이고 품질과 flow를 개선하는 운영 시스템.</li><li><strong>High-Mix, High-Volume</strong>: 제품 다양성과 생산량이 모두 높은 환경. 표준화와 유연성이 동시에 필요하다.</li><li><strong>Service Operations</strong>: software development, retail 등 물리적 재고보다 정보 흐름, 대기, 품질 편차, 고객 경험이 중요한 운영.</li><li><strong>Red Team</strong>: 제안의 취약점과 반례를 공격적으로 검토하는 역할.</li><li><strong>Fishbowl Discussion</strong>: 일부 참여자가 안쪽에서 토론하고, 필요시 외부 참여자가 교체되어 들어오는 토론 방식.</li></ul>"
-            },
-            {
-              "heading": "수업/자료의 논리 흐름",
-              "html": "<ul><li>Electronics manufacturer에서는 TPS가 defect visibility, standardized work, flow stability에 도움을 줄 수 있지만, 제품 다양성이 크면 지나친 표준화가 flexibility를 제한할 수 있다.</li><li>Service companies에서는 pull, visual management, kaizen, root-cause problem solving을 대기시간과 오류 감소에 적용할 수 있다.</li><li>TPS 도입은 단순 도구 복제가 아니라 context에 맞춘 operating system 설계로 봐야 한다.</li><li>Red Team은 &quot;TPS가 모든 조직에 같은 방식으로 맞는가&quot;, &quot;buffer를 줄였을 때 resilience가 약해지지 않는가&quot;, &quot;서비스 업무를 제조처럼 표준화할 수 있는가&quot;를 계속 점검하게 만든다.</li></ul>"
-            },
-            {
-              "heading": "사례 및 적용 포인트",
-              "html": "<ul><li>Electronics에서는 Andon, defect stop, setup reduction, supplier coordination 같은 방식이 적용될 수 있다.</li><li>Software나 retail에서는 visual board, WIP limit, standardized service routine, continuous improvement meeting으로 변형될 수 있다.</li></ul>"
-            },
-            {
-              "heading": "에세이 대비 연결 포인트",
-              "html": "<ul><li>TPS adoption을 찬반으로만 쓰지 말고, 어떤 industry context에서 어떤 principle을 조정해 적용할지 설명해야 한다.</li><li>Red Team 관점까지 포함하면, lean의 장점과 risk를 모두 이해하고 있다는 답변 구조를 만들 수 있다.</li></ul>"
+              "heading": "Topic 1 : TPS 도입은 High-Mix High-Volume Electronics Manufacturer와 Service-Oriented Companies에서 어떻게 조정되어야 하는가?",
+              "html": "<ul><li>이 주제는 TPS를 단순 복제할지, business context에 맞춰 원칙을 조정할지 묻는다.</li><li>핵심은 TPS를 waste reduction 도구가 아니라 context-sensitive operating system으로 이해하는 것이다.</li></ul><h4>적용 관점</h4><ul><li>High-mix high-volume electronics manufacturer에서는 TPS가 defect visibility, standardized work, setup reduction, supplier coordination에 도움을 줄 수 있다.</li><li>제품 다양성이 큰 환경에서는 Just-in-Time과 표준화를 그대로 적용하기보다 flexibility와 buffer policy를 함께 설계해야 한다.</li><li>Service-oriented companies에서는 pull, visual management, WIP limit, kaizen, root-cause problem solving을 대기시간과 service error 감소에 적용할 수 있다.</li><li>Software development나 retail에서는 physical inventory보다 information flow, queue, customer experience를 중심으로 TPS 원칙을 변형해야 한다.</li><li>Fishbowl discussion에서는 참여자가 각 business context에서 TPS adoption stance와 implementation approach를 구체적으로 제시해야 한다.</li></ul><h4>Red Team 관점</h4><ul><li>Red Team은 TPS가 모든 조직에 같은 방식으로 맞는지, 단순 도구 복제가 context mismatch를 만들지 점검해야 한다.</li><li>High-mix 환경에서 지나친 standardization이 product flexibility와 customization capability를 제한할 수 있다.</li><li>Buffer를 과도하게 줄이면 supply disruption, demand volatility, quality issue에 대한 resilience가 약해질 수 있다.</li><li>Service work를 제조처럼 표준화하면 human judgment, tacit knowledge, customer interaction quality가 손상될 수 있다.</li><li>Fishbowl 형식에서는 Red Team의 반론을 통해 TPS의 장점뿐 아니라 implementation risk와 boundary condition까지 함께 검토해야 한다.</li></ul>"
             }
           ]
         },
@@ -748,6 +684,6 @@ window.POM_SUMMARIES = {
   "stats": {
     "totalCategories": 5,
     "totalWeeks": 7,
-    "totalSections": 130
+    "totalSections": 114
   }
 };
