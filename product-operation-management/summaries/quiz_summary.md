@@ -108,7 +108,7 @@
 - 운영 개선의 효과를 말할 때 "flow rate 증가", "inventory 감소", "margin 개선", "asset turns 개선" 중 어떤 경로인지 명확히 해야 한다.
 - ROIC tree는 현장 작업과 재무지표 사이의 번역 도구로 설명할 수 있다.
 
-# Week 8
+# Week 7
 
 ## 핵심 주제
 - **Lean Operations**와 **Toyota Production System (TPS)**의 기본 원칙을 정리한다.
