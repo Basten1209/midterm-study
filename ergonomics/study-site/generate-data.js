@@ -415,12 +415,18 @@ const quizHighlightTargets = {
   },
 };
 
-if (!fs.existsSync(sourceDir)) {
-  throw new Error(`Goals summary directory not found at ${sourceDir}`);
-}
+if (!fs.existsSync(sourceDir) || !fs.existsSync(quizDir)) {
+  const missingInputs = [
+    fs.existsSync(sourceDir) ? null : sourceDir,
+    fs.existsSync(quizDir) ? null : quizDir,
+  ].filter(Boolean);
 
-if (!fs.existsSync(quizDir)) {
-  throw new Error(`Quiz directory not found at ${quizDir}`);
+  if (fs.existsSync(outputFile)) {
+    console.warn(`Source inputs not found (${missingInputs.join(", ")}); using existing data.js snapshot.`);
+    process.exit(0);
+  }
+
+  throw new Error(`Source inputs not found: ${missingInputs.join(", ")}`);
 }
 
 function readText(filePath) {

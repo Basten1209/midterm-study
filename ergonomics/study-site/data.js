@@ -1,5 +1,5 @@
 window.ERGONOMICS_SUMMARY = {
-  "generatedAt": "2026-04-14T18:22:03.413Z",
+  "generatedAt": "2026-04-14T18:23:57.037Z",
   "title": "Ergonomics HF/E Goals Summary",
   "legendHtml": "Quiz 정답 개념은 <mark><strong>이렇게</strong></mark> 표시됩니다.",
   "modules": [
