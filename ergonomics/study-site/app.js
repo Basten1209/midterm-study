@@ -149,11 +149,11 @@
           <div class="brand-copy">
             <p class="eyebrow">Ergonomics HF/E</p>
             <h1>${escapeHtml(data.title)}</h1>
-            <p>Summary 중심으로 빠르게 훑는 중간고사 노트</p>
+            <p>Goal summary 중심으로 빠르게 훑는 중간고사 노트</p>
           </div>
         </div>
         <form class="search-panel" role="search">
-          <label for="summary-search">요약 검색</label>
+          <label for="summary-search">Goal 검색</label>
           <div class="search-row">
             <input
               id="summary-search"
@@ -250,7 +250,7 @@
       <main class="app">
         ${renderTopbar(route, visibleModules)}
         ${renderLegend()}
-        <section class="content-list" aria-label="Ergonomics summary goals">
+        <section class="content-list" aria-label="Ergonomics goal summary">
           ${content}
         </section>
       </main>

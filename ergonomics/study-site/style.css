@@ -334,6 +334,15 @@ button {
   padding-left: 1.1rem;
 }
 
+.goal-body li > ul,
+.goal-body li > ol {
+  margin-top: 7px;
+}
+
+.goal-body li > p {
+  margin-top: 7px;
+}
+
 .goal-body li,
 .goal-body p {
   overflow-wrap: anywhere;

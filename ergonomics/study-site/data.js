@@ -1,51 +1,52 @@
 window.ERGONOMICS_SUMMARY = {
-  "generatedAt": "2026-04-14T17:59:42.475Z",
-  "title": "Ergonomics (HF/E) Midterm Summary",
-  "legendHtml": "Quiz 정답 개념은 <mark><strong>이렇게</strong></mark> 표시했다.",
+  "generatedAt": "2026-04-14T18:22:03.413Z",
+  "title": "Ergonomics HF/E Goals Summary",
+  "legendHtml": "Quiz 정답 개념은 <mark><strong>이렇게</strong></mark> 표시됩니다.",
   "modules": [
     {
       "key": "intro-to-hf-e-part-1",
       "title": "Intro to HF/E (Part 1)",
+      "file": "../goals_summary/01-intro-to-hfe-part1.md",
       "goals": [
         {
           "key": "intro-to-hf-e-part-1-goal-1",
           "number": 1,
           "heading": "Describe the terms HF/E and their synonyms. (HF/E 용어 및 동의어 설명)",
-          "pageRef": "Page 9",
-          "html": "<ul><li>HF/E = 인적 요인(Human Factors) + 인간공학(Ergonomics, <mark><strong>Ergon(Work) + Nomos(Laws)</strong></mark>). 지역별 명칭 상이하나 핵심 원리·목표 동일</li><li>Terms vary by region; core principles are the same.</li><li>동의어(Synonyms): 인간 공학(Human Engineering), 공학 심리학(Engineering Psychology) 등</li></ul>",
-          "answerHighlightCount": 1,
+          "pageRef": "",
+          "html": "<ul><li>field of designing work, products, and systems to fit human capabilities and limits</li><li><strong>Ergonomics(유럽)</strong>: Ergon(<mark><strong>Work</strong></mark>) + Nomos(<mark><strong>Laws</strong></mark>),  Human Factor(북미)</li><li><strong>동의어(Synonyms)</strong>: HFE, HCD, UCD, UI, and UX</li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "HF/E = 인적 요인(Human Factors) + 인간공학(Ergonomics, <mark><strong>Ergon(Work) + Nomos(Laws)</strong></mark>). 지역별 명칭 상이하나 핵심 원리·목표 동일"
+            "<strong>Ergonomics(유럽)</strong>: Ergon(<mark><strong>Work</strong></mark>) + Nomos(<mark><strong>Laws</strong></mark>),  Human Factor(북미)"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-2",
           "number": 2,
           "heading": "Explain the primary focus, key objectives, and overall approach of HF/E. (HF/E의 주요 초점, 핵심 목표 및 접근 방식 설명)",
-          "pageRef": "Page 17, 18",
-          "html": "<ul><li>핵심 접근(approach): <mark><strong>시스템/작업을 인간에 맞추는 것(Fit the System/Task to the Human)</strong></mark></li><li>Core approach: &quot;Fit the system to the human,&quot; not the reverse.</li><li>Goals: optimize safety, performance, and satisfaction simultaneously, often balancing competing demands.</li></ul>",
+          "pageRef": "",
+          "html": "<ul><li><strong>Core Philosophy</strong>: &quot;<mark><strong>Fit the System/Task to the Human</strong></mark>&quot; — 인간의 capabilities &amp; limitations에 맞춰 설계</li><li><strong>&quot;Fit&quot; Concept</strong>: system demands와 human capabilities 간 gap을 design intervention으로 최소화</li><li><strong>Primary Focus</strong>: 인간과 products, equipment, facilities, procedures, environments 간의 상호작용</li><li><strong>Key Objectives (P17-18)</strong>: 3가지 동시 최적화, trade-off 존재<ul><li><strong>Safety</strong>, <strong>Performance</strong>, <strong>Satisfaction</strong></li></ul></li><li><strong>Holistic Approach</strong>: physical, cognitive, social, organizational, environmental factors를 동시에 고려</li><li><strong>Design-Driven</strong>: 단순 assessment가 아닌 tasks, jobs, products, environments를 설계하는 응용 학문</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "핵심 접근(approach): <mark><strong>시스템/작업을 인간에 맞추는 것(Fit the System/Task to the Human)</strong></mark>"
+            "<strong>Core Philosophy</strong>: &quot;<mark><strong>Fit the System/Task to the Human</strong></mark>&quot; — 인간의 capabilities &amp; limitations에 맞춰 설계"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-3",
           "number": 3,
           "heading": "Distinguish the three domains (physical, cognitive, organizational) defined by IEA. (IEA 정의 3가지 주요 영역 구분)",
-          "pageRef": "Part I 강의자료 전반",
-          "html": "<ul><li>신체적(Physical) = body activity, <mark><strong>인지적(Cognitive Ergonomics)</strong></mark> = mental processes like perception and memory, 조직적(organizational) = sociotechnical system optimization.</li></ul>",
+          "pageRef": "",
+          "html": "<ul><li><strong>Physical</strong>: human anatomical, anthropometric, physiological, biomechanical characteristics ↔ physical activity</li><li><mark><strong>Cognitive</strong></mark>: mental processes — perception, memory, reasoning, motor response ↔ human-system interaction</li><li><strong>Organizational</strong>: sociotechnical systems 최적화 — organizational structures, policies, processes</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "신체적(Physical) = body activity, <mark><strong>인지적(Cognitive Ergonomics)</strong></mark> = mental processes like perception and memory, 조직적(organizational) = sociotechnical system optimization."
+            "<mark><strong>Cognitive</strong></mark>: mental processes — perception, memory, reasoning, motor response ↔ human-system interaction"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-4",
           "number": 4,
           "heading": "Identify the scientific disciplines that contribute to HF/E and explain the interdisciplinary nature of HF/E. (HF/E 기여 학문 및 학제간 특성 설명)",
-          "pageRef": "Page 13, 14",
-          "html": "<ul><li>HF/E synthesizes knowledge from diverse scientific and engineering disciplines</li><li>Integrates multiple fields to solve human-system problems no single discipline can address alone.</li></ul>",
+          "pageRef": "",
+          "html": "<ul><li>psychology, physiology, anatomy, medicine, industrial engineering, computer science, design, and management</li><li>단순 차용(borrow)이 아닌 <strong>integrate</strong> → 단일 학문으로 해결 불가능한 complex human-system problems 해결</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
@@ -53,61 +54,61 @@ window.ERGONOMICS_SUMMARY = {
           "key": "intro-to-hf-e-part-1-goal-5",
           "number": 5,
           "heading": "Explain why relying solely on \"common sense,\" \"using oneself as the model\", or \"design guidelines\" is insufficient for designing products. (\"상식\"이나 \"자신을 모델로 삼는 것\"의 불충분성 설명)",
-          "pageRef": "HW Solutions Page 1",
-          "html": "<ul><li>설계자 자신을 모델로 삼으면 <mark><strong>diverse user variability and anthropometric diversity</strong></mark>를 반영하지 못한다.</li><li>Designing by &quot;using oneself as the model&quot; fails to account for diverse users&#39; physical limitations.</li><li>HF/E requires context consideration + user diversity consideration + iterative evaluation</li></ul>",
+          "pageRef": "",
+          "html": "<ul><li><strong>NOT Just &quot;Common Sense&quot;</strong>: 복잡한 설계 결정은  <strong>empirical data</strong> 필요</li><li><strong>NOT &quot;Using Oneself as the Model&quot;</strong>: HF/E는 <mark><strong>individual differences</strong></mark> 명시적으로 인정 → 다양한 user population의 고유 특성 고려 필수</li><li><strong>NOT Just Applying Design Guidelines</strong>: guideline != Optimal, in real world, complex trade-offs + context-specific constraints + <strong>iterative evaluation</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "설계자 자신을 모델로 삼으면 <mark><strong>diverse user variability and anthropometric diversity</strong></mark>를 반영하지 못한다."
+            "<strong>NOT &quot;Using Oneself as the Model&quot;</strong>: HF/E는 <mark><strong>individual differences</strong></mark> 명시적으로 인정 → 다양한 user population의 고유 특성 고려 필수"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-6",
           "number": 6,
           "heading": "Discuss whether it is possible to enhance multiple HF/E objectives simultaneously. (다중 HF/E 목표의 동시 향상 가능성 논의)",
-          "pageRef": "Page 13, 18",
-          "html": "<ul><li>인간 웰빙(안전, 편안함)과 시스템 성능(생산성, 효율성)은 상호 배타적이지 않으며 <mark><strong>multiple HF/E objectives can improve simultaneously</strong></mark>.</li><li>Human well-being and system performance are not mutually exclusive; both can improve together.</li></ul><p>design matches human capabilities - safety improves - fatigue decreases - ease of use increases - productivity increases</p>",
+          "pageRef": "",
+          "html": "<ul><li>결론: human well-being, system performance는 <mark><strong>not mutually exclusive</strong></mark><ul><li>machine/product with HF technology→ safer + easier to use + less fatigue + more satisfying</li><li>objectives는 서로 <strong>correlated</strong></li></ul></li><li><strong>Trade-offs 존재</strong>: Performance 극대화 → Safety 저해 가능. optimal balance 추구</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "인간 웰빙(안전, 편안함)과 시스템 성능(생산성, 효율성)은 상호 배타적이지 않으며 <mark><strong>multiple HF/E objectives can improve simultaneously</strong></mark>."
+            "결론: human well-being, system performance는 <mark><strong>not mutually exclusive</strong></mark>"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-7",
           "number": 7,
-          "heading": "Describe the history of HF/E from early scientific management through wartime developments to the digital age. (HF/E의 역사적 발전 과정 설명)",
-          "pageRef": "Page 24",
-          "html": "<ul><li>1945-1960: 공학 심리학·인간공학회 설립으로 태동 → 1960-1980: 군사·자동차·소비재 분야 급성장</li><li>1945–1960: profession emerged with ergonomic societies. 1960–1980: rapid growth in military, automotive, consumer fields.</li><li>WWII 이후 장비 복잡성이 인간 한계를 드러내며 <mark><strong>&quot;fitting the human to the system&quot;에서 &quot;fitting the system to the human&quot;으로</strong></mark> 초점이 이동했다.</li><li>1980년대 이후: 컴퓨터 도입 + 대형 재난(스리마일섬, 체르노빌) → 시스템 안전·IT 분야 확장</li><li>Post-1980s: computerization and major disasters (TMI, Chernobyl) expanded HF/E into system safety and IT.</li></ul>",
+          "heading": "Describe the history of HF/E (HF/E 역사)",
+          "pageRef": "",
+          "html": "<ul><li><strong>Old Age (Pre~1945)</strong>: Scientific Management (Taylor), Motion Study (Gilbreth, therbligs) → WWII에서 장비 복잡성 &gt; 인간 한계 → &quot;<mark><strong>fit system to human</strong></mark>&quot; 패러다임 전환</li><li><strong>Middle Age (1945~1990)</strong>:<ul><li>1945 Eng. Psych Lab (Birth), military → space → 자동차·소비재·제약 (Growth)</li><li>1980s: Computers(HW/SW) + Disasters + Litigation(OSHA 1970)</li></ul></li><li><strong>Modern Age (1990~)</strong>: challenges — Safety, Productivity, Usability, Health, Happiness, Dignity</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "WWII 이후 장비 복잡성이 인간 한계를 드러내며 <mark><strong>&quot;fitting the human to the system&quot;에서 &quot;fitting the system to the human&quot;으로</strong></mark> 초점이 이동했다."
+            "<strong>Old Age (Pre~1945)</strong>: Scientific Management (Taylor), Motion Study (Gilbreth, therbligs) → WWII에서 장비 복잡성 &gt; 인간 한계 → &quot;<mark><strong>fit system to human</strong></mark>&quot; 패러다임 전환"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-8",
           "number": 8,
-          "heading": "Compare \"Scientific Management\" (Taylorism) with \"Sociotechnical Systems Theory.\" (과학적 관리법과 사회기술 시스템 이론 비교)",
-          "pageRef": "Part I 강의자료 전반",
-          "html": "<ul><li>테일러리즘(효율성 중심) vs 사회기술 시스템 이론(사회적·인간적 요소 고려) — 시스템 내 작업자 역할 분석</li><li>Taylorism (efficiency-focused) vs. Sociotechnical Systems Theory (human/social factors) — contrasting views of the worker&#39;s role.</li></ul>",
+          "heading": "Compare Taylorism vs Sociotechnical Systems Theory",
+          "pageRef": "",
+          "html": "<ul><li><strong>Taylorism</strong>: 작업을 최소 단위로 분해, economic incentives 의존, worker = &quot;rational economic man&quot;, social context 무시</li><li><strong>Sociotechnical</strong>: technology + social org + environment = <strong>interconnected</strong> → mutually compatible 필요, holistic view</li><li><strong>핵심</strong>: Taylorism = efficiency·인간은 부품 / Sociotechnical = social·human factors 포함, 전체 최적화</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "intro-to-hf-e-part-1-goal-9",
           "number": 9,
-          "heading": "Explain the key contributions of Frank & Lillian Gilbreth to HF/E. (길브레스 부부의 핵심 기여 설명)",
-          "pageRef": "Part I 강의자료 전반",
-          "html": "<ul><li>작업 동작 미세 분석인 &#39;동작 연구(Motion Study)&#39; 창시 → 작업을 기본 동작인 <mark><strong>Therbligs</strong></mark>로 분해해 효율성 극대화</li><li>Pioneered &quot;Motion Study&quot; — detailed analysis of human movements to maximize work efficiency.</li></ul>",
+          "heading": "Key contributions of Gilbreth couple",
+          "pageRef": "",
+          "html": "<ul><li><strong>Motion Study</strong>: 작업을 기본 동작(<mark><strong>therbligs</strong></mark> = Gilbreth 역철자)으로 분해 → 비효율 동작 제거</li><li>장애인 workstation 설계, 병원 수술 절차 개선 (간호사→외과의 기구 직접 전달)</li><li><strong>Motion Capturing System</strong>으로 동작 기록·분석</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "작업 동작 미세 분석인 &#39;동작 연구(Motion Study)&#39; 창시 → 작업을 기본 동작인 <mark><strong>Therbligs</strong></mark>로 분해해 효율성 극대화"
+            "<strong>Motion Study</strong>: 작업을 기본 동작(<mark><strong>therbligs</strong></mark> = Gilbreth 역철자)으로 분해 → 비효율 동작 제거"
           ]
         },
         {
           "key": "intro-to-hf-e-part-1-goal-10",
           "number": 10,
-          "heading": "Recognize professional societies of HF/E. (HF/E 전문 학회 파악)",
-          "pageRef": "Page 24",
-          "html": "<ul><li>HFES (US), 1957</li><li>IEA, 1959</li><li>ESK (Korea), 1982</li><li>CIEHF (U.K., formerly The Ergonomics Society), 1950</li></ul>",
+          "heading": "Professional societies of HF/E",
+          "pageRef": "",
+          "html": "<ul><li><strong>CIEHF</strong> (UK, 1950) / <strong>HFES</strong> (US, 1957) / <strong>IEA</strong> (1959) / <strong>ESK</strong> (Korea, 1982)</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         }
@@ -116,102 +117,103 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "intro-to-hf-e-part-2",
       "title": "Intro to HF/E (Part 2)",
+      "file": "../goals_summary/02-intro-to-hfe-part2.md",
       "goals": [
         {
           "key": "intro-to-hf-e-part-2-goal-1",
           "number": 1,
-          "heading": "Explain the three levels of ergonomic design (corrective, preventative, creative) in relation to HF/E goals. (인간공학적 설계의 세 가지 수준 설명)",
-          "pageRef": "Page 3, 4",
-          "html": "<ul><li>교정적(Corrective): 기존 시스템 문제/오작동 해결 — 보통 사고·불만 발생 후 적용</li><li>Corrective: fixes existing problems post-implementation, typically after accidents or complaints.</li><li><mark><strong>Preventative (Proactive)</strong></mark>: 설계 단계나 prototype evaluation에서 잠재 문제를 미리 찾아 future problems를 방지한다.</li></ul>",
+          "heading": "Three levels of ergonomic design (corrective, preventative, creative)",
+          "pageRef": "",
+          "html": "<ul><li><strong>Corrective (Reactive)</strong>: 기존 시스템 문제를 <strong>사후</strong> 해결. post-implementation</li><li><mark><strong>Preventative (Proactive)</strong></mark>: 설계 단계에서 잠재 문제 <strong>사전</strong> 방지. early design/prototype 단계</li><li><strong>Creative</strong>: 작업/시스템 자체를 <strong>재정의</strong>하여 혁신적 솔루션. conceptual phase</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>Preventative (Proactive)</strong></mark>: 설계 단계나 prototype evaluation에서 잠재 문제를 미리 찾아 future problems를 방지한다."
+            "<mark><strong>Preventative (Proactive)</strong></mark>: 설계 단계에서 잠재 문제 <strong>사전</strong> 방지. early design/prototype 단계"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-2",
           "number": 2,
-          "heading": "Explain human capabilities and limitations in sensory, cognitive, and physical domains relevant to design. (설계와 관련된 인간의 능력 및 한계 설명)",
-          "pageRef": "Page 3",
-          "html": "<ul><li>감각적·인지적·신체적 영역에서 인간의 능력과 한계 파악이 인간공학적 설계의 기반</li><li>Understanding human capabilities and limitations in sensory, cognitive, and physical domains is foundational to ergonomic design.</li><li>Fitts&#39; Law 관점에서 <mark><strong>faster responses typically lead to higher error rates</strong></mark>, 즉 speed-accuracy trade-off를 고려해야 한다.</li></ul>",
+          "heading": "Human capabilities & limitations in sensory, cognitive, physical domains",
+          "pageRef": "",
+          "html": "<ul><li>전제: <strong>Demand &gt; Capability = Error</strong></li><li><strong>Sensory</strong><ul><li>Visual Acuity: 남성 ~<strong>8%</strong> color blindness → <strong>redundant coding</strong> 필수</li><li>Audition : 알람은 주변 소음 +<strong>15dB</strong> 이상 (ISO 7731)</li><li>Touch(Tactile): fingertips, lips best / <strong>Multimodal Redundancy</strong>: Visual+Auditory+Tactile 결합</li></ul></li><li><strong>Cognitive [P8]</strong>:<ul><li>Attention: Selective (한 소스 집중) vs Divided (다중작업, limited resource)</li><li>Working Memory: <strong>7±2</strong> items, 10-20초 decay / Decision: 시간 압박 → heuristics → biases</li><li><strong>Fitts&#39; Law</strong>: <mark><strong>Speed-Accuracy Trade-off</strong></mark></li></ul></li><li><strong>Physical [P9]</strong>:<ul><li>Reach → <strong>Design for Smallest (P5)</strong> / Clearance → <strong>Design for Largest (P95)</strong> / Strength → <strong>Design for Weakest</strong></li><li>NIOSH max lift <strong>23kg</strong> / neutral posture, avoid static loading &gt;15% MVC / <strong>Design for Adjustable Range</strong></li></ul></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Fitts&#39; Law 관점에서 <mark><strong>faster responses typically lead to higher error rates</strong></mark>, 즉 speed-accuracy trade-off를 고려해야 한다."
+            "<strong>Fitts&#39; Law</strong>: <mark><strong>Speed-Accuracy Trade-off</strong></mark>"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-3",
           "number": 3,
-          "heading": "Analyze the cost-benefit relationship of ergonomic interventions based on the Oxenburgh model and justify investments using ROI concepts. (인간공학적 개입의 비용-편익 분석 및 투자 타당성 증명)",
-          "pageRef": "Page 3",
-          "html": "<ul><li>Oxenburgh 모델 기반 비용-편익 분석 + ROI 개념으로 인간공학적 투자 타당성 증명</li><li>Analyze cost-benefit via the Oxenburgh model; justify investments using ROI.</li><li>Iceberg Effect: <mark><strong>hidden indirect costs are often 4-10 times higher than direct medical costs</strong></mark>.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Cost-benefit of ergonomic interventions (Oxenburgh model, ROI)",
+          "pageRef": "",
+          "html": "<ul><li><strong>&quot;Good Ergonomics = Good Economics&quot;</strong> — $1 투자 → <strong>$3+ 회수</strong></li><li><strong>Iceberg Effect</strong>: <mark><strong>Indirect Costs</strong></mark> = Direct의 <mark><strong>4~10배</strong></mark> (결근, 이직, 생산성↓)</li><li><strong>ROI = (Benefits - Costs) / Costs × 100%</strong></li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "Iceberg Effect: <mark><strong>hidden indirect costs are often 4-10 times higher than direct medical costs</strong></mark>."
+            "<strong>Iceberg Effect</strong>: <mark><strong>Indirect Costs</strong></mark> = Direct의 <mark><strong>4~10배</strong></mark> (결근, 이직, 생산성↓)"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-4",
           "number": 4,
-          "heading": "Explain the four basic functions typically performed by a human or a machine in a human-machine system. (인간-기계 시스템의 4가지 기본 기능 설명)",
-          "pageRef": "Page 3",
-          "html": "<ul><li>인간-기계 시스템 내 기본 기능은 <mark><strong>Sensing, Information Storage, Processing &amp; Decision, Action</strong></mark>이다.</li><li>Four basic functions are performed by humans or machines within a human-machine system.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Four basic functions in human-machine system",
+          "pageRef": "",
+          "html": "<ul><li>System: 인간+기계+요소가 상호작용 → 개별 달성 불가한 목표 수행</li><li><strong>4 Functions</strong>: (1) <mark><strong>Sensing</strong></mark> (2) <mark><strong>Information Storage</strong></mark> (인간=memory, 기계=DB) (3) <mark><strong>Information Processing &amp; Decision</strong></mark> (4) <mark><strong>Action</strong></mark> (Control/Communication)</li></ul>",
+          "answerHighlightCount": 4,
           "answerLines": [
-            "인간-기계 시스템 내 기본 기능은 <mark><strong>Sensing, Information Storage, Processing &amp; Decision, Action</strong></mark>이다."
+            "<strong>4 Functions</strong>: (1) <mark><strong>Sensing</strong></mark> (2) <mark><strong>Information Storage</strong></mark> (인간=memory, 기계=DB) (3) <mark><strong>Information Processing &amp; Decision</strong></mark> (4) <mark><strong>Action</strong></mark> (Control/Communication)"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-5",
           "number": 5,
-          "heading": "Analyze how human roles shift across different system types (manual, mechanical, automated) and understand the differences between open-loop and closed-loop systems. (시스템 유형에 따른 인간의 역할 변화 및 시스템 루프 차이 이해)",
-          "pageRef": "Page 3",
-          "html": "<ul><li>수동·기계식·자동화 시스템에 따라 인간 역할 변화 + 개방/폐쇄 루프 시스템 차이 이해</li><li>Human roles shift across manual, mechanical, and automated systems. Open-loop vs. closed-loop systems differ in feedback.</li><li>Automation은 HF/E 필요성을 없애지 않고 인간 역할을 <mark><strong>monitoring and exception handling</strong></mark>으로 이동시킨다.</li></ul>",
+          "heading": "Human roles across system types + open/closed-loop",
+          "pageRef": "",
+          "html": "<ul><li><strong>Manual</strong>: 인간 = power + control + 결정, 기계 = passive tool (예: hammering)</li><li><strong>Mechanical (Semi-Auto)</strong>: 기계 = power, 인간 = supervise/adjust (예: driving)</li><li><strong>Automated</strong>: 기계 = autonomous, 인간 = monitor + exception handling (예: autonomous vehicle)</li><li><strong>핵심</strong>: 자동화 ≠ HF/E 불필요. 역할이 active control → <mark><strong>monitoring &amp; exception handling</strong></mark>으로 shift → 새로운 cognitive challenges</li><li><strong>Open-Loop</strong>: feedback 없음, initiate-and-leave (예: unguided rocket) → robust initial settings + <strong>fail-safe</strong> 필요</li><li><strong>Closed-Loop</strong>: 연속 제어, error = desired - actual → 보정 (예: driving, thermostat) → timely <strong>feedback channels</strong> 필요</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Automation은 HF/E 필요성을 없애지 않고 인간 역할을 <mark><strong>monitoring and exception handling</strong></mark>으로 이동시킨다."
+            "<strong>핵심</strong>: 자동화 ≠ HF/E 불필요. 역할이 active control → <mark><strong>monitoring &amp; exception handling</strong></mark>으로 shift → 새로운 cognitive challenges"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-6",
           "number": 6,
-          "heading": "Explain the advantage of redundancy to increase the overall reliability of a human-machine system. (시스템 신뢰성 향상을 위한 중복성의 이점 설명)",
-          "pageRef": "Page 3, 16",
-          "html": "<ul><li>인간이 자동화 시스템의 중복 모니터(redundant monitor) 역할 수행 → 전반적 시스템 신뢰성 향상</li><li>병렬 시스템에서는 <mark><strong>redundancy makes overall reliability higher than any single component</strong></mark>.</li><li>Humans serve as redundant monitors to automated systems, increasing overall system reliability.</li></ul>",
+          "heading": "Redundancy for system reliability",
+          "pageRef": "",
+          "html": "<ul><li><strong>Series (직렬)</strong>: R = R_A × R_B → 하나 실패 = 전체 실패, 구성요소 추가 시 신뢰도 <strong>감소</strong></li><li><strong>Parallel (병렬 = <mark><strong>Redundancy</strong></mark>)</strong>: R = 1 - (1-R_A)(1-R_B) → <strong>모두</strong> 동시 실패해야 시스템 실패</li><li>예: R_A=R_B=0.70 → Series <strong>0.49</strong> / Parallel <strong>0.91</strong></li><li>인간이 자동화 시스템의 <strong>redundant monitor</strong> 역할 → 전반적 신뢰성 향상</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "병렬 시스템에서는 <mark><strong>redundancy makes overall reliability higher than any single component</strong></mark>."
+            "<strong>Parallel (병렬 = <mark><strong>Redundancy</strong></mark>)</strong>: R = 1 - (1-R_A)(1-R_B) → <strong>모두</strong> 동시 실패해야 시스템 실패"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-7",
           "number": 7,
-          "heading": "Outline the generic steps of the systems approach in HF/E research and apply them to a real-world ergonomic problem under consideration. (HF/E 연구의 시스템 접근법 단계 요약 및 실제 적용)",
-          "pageRef": "Page 3, 21",
-          "html": "<ul><li>사용 상황 이해 → 사용자 요구사항 명확화 → 설계 솔루션 도출</li><li>Understand context of use → specify user requirements → produce design solutions.</li></ul>",
+          "heading": "Systems approach in HF/E (ISO 9241-210)",
+          "pageRef": "",
+          "html": "<ul><li><strong>6단계</strong>: (1) Context of Use 파악 (2) User Requirements 설정 (3) Design Solutions 생성 (4) Evaluate vs Requirements (5) Iterate or Implement (6) Deploy &amp; Monitor</li><li>핵심: <strong>iterative</strong> — 3~5단계가 loop</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "intro-to-hf-e-part-2-goal-8",
           "number": 8,
-          "heading": "Discuss the benefits and requirements of a participatory approach to system design. (시스템 설계 시 참여적 접근법의 이점 및 요구사항 논의)",
-          "pageRef": "Page 3",
-          "html": "<ul><li>사용자 참여 설계의 이점과 필수 요구사항</li><li>참여적 접근은 <mark><strong>employee trust를 만들고 resistance to change를 줄이는</strong></mark> 데 중요하다.</li><li>Benefits and requirements of involving users in system design.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Participatory approach to system design",
+          "pageRef": "",
+          "html": "<ul><li><strong>Benefits</strong>: <mark><strong>higher acceptance</strong></mark>, sustained gains (vs top-down), <mark><strong>smoother change</strong></mark>, better solutions (frontline 지식 활용)</li><li><strong>Requirements</strong>: early involvement (concept부터), representative participation, transparent communication</li><li><strong>Coch &amp; French (1948)</strong>: total participation group → 즉시 생산 상승 및 유지 / control group → 생산 감소</li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "참여적 접근은 <mark><strong>employee trust를 만들고 resistance to change를 줄이는</strong></mark> 데 중요하다."
+            "<strong>Benefits</strong>: <mark><strong>higher acceptance</strong></mark>, sustained gains (vs top-down), <mark><strong>smoother change</strong></mark>, better solutions (frontline 지식 활용)"
           ]
         },
         {
           "key": "intro-to-hf-e-part-2-goal-9",
           "number": 9,
-          "heading": "Recognize major international (ISO) and industry-specific standards and guidelines essential for HF/E practice. (HF/E 실무에 필수적인 주요 국제 및 산업별 표준/가이드라인 파악)",
-          "pageRef": "Page 3, 25, 26, 29",
-          "html": "<ul><li>ISO 7250-1, MIL-STD-1472H 등 주요 국제 표준 및 산업별 가이드라인 인식 필요</li><li>Key standards: ISO 7250-1, <mark><strong>MIL-STD-1472H</strong></mark>. USA Office guidelines specify workstation design for comfort and performance.</li></ul>",
+          "heading": "Major HF/E standards & guidelines",
+          "pageRef": "",
+          "html": "<ul><li>Ergonomics : ISO/TC 159, ISO 7250-1</li><li>Industry: ANSI/HFES 100 (USA/Office, Computer), <mark><strong>MIL-STD-1472H</strong></mark> (Defense), IEC 62366 (Medical Device), DOT/FAA/AM-24/23 (Flight Deck)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Key standards: ISO 7250-1, <mark><strong>MIL-STD-1472H</strong></mark>. USA Office guidelines specify workstation design for comfort and performance."
+            "Industry: ANSI/HFES 100 (USA/Office, Computer), <mark><strong>MIL-STD-1472H</strong></mark> (Defense), IEC 62366 (Medical Device), DOT/FAA/AM-24/23 (Flight Deck)"
           ]
         }
       ]
@@ -219,109 +221,110 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "research-methods-in-hf-e-part-1",
       "title": "Research Methods in HF/E (Part 1)",
+      "file": "../goals_summary/03-research-methods-part1.md",
       "goals": [
         {
           "key": "research-methods-in-hf-e-part-1-goal-1",
           "number": 1,
-          "heading": "Describe the primary purpose of HF/E research. (HF/E 연구의 주요 목적 설명)",
-          "pageRef": "Page 5",
-          "html": "<ul><li><mark><strong>Systematically collect empirical data to optimize human well-being and system performance</strong></mark> → 미래 설계를 위한 일반화 가능한 지식 생성</li><li>Systematically investigate human-system interactions to generate generalizable knowledge for future designs.</li></ul>",
+          "heading": "Primary purpose of HF/E research",
+          "pageRef": "",
+          "html": "<ul><li><mark><strong>Systematic Inquiry</strong></mark> (anecdotal observation ✕)</li><li><strong>Generalizable Knowledge</strong>: <strong>fundamental principles &amp; guidelines</strong> 도출</li><li><strong>Multi-Methodological</strong>: descriptive / experimental / evaluation 상호보완</li><li>인간의 capabilities, limitations, behaviors를 technology, tasks, environments 관계 속에서 파악</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>Systematically collect empirical data to optimize human well-being and system performance</strong></mark> → 미래 설계를 위한 일반화 가능한 지식 생성"
+            "<mark><strong>Systematic Inquiry</strong></mark> (anecdotal observation ✕)"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-2",
           "number": 2,
-          "heading": "Outline the generic process of HF/E research. (일반적인 HF/E 연구 과정 요약)",
-          "pageRef": "Page 7",
-          "html": "<ul><li>5단계 반복 과정: 문제·이론 정의 → 측정 변수 선정 → 연구 설계 → 데이터 수집·분석 → 결과 보고</li><li>Iterative 5-step process: define problem &amp; theory → select measures → design study → collect &amp; analyze data → report.</li></ul>",
+          "heading": "Generic process of HF/E research",
+          "pageRef": "",
+          "html": "<ul><li><strong>5단계 Iterative</strong>: (1) Problem &amp; Theory (2) Measures — DV, pilot testing (3) Study Design — IV, confound 통제 (4) Data &amp; Analysis (5) Reporting</li><li><strong>IRB</strong>: informed consent, 참가자 안전, 프라이버시</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-3",
           "number": 3,
-          "heading": "Distinguish among descriptive research, experimental research, and evaluation research. (기술 연구, 실험 연구, 평가 연구의 구분)",
-          "pageRef": "Page 10, 13, 17",
-          "html": "<ul><li>기술 연구: 조작 없이 현상 파악 / 실험 연구: 변수 통제로 인과 관계 규명 / 평가 연구: 솔루션 성능 검증</li><li>Descriptive: characterize &quot;what is&quot; without manipulation. Experimental: establish causality via control. Evaluation: verify system performance.</li></ul>",
+          "heading": "Descriptive vs Experimental vs Evaluation research",
+          "pageRef": "",
+          "html": "<ul><li><strong>Research Funnel</strong>: Descriptive(What&#39;s happening?) → Experimental(Why?) → Evaluation(Is design A better?)</li><li><strong>Descriptive</strong>: Low control / observations, surveys, task analysis</li><li><strong>Experimental</strong>: <strong>High control</strong> / 인과관계 검증, effect sizes, statistical significance</li><li><strong>Evaluation</strong>: Moderate control / Pass/Fail, usability scores</li><li>데이터 유형: Nominal, Ordinal, Interval/Ratio</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-4",
           "number": 4,
-          "heading": "Compare criterion variables with stratification variables in descriptive research. (기술 연구에서 기준 변수와 층화 변수 비교)",
-          "pageRef": "Page 12",
-          "html": "<ul><li>기준 변수(Criterion): 예측/설명되는 주요 결과물 / <mark><strong>층화 변수(Stratification variables)</strong></mark>: 데이터 분류·비교용 그룹화 변수</li><li>Criterion variable: primary outcome predicted. Stratification variable: grouping variable for comparison.</li></ul>",
+          "heading": "Criterion vs Stratification variables",
+          "pageRef": "",
+          "html": "<ul><li><strong>Criterion</strong> = &quot;무엇을 측정하나&quot; — task completion time, error rate, HRV, comfort rating</li><li><mark><strong>Stratification</strong></mark> = &quot;누구를 비교하나&quot; — age group, expertise, gender, physical size (사전 존재 특성, 조작 ✕)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "기준 변수(Criterion): 예측/설명되는 주요 결과물 / <mark><strong>층화 변수(Stratification variables)</strong></mark>: 데이터 분류·비교용 그룹화 변수"
+            "<mark><strong>Stratification</strong></mark> = &quot;누구를 비교하나&quot; — age group, expertise, gender, physical size (사전 존재 특성, 조작 ✕)"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-5",
           "number": 5,
-          "heading": "Compare between-subjects design with within-subjects design in experimental research. (실험 연구에서 피험자 간 설계와 피험자 내 설계 비교)",
-          "pageRef": "Page 14",
-          "html": "<ul><li><mark><strong>피험자 간(Between-subjects design)</strong></mark>: 각 참가자가 한 조건만 경험하는 독립된 그룹 비교 / 피험자 내(Within): 동일 참가자가 여러 조건 수행</li><li>Between-subjects: compare separate groups. Within-subjects: same participants across conditions.</li></ul>",
+          "heading": "Between-subjects vs Within-subjects design",
+          "pageRef": "",
+          "html": "<ul><li><mark><strong>Between</strong></mark>: 조건마다 <strong>다른 참가자</strong> / learning effect ✕ / <strong>큰 표본</strong> 필요, 개인차가 error variance↑</li><li><strong>Within</strong>: <strong>동일 참가자</strong> 모든 조건 / 적은 참가자, 개인차 통제 / <strong>order effect</strong> → <strong>counterbalancing</strong> 필수</li><li><strong>Factorial</strong>: 2+ IV로 main effects + interactions 분석 / Mixed Design = between + within 결합</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>피험자 간(Between-subjects design)</strong></mark>: 각 참가자가 한 조건만 경험하는 독립된 그룹 비교 / 피험자 내(Within): 동일 참가자가 여러 조건 수행"
+            "<mark><strong>Between</strong></mark>: 조건마다 <strong>다른 참가자</strong> / learning effect ✕ / <strong>큰 표본</strong> 필요, 개인차가 error variance↑"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-6",
           "number": 6,
-          "heading": "Distinguish among independent variables (IVs), dependent variables (DVs), and extraneous variables in experimental research. (실험 연구에서 독립 변수, 종속 변수, 외생 변수 구분)",
-          "pageRef": "Page 15",
-          "html": "<ul><li>IV: 연구자가 조작/선택하는 요인 / <mark><strong>DV(Dependent Variable)</strong></mark>: 효과 평가를 위해 측정하는 결과 / 외생 변수: DV에 영향 줄 수 있는 통제 대상</li><li>IV: manipulated factor. DV: measured outcome. Extraneous: other factors that could affect DV.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Independent Variable, Dependent Variable, Extraneous variables",
+          "pageRef": "P15, 26-29",
+          "html": "<ul><li><strong>IV (Independent Variable)</strong> &quot;The Cause&quot;: 연구자가 <strong>조작</strong>하는 요인, 최소 2 levels — Equipment / Environment / Task</li><li><mark><strong>DV (Dependent Variable)</strong></mark> &quot;The Effect&quot;: 측정 결과, <strong>sensitive, reliable, valid</strong> 해야 함<ul><li>Performance (RT, completion time, error rate) / Subjective (<strong>NASA-TLX</strong>: 6차원) / Physiological (HR, HRV, EEG)</li><li>Multiple DVs → <strong>triangulation</strong></li></ul></li><li><strong>Extraneous</strong> (&quot;The Noise&quot;): held constant 또는 randomized → 통제 실패 시 <strong>confound</strong></li><li>Extraneous = noise / <mark><strong>Confound</strong></mark> = IV와 systematically covary → <strong>internal validity 위협</strong></li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "IV: 연구자가 조작/선택하는 요인 / <mark><strong>DV(Dependent Variable)</strong></mark>: 효과 평가를 위해 측정하는 결과 / 외생 변수: DV에 영향 줄 수 있는 통제 대상"
+            "<mark><strong>DV (Dependent Variable)</strong></mark> &quot;The Effect&quot;: 측정 결과, <strong>sensitive, reliable, valid</strong> 해야 함",
+            "Extraneous = noise / <mark><strong>Confound</strong></mark> = IV와 systematically covary → <strong>internal validity 위협</strong>"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-7",
           "number": 7,
-          "heading": "Explain methods to control confounds in experimental research. (실험 연구에서 혼동 변수 통제 방법 설명)",
-          "pageRef": "Page 30, 32",
-          "html": "<ul><li>외생 변수 일정 유지, 무작위 배정(Randomization), 블록화(Blocking), 공변량(Covariates) 기법 활용</li><li>Hold extraneous variables constant, use randomization, blocking, and covariates.</li><li><mark><strong>Confounding variable</strong></mark>는 의도치 않게 dependent variable에 영향을 줄 수 있는 uncontrolled &quot;noise&quot; factor다.</li></ul>",
+          "heading": "Methods to control confounds",
+          "pageRef": "P30-33",
+          "html": "<ul><li><strong>통제 위계</strong>: (1) <strong>Elimination</strong> — 외생변수 고정 (2) <strong>Grouping</strong> — blocking/stratification (3) <strong>Adjustment</strong> — ANCOVA로 통계적 제거 (4) <strong>Randomization</strong></li><li><mark><strong>Random Sampling</strong></mark> = external validity / <strong>Random Assignment</strong> = <strong>internal validity</strong> (HF/E에서 더 중요)</li><li><strong>Counterbalancing</strong> (within-subjects order effect 통제):<ul><li>Complete (N=k!), Partial, <strong>Latin Square</strong> (N=k배수), <strong>Balanced Latin Square</strong> (carryover 통제)</li></ul></li><li><strong>Manipulation Check</strong>: IV 의도대로 조작되었는지 확인 / <strong>Pilot Testing</strong>: ceiling/floor effect 방지</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>Confounding variable</strong></mark>는 의도치 않게 dependent variable에 영향을 줄 수 있는 uncontrolled &quot;noise&quot; factor다."
+            "<mark><strong>Random Sampling</strong></mark> = external validity / <strong>Random Assignment</strong> = <strong>internal validity</strong> (HF/E에서 더 중요)"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-8",
           "number": 8,
-          "heading": "Compare formative evaluation and summative evaluation in evaluation research. (평가 연구에서 형성 평가와 총괄 평가 비교)",
-          "pageRef": "Page 17, 18",
-          "html": "<ul><li><mark><strong>형성 평가(Formative evaluation)</strong></mark>: 설계 초기/개발 중 문제 파악·개선 / 총괄 평가(Summative): 개발 후 기준 달성 여부 최종 검증</li><li>Formative: during development to improve. Summative: after development to verify standards are met.</li></ul>",
+          "heading": "Formative vs Summative evaluation",
+          "pageRef": "P17, 18, 20",
+          "html": "<ul><li><mark><strong>Formative</strong></mark>: 개발 <strong>중</strong> — Test → Fix → Retest, 문제 파악 및 반복 개선</li><li><strong>Summative</strong>: 개발 <strong>후</strong> — 벤치마크 충족 여부, <strong>Pass/Fail</strong></li><li>Methods: Usability Testing, Heuristic Evaluation, Cognitive Walkthrough</li><li><strong>NASA-TLX</strong> (workload) / <strong>SUS</strong> (10항목, 0-100점, <strong>68점↑ = acceptable</strong>)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>형성 평가(Formative evaluation)</strong></mark>: 설계 초기/개발 중 문제 파악·개선 / 총괄 평가(Summative): 개발 후 기준 달성 여부 최종 검증"
+            "<mark><strong>Formative</strong></mark>: 개발 <strong>중</strong> — Test → Fix → Retest, 문제 파악 및 반복 개선"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-9",
           "number": 9,
-          "heading": "Evaluate the advantages and disadvantages of laboratory settings and field settings in HF/E research. (HF/E 연구에서 실험실 환경과 현장 환경의 장단점 평가)",
-          "pageRef": "Page 21, 22",
-          "html": "<ul><li>현장: <mark><strong>ecological validity</strong></mark>↑, 변수 통제↓, 비용↑ / 실험실: 통제↑, 현실성↓</li><li>Field: high ecological validity, low control, costly. Lab: high control, may lack realism.</li><li>대표 표본은 <mark><strong>findings accurately reflect the target user population and promote inclusive design</strong></mark>하도록 해 HF/E 연구에서 중요하다.</li></ul>",
-          "answerHighlightCount": 2,
+          "heading": "Lab vs Field settings",
+          "pageRef": "P21-24",
+          "html": "<ul><li><strong>Field</strong>: high <mark><strong>ecological validity</strong></mark>, rich context / low control, confound 위험, 비용↑</li><li><strong>Lab</strong>: high control, repeatability, 정밀 장비 / artificiality, <strong>Hawthorne Effect</strong>, 일반화↓</li><li><strong>Hybrid: Simulator/XR</strong> — controlled realism, 위험 상황 안전 연구 가능</li><li>Continuum: Lab(Precision) ↔ Simulator/XR ↔ Field(Context)</li></ul>",
+          "answerHighlightCount": 1,
           "answerLines": [
-            "현장: <mark><strong>ecological validity</strong></mark>↑, 변수 통제↓, 비용↑ / 실험실: 통제↑, 현실성↓",
-            "대표 표본은 <mark><strong>findings accurately reflect the target user population and promote inclusive design</strong></mark>하도록 해 HF/E 연구에서 중요하다."
+            "<strong>Field</strong>: high <mark><strong>ecological validity</strong></mark>, rich context / low control, confound 위험, 비용↑"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-1-goal-10",
           "number": 10,
-          "heading": "Explain the trade-off between experimental control and ecological validity when designing an HF/E study. (HF/E 연구 설계 시 실험적 통제와 생태학적 타당성 간의 상충 관계 설명)",
-          "pageRef": "Page 21, HW Solution Page 1-2",
-          "html": "<ul><li>실험적 통제 강화 → 데이터 정밀도↑, 생태학적 타당성↓ (상충 관계)</li><li>More experimental control improves precision but reduces ecological validity — a fundamental trade-off.</li></ul>",
+          "heading": "Experimental control vs Ecological validity trade-off",
+          "pageRef": "P21, 23-24, HW Sol.",
+          "html": "<ul><li><strong>Control↑</strong> → internal validity↑, ecological validity↓ / <strong>Ecological validity↑</strong> → external validity↑, control↓</li><li>HF/E 연구 설계의 <strong>fundamental trade-off</strong></li><li>HW 예시: Marras &amp; Kroemer — distress flares 테스트, 해상 고무보트에서 실험 → lab 통제 포기, 현실 조건 확보</li><li>대안: <strong>High-Fidelity Simulator / XR</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         }
@@ -330,112 +333,118 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "research-methods-in-hf-e-part-2",
       "title": "Research Methods in HF/E (Part 2)",
+      "file": "../goals_summary/04-research-methods-part2.md",
       "goals": [
         {
           "key": "research-methods-in-hf-e-part-2-goal-1",
           "number": 1,
-          "heading": "Distinguish among system-descriptive criteria, task performance criteria, and human criteria. (시스템 설명 기준, 작업 성능 기준, 인간 기준의 구분)",
-          "pageRef": "Page 5",
-          "html": "<ul><li>시스템 설명 기준: 엔지니어링·시스템 속성 / 작업 성능 기준: 인간-시스템 행동 결과 / 인간 기준: 행동·내부 반응</li><li>System-descriptive: engineering attributes. Task performance: human-system outcomes. Human criteria: behavioral and internal responses.</li></ul>",
+          "heading": "System-descriptive vs Task performance vs Human criteria",
+          "pageRef": "P5",
+          "html": "<ul><li><strong>System-Descriptive Criteria</strong>: 시스템 자체 특성, 사용자 행동과 독립 — <strong>Reliability (MTBF)</strong>, <strong>Maintainability</strong>, <strong>Safety features</strong>, <strong>Operational costs</strong></li><li><strong>Task Performance Criteria</strong>: 인간+시스템 산출물 — <strong>Quantity (Output)</strong>, <strong>Quality (Accuracy)</strong>, <strong>Time (Speed/Duration)</strong></li><li><strong>Human Criteria</strong>: 인간의 반응/상태/경험 — <strong>Performance measures</strong>, <strong>Physiological &amp; behavioral measures</strong>, <strong>Subjective measures</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-2",
           "number": 2,
-          "heading": "Compare objective measures with subjective measures in HF/E research and explain the scientific benefit of using both measures simultaneously. (객관적 측정과 주관적 측정 비교 및 동시 사용의 과학적 이점)",
-          "pageRef": "Page 7",
-          "html": "<ul><li>객관적: 반응 시간·오류율 등 수치화 / 주관적: 인지된 작업 부하·만족도 평가</li><li>Objective: quantified outcomes (RT, error rate). Subjective: perceived workload, satisfaction.</li><li>다중 측정(Triangulation)으로 포괄적·신뢰성 있는 평가 가능</li><li>Triangulation (using both) enables comprehensive, reliable evaluation.</li></ul>",
-          "answerHighlightCount": 0,
-          "answerLines": []
+          "heading": "Objective vs Subjective measures",
+          "pageRef": "P6",
+          "html": "<ul><li><strong>Objective</strong>: (1) <strong>Performance</strong> (2) <strong>Physiological</strong> (3) <strong>Behavioral</strong> / 장: reliable, quantitative / 단: &quot;why&quot; 불가</li><li><strong>Subjective</strong>: (1) <mark><strong>Rating Scales</strong></mark> (2) <strong>Verbal Protocols</strong> (3) <strong>Questionnaires</strong> / 장: &quot;why&quot; 파악 / 단: bias, <strong>Dissociation from performance</strong></li><li><strong>Triangulation</strong>: 양쪽 결합 → 포괄적 평가</li></ul>",
+          "answerHighlightCount": 1,
+          "answerLines": [
+            "<strong>Subjective</strong>: (1) <mark><strong>Rating Scales</strong></mark> (2) <strong>Verbal Protocols</strong> (3) <strong>Questionnaires</strong> / 장: &quot;why&quot; 파악 / 단: bias, <strong>Dissociation from performance</strong>"
+          ]
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-3",
           "number": 3,
-          "heading": "Identify performance measures, physiological measures, behavioral measures, and subjective measures used to indicate human states. (인간 상태를 나타내는 성능, 생리적, 행동적, 주관적 측정 지표 식별)",
-          "pageRef": "Page 7, 11, 12, 14, 19",
-          "html": "<ul><li>성능: 속도·정확도 / 생리적: EEG·심박수 / 행동: 시선 추적 / 주관적: NASA-TLX, SUS 설문</li><li>Performance: speed, accuracy. Physiological: EEG, heart rate. Behavioral: eye tracking. Subjective: NASA-TLX, SUS.</li></ul>",
+          "heading": "Performance, Physiological, Behavioral, Subjective measures",
+          "pageRef": "P7-14",
+          "html": "<ul><li><strong>Performance [P7]</strong>:<ul><li><strong>Speed/Efficiency</strong>: RT, completion time, movement time (<strong>Fitts&#39; Law</strong>)</li><li><strong>Accuracy/Errors</strong>: <strong>Omission</strong> vs <strong>Commission errors</strong>, <strong>Slip</strong> vs <strong>Mistake</strong> / <strong>SATO</strong></li><li><strong>Throughput</strong> = <strong>ID / MT</strong> (bits/s)</li></ul></li><li><strong>Physiological [P8-12]</strong>:<ul><li><strong>HR/HRV</strong> (cognitive load, <strong>ECG</strong>) / <strong>EDA/GSR</strong> (arousal, <strong>sympathetic NS</strong>) / <strong>EMG</strong> (workload, fatigue)</li><li><strong>EEG</strong>: <strong>Delta</strong>(0.3-4) <strong>Theta</strong>(4-8) <strong>Alpha</strong>(8-13)=relaxation <strong>Beta</strong>(13-30) <strong>Gamma</strong>(30+) / <strong>Theta/Beta</strong> → engagement/fatigue</li><li>intrusive, noisy, <strong>&quot;Reverse Inference&quot; problem</strong></li></ul></li><li><strong>Behavioral [P12]</strong>:<ul><li><strong>Eye-Tracking</strong>: <strong>Fixations</strong>, <strong>Saccades</strong>, <strong>Pupil diameter</strong>, <strong>PERCLOS</strong></li><li><strong>Behavioral Kinematics</strong>: motion capture, movement paths</li></ul></li><li><strong>Subjective [P13-14]</strong>:<ul><li><strong>NASA-TLX</strong> (6 subscales) / <strong>SUS</strong> (10-item, 0-100) / <strong>Borg RPE</strong> (<strong>심박수 상관</strong>, <strong>Body Map</strong>) / <strong>Verbal Protocols</strong> (Think-Aloud)</li></ul></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-4",
           "number": 4,
-          "heading": "Explain the psychometric requirements for human criteria considered in HF/E research: reliability, validity, free of contamination, and sensitivity. (HF/E 연구에서 고려되는 인간 기준의 심리측정적 요구사항 설명)",
-          "pageRef": "HW Solution Page 5",
-          "html": "<ul><li>신뢰성(일관성), 타당성(목적 부합), 무오염성(외부 요인 배제), 민감성(미세 변화 감지)</li><li><mark><strong>Reliability</strong></mark> means consistency, stability, and repeatability; measurement is <mark><strong>contamination-free</strong></mark> when it measures the intended construct without irrelevant extraneous effects.</li></ul>",
-          "answerHighlightCount": 2,
+          "heading": "Psychometric requirements — Reliability, Validity, Contamination, Sensitivity",
+          "pageRef": "P16-21",
+          "html": "<ul><li><mark><strong>Reliability</strong></mark>: consistency — <strong>Test-Retest</strong> / <strong>Inter-Rater</strong> / <strong>Internal Consistency</strong> (<strong>Cronbach&#39;s α</strong>: ≥0.9 Excellent, ≥0.8 Good, ≥0.7 Acceptable)</li><li><strong>Validity</strong>: 측정하려는 것을 실제로 측정하는 정도 — <strong>Convergent</strong>, <strong>Discriminant</strong>, <strong>Predictive</strong> (→ Goal 5 상세)</li><li><mark><strong>Freedom from Contamination</strong></mark>: extraneous 영향 배제<ul><li>오염원: <strong>Practice &amp; Fatigue Effects</strong>, <strong>Reactivity (Hawthorne Effect)</strong>, <strong>Instrumentation Drift</strong>, <strong>Environmental Noise</strong></li><li>대책: <strong>Counterbalancing &amp; Randomization</strong>, <strong>Unobtrusive Measurement</strong>, <strong>Strict Standardization</strong>, <strong>Blinding</strong> (single/double)</li></ul></li><li><strong>Sensitivity</strong>: small but meaningful 변화 감지<ul><li><strong>Ceiling Effect</strong> / <strong>Floor Effect</strong> / <strong>Scale Granularity</strong></li><li>Low sensitivity → <strong><mark><strong>statistical power</strong></mark>↓</strong> → <strong>Type II error</strong></li></ul></li></ul>",
+          "answerHighlightCount": 3,
           "answerLines": [
-            "<mark><strong>Reliability</strong></mark> means consistency, stability, and repeatability; measurement is <mark><strong>contamination-free</strong></mark> when it measures the intended construct without irrelevant extraneous effects."
+            "<mark><strong>Reliability</strong></mark>: consistency — <strong>Test-Retest</strong> / <strong>Inter-Rater</strong> / <strong>Internal Consistency</strong> (<strong>Cronbach&#39;s α</strong>: ≥0.9 Excellent, ≥0.8 Good, ≥0.7 Acceptable)",
+            "<mark><strong>Freedom from Contamination</strong></mark>: extraneous 영향 배제",
+            "Low sensitivity → <strong><mark><strong>statistical power</strong></mark>↓</strong> → <strong>Type II error</strong>"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-5",
           "number": 5,
-          "heading": "Distinguish among face validity, content validity, and construct validity. (안면 타당도, 내용 타당도, 구성 타당도의 구분)",
-          "pageRef": "HW Solution Page 5",
-          "html": "<ul><li>안면 타당도: 표면적 적절성 / <mark><strong>내용 타당도(Content validity)</strong></mark>: 관련 차원을 충분히 포괄하는지 / <mark><strong>구성 타당도(Construct validity)</strong></mark>: 의도한 추상적 심리 개념을 정확히 측정하는지</li><li>Face: appears appropriate. Content: items cover the subject. Construct: accurately measures the intended psychological concept.</li></ul>",
+          "heading": "Face vs Content vs Construct validity",
+          "pageRef": "P18, HW Sol.",
+          "html": "<ul><li><strong>Face Validity</strong>: 표면적으로 적절해 &quot;보이는지&quot; — <strong>Subjective judgment</strong>, 참가자 motivation에 중요</li><li><mark><strong>Content Validity</strong></mark>: construct의 <strong>entire domain</strong> 커버 — <strong>Expert review</strong>로 확립</li><li><mark><strong>Construct Validity</strong></mark>: 이론적 construct를 실제로 측정, <strong>&quot;gold standard&quot; of validity</strong><ul><li><strong>Convergent Validity</strong>: 동일 construct 기존 측정과 강한 상관</li><li><strong>Discriminant Validity</strong>: 비관련 construct와 비상관</li></ul></li></ul>",
           "answerHighlightCount": 2,
           "answerLines": [
-            "안면 타당도: 표면적 적절성 / <mark><strong>내용 타당도(Content validity)</strong></mark>: 관련 차원을 충분히 포괄하는지 / <mark><strong>구성 타당도(Construct validity)</strong></mark>: 의도한 추상적 심리 개념을 정확히 측정하는지"
+            "<mark><strong>Content Validity</strong></mark>: construct의 <strong>entire domain</strong> 커버 — <strong>Expert review</strong>로 확립",
+            "<mark><strong>Construct Validity</strong></mark>: 이론적 construct를 실제로 측정, <strong>&quot;gold standard&quot; of validity</strong>"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-6",
           "number": 6,
-          "heading": "Describe the practical requirements for human criteria considered in HF/E research: objectivity, quantitativeness, unobtrusiveness, ease of use, speed, and cost. (인간 기준의 실용적 요구사항 설명)",
-          "pageRef": "Page 22, 23",
-          "html": "<ul><li>객관성(관찰자 편향 無), 정량성(통계 분석), 비개입성(작업 방해 최소화), 사용 편의성, 속도, 비용</li><li>Objectivity, quantitativeness, unobtrusiveness, ease of use, speed, and cost.</li></ul>",
+          "heading": "Practical requirements for human criteria",
+          "pageRef": "P22-23",
+          "html": "<ul><li><strong>6가지</strong>: <strong>Objectivity</strong>, <strong>Quantitativeness</strong>, <strong>Unobtrusiveness</strong>, <strong>Ease of Use</strong>, <strong>Speed</strong>, <strong>Inexpensiveness</strong></li><li>Low cost: <strong>Task Time/Errors</strong>, <strong>NASA-TLX</strong> / High cost: <strong>Eye-Tracking</strong> / Med cost: <strong>HRV</strong>, <strong>Verbal Protocol</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-7",
           "number": 7,
-          "heading": "Distinguish between descriptive statistics and inferential statistics. (기술 통계와 추론 통계의 구분)",
-          "pageRef": "Page 24",
-          "html": "<ul><li>기술 통계: 평균·표준편차 등으로 데이터 분포·패턴 요약 / 추론 통계: 인과관계 테스트, 그룹 간 유의미한 차이 식별</li><li>Descriptive: summarize data (mean, SD). Inferential: test causal effects and identify significant group differences.</li></ul>",
+          "heading": "Descriptive vs Inferential statistics",
+          "pageRef": "P24",
+          "html": "<ul><li><strong>Descriptive</strong>: 요약 — Mean, Median, SD, Percentiles</li><li><strong>Inferential</strong>: 인과 검증 — <strong>Effect Size</strong>, CI (95%)</li><li><strong>Evaluation</strong>: benchmark — SUS, One-sample t-test, Binomial Test</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-8",
           "number": 8,
-          "heading": "Select appropriate statistical techniques (e.g., correlation, t-test, ANOVA) based on specific experimental designs. (실험 설계에 따른 적절한 통계 기법 선택)",
-          "pageRef": "Page 25, 26, 27",
-          "html": "<ul><li>상관관계: 변수 간 선형 연관성 / t-검정: 두 그룹 평균 비교 / <mark><strong>ANOVA</strong></mark>: 4개 웹사이트 레이아웃처럼 3개 이상 그룹 평균 비교 + 상호작용 분석</li><li>Correlation: linear association. t-test: compare two group means. ANOVA: compare 3+ groups and analyze interactions.</li></ul>",
+          "heading": "Correlation, t-test, ANOVA 선택",
+          "pageRef": "P25-27",
+          "html": "<ul><li><strong>Correlation [P25]</strong>: <strong>linear relationship</strong>의 strength &amp; direction<ul><li><strong>Pearson&#39;s r</strong> (parametric) / <strong>Spearman&#39;s rho</strong> (non-parametric)</li><li><strong>R²</strong> = 분산 설명 비율 / <strong>Correlation ≠ Causation</strong>, <strong>Third Variable Problem</strong></li></ul></li><li><strong>t-Test [P26]</strong>: <strong>두 그룹</strong> 평균 비교<ul><li><strong>Independent Samples</strong> (<strong>Between</strong>) / <strong>Paired Samples</strong> (<strong>Within</strong>)</li><li>2개 초과 → <strong>Type I error↑</strong> → <mark><strong>ANOVA</strong></mark> 사용</li></ul></li><li><strong>ANOVA [P27]</strong>: <strong>3개+ 그룹</strong> 또는 multiple IVs<ul><li><strong>Main Effect</strong> + <strong>Interaction</strong> (design trade-offs 핵심)</li><li><strong>Post-Hoc</strong>: <strong>Tukey HSD</strong>, <strong>Bonferroni</strong></li><li><strong>Sphericity</strong> 위반 → <strong>Greenhouse-Geisser</strong> correction</li></ul></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "상관관계: 변수 간 선형 연관성 / t-검정: 두 그룹 평균 비교 / <mark><strong>ANOVA</strong></mark>: 4개 웹사이트 레이아웃처럼 3개 이상 그룹 평균 비교 + 상호작용 분석"
+            "2개 초과 → <strong>Type I error↑</strong> → <mark><strong>ANOVA</strong></mark> 사용"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-9",
           "number": 9,
-          "heading": "Compare statistical significance (p-value) with practical significance (effect size) in interpreting findings. (결과 해석 시 통계적 유의성과 실질적 유의성 비교)",
-          "pageRef": "Page 28",
-          "html": "<ul><li><mark><strong>Statistical significance and practical significance</strong></mark>는 다르며, p-value는 우연 가능성만 보여주고 차이의 실제 가치나 크기는 효과 크기(Effect size)와 비용 맥락으로 판단해야 한다.</li><li>p-value shows result is unlikely due to chance but not the magnitude. Always report effect size alongside.</li><li>효과 크기가 작아질수록 같은 효과를 안정적으로 검출하기 위해 <mark><strong>required sample size increases</strong></mark>.</li></ul>",
+          "heading": "Statistical significance vs Practical significance",
+          "pageRef": "P28, HW Sol.",
+          "html": "<ul><li><mark><strong>p-value</strong></mark>: p &lt; .05, trivial 효과도 significant 가능 → <strong>exact p-values</strong> 보고</li><li><strong>Effect Size</strong>: <strong>Cohen&#39;s d</strong> (Small 0.2, Medium 0.5, Large 0.8), <strong>eta_p²</strong> / <strong>p-value와 함께 보고 필수</strong></li><li>HW: 0.01% output↑ (significant) but massive cost → <strong><mark><strong>practical significance</strong></mark> 없음</strong></li><li><strong>Parametric 가정</strong>: <strong>Normality</strong> (Shapiro-Wilk), <strong>Homogeneity</strong> (Levene&#39;s), <strong>Sphericity</strong> (Mauchly&#39;s)</li><li><strong>Nonparametric 대안</strong>: <strong>Mann-Whitney U</strong> ← ind. t / <strong>Wilcoxon</strong> ← paired t / <strong>Kruskal-Wallis</strong> ← ANOVA / <strong>Friedman</strong> ← RM-ANOVA</li></ul>",
           "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>Statistical significance and practical significance</strong></mark>는 다르며, p-value는 우연 가능성만 보여주고 차이의 실제 가치나 크기는 효과 크기(Effect size)와 비용 맥락으로 판단해야 한다.",
-            "효과 크기가 작아질수록 같은 효과를 안정적으로 검출하기 위해 <mark><strong>required sample size increases</strong></mark>."
+            "<mark><strong>p-value</strong></mark>: p &lt; .05, trivial 효과도 significant 가능 → <strong>exact p-values</strong> 보고",
+            "HW: 0.01% output↑ (significant) but massive cost → <strong><mark><strong>practical significance</strong></mark> 없음</strong>"
           ]
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-10",
           "number": 10,
-          "heading": "Synthesize objective and subjective measures to comprehensively evaluate a human-machine system. (인간-기계 시스템의 포괄적 평가를 위한 객관적/주관적 측정 종합)",
-          "pageRef": "Page 7, 20",
-          "html": "<ul><li>작업 완료 시간 등 객관적 지표 + SUS 등 주관적 피드백 통합 → 정확한 사용성·성능 평가</li><li>Integrate objective metrics (task time) with subjective feedback (SUS) for accurate usability evaluation.</li></ul>",
+          "heading": "Triangulation — objective + subjective 종합 평가",
+          "pageRef": "P6, 15",
+          "html": "<ul><li><strong>Data Triangulation</strong>: Performance + Physiological/Behavioral + Subjective → <strong>Converging Evidence</strong> → <strong>Robust Design Decision</strong></li><li><strong>Cross-Validation</strong>: 한 방법으로 다른 방법 검증</li><li><strong>Resolving Discrepancies</strong>: 불일치가 hidden trade-offs 드러냄 (예: <strong>fast performance but high frustration</strong>)</li><li>목표: <strong>single-method bias 제거</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "research-methods-in-hf-e-part-2-goal-11",
           "number": 11,
-          "heading": "Apply HF/E research methods and criteria to evaluate a real-world ergonomic solution. (실제 인간공학적 솔루션 평가에 HF/E 연구 방법 및 기준 적용)",
-          "pageRef": "Page 29, 30",
-          "html": "<ul><li>연구 과정(탐색, 실험, 평가)의 발견을 실제 문제에 적용 → 구체적 설계 요구사항으로 변환</li><li>Apply findings from research (descriptive, experimental, evaluation) to real problems and translate into design requirements.</li></ul>",
+          "heading": "HF/E research methods 실제 적용",
+          "pageRef": "P29-30",
+          "html": "<ul><li><strong>Iterative Refinement Pipeline</strong>: (1) <strong>Scope</strong> — Descriptive (2) <strong>Explain</strong> — Experimental (3) <strong>Decide</strong> — Evaluation</li><li>결과를 <strong>actionable design requirements</strong>로 변환: <strong>User Needs</strong> → <strong>Evidence-Based Research</strong> → <strong>Better Systems</strong></li><li><strong>Showcase: Motion Seat</strong> (You et al., 2018): <strong>SS</strong> vs <strong>SM</strong> condition<ul><li>Objective: velocity SD, <strong>PERCLOS</strong>, <strong>LF/HF ratio</strong> / Subjective: fatigue, drowsiness</li><li>결과: SM이 <strong>passive TR fatigue 4.4~56.5%↓</strong></li></ul></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         }
@@ -444,246 +453,250 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "information-processing-part-1",
       "title": "Information Processing (Part 1)",
+      "file": "../goals_summary/05-information-processing-part1.md",
       "goals": [
         {
           "key": "information-processing-part-1-goal-1",
           "number": 1,
-          "heading": "Define information as the reduction of uncertainty and explain the unit of measure (bit). (정보의 불확실성 감소 정의 및 측정 단위 설명)",
-          "pageRef": "Page 6, 7",
-          "html": "<ul><li>정보 = <mark><strong>불확실성의 감소(reduction of uncertainty)</strong></mark>. 예상치 못한 사건일수록 더 많은 정보 전달</li><li>Information = reduction of uncertainty. Less likely events convey more information.</li><li>1비트(Bit) = 동일 확률의 2가지 대안 중 결정에 필요한 정보량</li><li>1 bit = information needed to decide between two equally likely alternatives.</li></ul>",
+          "heading": "Information = reduction of uncertainty",
+          "pageRef": "P6-7",
+          "html": "<ul><li><strong>Information</strong> = <mark><strong>reduction of uncertainty</strong></mark> / 높은 확률 → 적은 정보, 낮은 확률 → 많은 정보</li><li><strong>1 Bit</strong> = 동일 확률 <strong>2가지</strong> 대안 중 하나 결정 / <strong>Shannon</strong>: father of information theory</li><li>Information <strong>Quantity ≠ Importance</strong> (의미·가치가 아닌 bits만 측정)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "정보 = <mark><strong>불확실성의 감소(reduction of uncertainty)</strong></mark>. 예상치 못한 사건일수록 더 많은 정보 전달"
+            "<strong>Information</strong> = <mark><strong>reduction of uncertainty</strong></mark> / 높은 확률 → 적은 정보, 낮은 확률 → 많은 정보"
           ]
         },
         {
           "key": "information-processing-part-1-goal-2",
           "number": 2,
-          "heading": "Compute the amount of information (H) in bits for alternatives with designated probabilities. (지정된 확률에 따른 대안의 정보량(H) 계산)",
-          "pageRef": "Page 7, 8",
-          "html": "<ul><li>동일 확률: H = log₂N / 상이 확률: 각 사건의 확률 × 특정 정보량 합산 (엔트로피)</li><li>Equal probability: H = log₂N. Unequal: sum each event&#39;s probability × its information (entropy).</li></ul>",
+          "heading": "Information (H) in bits 계산",
+          "pageRef": "P7-8",
+          "html": "<ul><li><strong>Equal prob</strong>: <strong>H = log₂(N)</strong> — N=2→1bit, N=4→2, N=8→3, N=16→4 / 2배 = +1bit</li><li><strong>Unequal</strong>: hi = log₂(1/pi) / <strong>Entropy</strong>: <strong>H_av = Σ[pi·log₂(1/pi)]</strong><ul><li>예: pA=0.8, pB=0.2 → hA=0.32, hB=2.32 → H_av = 0.8×0.32 + 0.2×2.32 = <strong>0.72 bits</strong></li></ul></li><li><strong>Redundancy</strong> = (1 - H_av/H_max) × 100%<ul><li>예: N=4, H_av=1.2, H_max=2.0 → <strong>Redundancy = 40%</strong></li></ul></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-1-goal-3",
           "number": 3,
-          "heading": "Apply the Hick-Hyman Law to predict choice reaction time in system design. (시스템 설계에서 선택 반응 시간 예측을 위한 힉-하이먼 법칙 적용)",
-          "pageRef": "Page 10, HW Solution Page 1",
-          "html": "<ul><li>Hick-Hyman Law: 선택 반응 시간은 정보량(비트)에 비례하여 <mark><strong>linearly increases</strong></mark>. 대안 2배 → 정보량 +1비트 → 반응 시간 +상수</li><li>Choice RT increases linearly with information (bits). Doubling alternatives adds 1 bit and a constant time increment.</li></ul>",
+          "heading": "Hick-Hyman Law",
+          "pageRef": "P10, HW Sol.",
+          "html": "<ul><li><mark><strong>RT = a + b·H</strong></mark> (a=non-decision time, b=1bit 처리 시간, H=bits)</li><li>Doubling N = +1bit = +b ms (N에 대해 logarithmic)</li><li>예 (a=250ms, b=200ms/bit): 4옵션 H=2→<strong>650ms</strong> / 8옵션 H=3→<strong>850ms</strong> / 16옵션 H=4→<strong>1050ms</strong></li><li>설계: (1) <strong>Minimize Alternatives</strong> (2) <strong>Broad &gt; Deep</strong> (3) <strong>Frequency &amp; Defaults</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Hick-Hyman Law: 선택 반응 시간은 정보량(비트)에 비례하여 <mark><strong>linearly increases</strong></mark>. 대안 2배 → 정보량 +1비트 → 반응 시간 +상수"
+            "<mark><strong>RT = a + b·H</strong></mark> (a=non-decision time, b=1bit 처리 시간, H=bits)"
           ]
         },
         {
           "key": "information-processing-part-1-goal-4",
           "number": 4,
-          "heading": "Distinguish between Static and Dynamic displays and identify various information types, including Quantitative, Qualitative, and Status (Check-Reading). (정적/동적 디스플레이 구분 및 다양한 정보 유형 식별)",
-          "pageRef": "Page 13",
-          "html": "<ul><li>정적 디스플레이: 고정 정보 / 동적 디스플레이: 시간에 따라 변하는 정보 (정량적·정성적·상태 확인)</li><li>Static: fixed info. Dynamic: time-varying info — quantitative, qualitative, and check-reading types.</li></ul>",
+          "heading": "Static vs Dynamic displays + 8 information types",
+          "pageRef": "P14-15",
+          "html": "<ul><li><strong>Static</strong>: 정보 고정 (signs, labels) / <strong>Dynamic</strong>: 연속 변화 (speedometer, radar)</li><li>8 types: <strong>Quantitative</strong>, <strong>Qualitative</strong>, <strong>Status (Check-Reading)</strong>, <strong>Warning/Signal</strong>, <strong>Representational</strong>, <strong>Identification</strong>, <strong>Alphanumeric</strong>, <strong>Time-phased</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-1-goal-5",
           "number": 5,
-          "heading": "Evaluate the trade-offs between visual and auditory displays based on message complexity, urgency, and environmental conditions. (메시지 복잡성, 긴급성, 환경 조건에 따른 시각 및 청각 디스플레이 상충 관계 평가)",
-          "pageRef": "Page 16, HW Solution Page 1",
-          "html": "<ul><li>청각: 메시지 간단·짧음·<mark><strong>immediate action</strong></mark> 필요·조명 부적절 시 선호</li><li>Auditory: preferred for simple, short, urgent messages or poor lighting.</li><li>시각: 메시지 복잡·길거나 나중에 참조 필요·시끄러운 환경 시 적합</li><li>Visual: suitable for complex, long messages, later reference, or noisy environments.</li></ul>",
+          "heading": "Visual vs Auditory display trade-offs",
+          "pageRef": "P16, HW Sol.",
+          "html": "<ul><li><strong>Auditory</strong>: simple/short, <mark><strong>즉각 조치</strong></mark>, visual overloaded, 수신자 이동 중</li><li><strong>Visual</strong>: complex/long, 나중 참조, 공간 위치, auditory overloaded, 수신자 고정</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "청각: 메시지 간단·짧음·<mark><strong>immediate action</strong></mark> 필요·조명 부적절 시 선호"
+            "<strong>Auditory</strong>: simple/short, <mark><strong>즉각 조치</strong></mark>, visual overloaded, 수신자 이동 중"
           ]
         },
         {
           "key": "information-processing-part-1-goal-6",
           "number": 6,
-          "heading": "Implement multimodal safety strategies, prioritizing auditory signals for initial alerting and visual displays for detailed diagnosis. (청각 경고 및 시각 진단을 우선하는 다중 모달 안전 전략 구현)",
-          "pageRef": "Page 17",
-          "html": "<ul><li><mark><strong>Auditory for alerting, then visual for diagnosis</strong></mark>: 초기 경고(Alerting) → 청각 신호 우선 / 상세 진단(Diagnosis) → 시각 디스플레이 활용</li><li>Alerting: prioritize auditory signals. Diagnosis: use visual displays.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Multimodal safety — \"Hear the alert, See the problem\"",
+          "pageRef": "P17",
+          "html": "<ul><li><mark><strong>Alerting → Auditory</strong></mark> (≥<strong>15dB</strong> above ambient, 긴급 시 <strong>3-5 pulses/sec</strong>)</li><li><mark><strong>Diagnosis → Visual</strong></mark> (시선 <strong>30°이내</strong>, Red/Amber + <strong>Flashing 3-5Hz</strong>, ≥<strong>1° visual angle</strong>)</li><li>Safety critical → <strong>Audio + Visual 동시</strong> (redundancy)</li><li><strong>EICAS</strong>: Warning(Red/Siren) / Caution(Amber/Chime) / Advisory(Cyan/Text) / <strong>Inhibit Logic</strong> (cry wolf 방지)</li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>Auditory for alerting, then visual for diagnosis</strong></mark>: 초기 경고(Alerting) → 청각 신호 우선 / 상세 진단(Diagnosis) → 시각 디스플레이 활용"
+            "<mark><strong>Alerting → Auditory</strong></mark> (≥<strong>15dB</strong> above ambient, 긴급 시 <strong>3-5 pulses/sec</strong>)",
+            "<mark><strong>Diagnosis → Visual</strong></mark> (시선 <strong>30°이내</strong>, Red/Amber + <strong>Flashing 3-5Hz</strong>, ≥<strong>1° visual angle</strong>)"
           ]
         },
         {
           "key": "information-processing-part-1-goal-7",
           "number": 7,
-          "heading": "Differentiate between Absolute Judgment and Relative Judgment. (절대적 판단과 상대적 판단의 구분)",
-          "pageRef": "Page 21, HW Solution Page 2",
-          "html": "<ul><li><mark><strong>절대적 판단(Absolute Judgment)</strong></mark>: 비교 기준 없이 기억 속 기준만으로 stimulus를 식별하므로 오류 발생 쉬움</li><li>Absolute judgment: identify stimuli from memory without comparison — error-prone.</li><li>상대적 판단: 동시 제시 자극 직접 비교 → 정밀한 차이 감지 가능</li><li>Relative judgment: directly compare simultaneous stimuli — highly precise.</li></ul>",
+          "heading": "Absolute vs Relative Judgment",
+          "pageRef": "P21, HW Sol.",
+          "html": "<ul><li><mark><strong>Absolute</strong></mark>: 기억 속 내부 기준으로 식별, <strong>5-9개</strong> 수준 한계 (기억의 제한, 감각 아님)</li><li><strong>Relative</strong>: 동시 비교, high precision</li><li>설계: absolute → <strong>relative로 전환</strong> (reference scales, comparison standards 제공)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>절대적 판단(Absolute Judgment)</strong></mark>: 비교 기준 없이 기억 속 기준만으로 stimulus를 식별하므로 오류 발생 쉬움"
+            "<mark><strong>Absolute</strong></mark>: 기억 속 내부 기준으로 식별, <strong>5-9개</strong> 수준 한계 (기억의 제한, 감각 아님)"
           ]
         },
         {
           "key": "information-processing-part-1-goal-8",
           "number": 8,
-          "heading": "Apply Miller's Law (7 ± 2) to limit the number of levels in a single coding dimension to prevent identification errors. (식별 오류 방지를 위한 밀러의 법칙 적용)",
-          "pageRef": "Page 22, HW Solution Page 2",
-          "html": "<ul><li>Miller&#39;s Law: <mark><strong>absolute basis along a single dimension에서 약 7±2개</strong></mark>가 인간 식별/작업 기억 한계 → 단일 코딩 차원 수준을 5-7개로 제한</li><li>Humans can identify -7±2 items absolutely. Limit coding dimension levels to 5–7.</li></ul>",
+          "heading": "Miller's Law (7±2)",
+          "pageRef": "P22, HW Sol.",
+          "html": "<ul><li><mark><strong>Channel Capacity</strong></mark> ≈ <strong>2-3 bits</strong> (단일 차원) — log₂(5)=2.3 ~ log₂(9)=3.2 / ~7개 초과 시 오류 급증</li><li>Pure Tones <strong>5개</strong> / Loudness <strong>4-5</strong> / Size <strong>5-7</strong> / Brightness <strong>3-5</strong></li><li>설계: 단일 코딩 차원 <strong>5-7개로 제한</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Miller&#39;s Law: <mark><strong>absolute basis along a single dimension에서 약 7±2개</strong></mark>가 인간 식별/작업 기억 한계 → 단일 코딩 차원 수준을 5-7개로 제한"
+            "<mark><strong>Channel Capacity</strong></mark> ≈ <strong>2-3 bits</strong> (단일 차원) — log₂(5)=2.3 ~ log₂(9)=3.2 / ~7개 초과 시 오류 급증"
           ]
         },
         {
           "key": "information-processing-part-1-goal-9",
           "number": 9,
-          "heading": "Compare Orthogonal Coding for maximum data density with Redundant Coding for increased detectability and safety. (데이터 밀도 극대화를 위한 직교 코딩과 감지력/안전성 향상을 위한 중복 코딩 비교)",
-          "pageRef": "Page 25, HW Solution Page 2",
-          "html": "<ul><li>직교 코딩: 독립 차원에 서로 다른 변수 인코딩 → 정보 수용능력 극대화</li><li>Orthogonal: encode different variables on independent dimensions → maximize info capacity.</li><li>중복 코딩: 여러 차원에 동일 정보 인코딩 (예: 빨간 팔각형 정지 표지판) → 감지 신뢰성·안전성 극대화</li><li>Redundant: encode same info on multiple dimensions (e.g., red octagon STOP) → maximize detectability and safety.</li></ul>",
+          "heading": "Orthogonal vs Redundant Coding",
+          "pageRef": "P25, HW Sol.",
+          "html": "<ul><li><strong>Orthogonal</strong>: 차원 <strong>independent</strong>, 정보 용량 극대화 (Shape=Type, Color=Altitude → N×M)</li><li><strong>Redundant</strong>: 동일 변수를 여러 차원에 인코딩, 감지력·신뢰성 극대화 (Red+Octagon+&quot;STOP&quot;)</li><li><strong>선택</strong>: Orthogonal = max density / Redundant = safety, adverse conditions (noise, CVD)</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-1-goal-10",
           "number": 10,
-          "heading": "Define and apply the four SDT outcomes—Hit, False Alarm, Miss, and Correct Rejection—to diagnostic scenarios. (SDT의 4가지 결과 정의 및 시나리오 적용)",
-          "pageRef": "HW Solution Page 2",
-          "html": "<ul><li>적중(Hit): 신호 있을 때 정확 탐지 / 오경보(False Alarm): 신호 없는데 있다고 판단</li><li>Hit: correctly detect signal. False Alarm: report signal when absent.</li><li>누락(Miss): 신호 놓침 / 정기각(Correct Rejection): 신호 없을 때 정확히 없다고 판단</li><li>Miss: fail to detect signal. Correct Rejection: correctly identify absence.</li></ul>",
+          "heading": "SDT 4 outcomes",
+          "pageRef": "P31, HW Sol.",
+          "html": "<ul><li><strong>Hit</strong> (신호O→&quot;Yes&quot;) / <strong>Miss</strong> (신호O→&quot;No&quot;, Type II) / <strong>False Alarm</strong> (신호X→&quot;Yes&quot;, Type I) / <strong>Correct Rejection</strong> (신호X→&quot;No&quot;)</li><li>Trade-off: Hit↑ → FA도↑</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-1-goal-11",
           "number": 11,
-          "heading": "Calculate the Sensitivity (d') to measure discriminability and evaluate the Response Criterion (β) to understand an observer's decision strategy. (민감도(d') 계산 및 의사결정 전략 이해를 위한 반응 기준(β) 평가)",
-          "pageRef": "Page 29, 30",
-          "html": "<ul><li><mark><strong>d&#39;는 sensory system의 sensitivity/discriminability</strong></mark>를 나타내며, 값이 클수록 신호와 노이즈 식별 정확도↑</li><li>d&#39;: signal-noise discriminability. Larger d&#39; = higher accuracy.</li><li>β: 관찰자 의사결정 성향 (보수적/위험 감수). 지시나 안전 문화로 보정 가능</li><li>β: observer&#39;s decision bias (conservative vs. risk-taking). Adjustable via instructions or safety culture.</li><li>Miss 비용이 매우 높으면 criterion β를 <mark><strong>left로 이동시켜 더 risky/liberal하게</strong></mark> 만들어 Hits를 늘린다.</li></ul>",
-          "answerHighlightCount": 2,
+          "heading": "Sensitivity (d') & Response Criterion (β)",
+          "pageRef": "P30, 32-33",
+          "html": "<ul><li><mark><strong>d&#39;</strong></mark> = (μ_S+N - μ_N) / σ — 클수록 분리력↑, β와 독립 / d&#39;=0 → 구분 불가 / 적용 범위 <strong>0.5~2.0</strong></li><li><strong>β</strong> = f(S+N) / f(N) at criterion point</li><li><strong>β &gt; 1 (Conservative)</strong>: FA↓ Miss↑ (FA 비용 클 때) / <strong>β &lt; 1 (Liberal)</strong>: Hit↑ FA↑ (Miss 비용 클 때)</li><li>β 영향: <strong>Signal Prevalence</strong>, <strong>Payoff Matrix</strong>, <strong>Instructions/Feedback</strong></li></ul>",
+          "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>d&#39;는 sensory system의 sensitivity/discriminability</strong></mark>를 나타내며, 값이 클수록 신호와 노이즈 식별 정확도↑",
-            "Miss 비용이 매우 높으면 criterion β를 <mark><strong>left로 이동시켜 더 risky/liberal하게</strong></mark> 만들어 Hits를 늘린다."
+            "<mark><strong>d&#39;</strong></mark> = (μ_S+N - μ_N) / σ — 클수록 분리력↑, β와 독립 / d&#39;=0 → 구분 불가 / 적용 범위 <strong>0.5~2.0</strong>"
           ]
         },
         {
           "key": "information-processing-part-1-goal-12",
           "number": 12,
-          "heading": "Use ROC Curves and outcome matrices to calibrate decision thresholds in high-stakes environments by considering the \"costs and benefits\" of outcomes. (ROC 곡선 및 결과 매트릭스를 활용한 고위험 환경에서의 의사결정 임계값 보정)",
-          "pageRef": "Page 29",
-          "html": "<ul><li>고위험 환경에서 오경보·누락의 비용-편익 분석 → ROC 곡선·결과 매트릭스 기반 최적 임계값 설정</li><li>In high-stakes settings, analyze costs/benefits of false alarms and misses; calibrate optimal thresholds using ROC curves and outcome matrices.</li></ul>",
-          "answerHighlightCount": 0,
-          "answerLines": []
+          "heading": "ROC Curves & decision threshold calibration",
+          "pageRef": "P34-37",
+          "html": "<ul><li><strong>ROC</strong>: Y=Hit Rate, X=FA Rate / <strong>AUC</strong>: 0.5=random, 1.0=perfect / 높은 d&#39; → 좌상단</li><li>의료: Miss 비용 &gt;&gt; FA → <mark><strong>liberal (low β)</strong></mark> + CAD로 d&#39;↑</li><li>공항: <strong>Low Prevalence Effect</strong> → conservative → Miss↑ → <strong>TIP</strong> (가짜 위협 삽입)으로 vigilance 유지</li><li><strong>3원칙</strong>: (1) d&#39;↑ (SNR, 훈련) (2) β 설정 (cost/benefit) (3) Decision support (ROC policies, automated checks)</li></ul>",
+          "answerHighlightCount": 1,
+          "answerLines": [
+            "의료: Miss 비용 &gt;&gt; FA → <mark><strong>liberal (low β)</strong></mark> + CAD로 d&#39;↑"
+          ]
         }
       ]
     },
     {
       "key": "information-processing-part-2",
       "title": "Information Processing (Part 2)",
+      "file": "../goals_summary/06-information-processing-part2.md",
       "goals": [
         {
           "key": "information-processing-part-2-goal-1",
           "number": 1,
-          "heading": "Describe the Sensory Storage, Working Memory, and Long-Term Memory in the human memory system and explain the role of attention in transferring information between these stages. (인간 기억 시스템의 감각 저장소, 작업 기억, 장기 기억 설명 및 정보 전달 과정에서 주의력의 역할 설명)",
-          "pageRef": "Page 20, 23, 24",
-          "html": "<ul><li>HIP 모델: 감각 저장소 → <mark><strong>작업 기억(Working Memory)</strong></mark> → 장기 기억</li><li>HIP model: Sensory Storage → Working Memory (short-term) → Long-Term Memory.</li><li>주의력(Attention) 자원 할당 시에만 감각 저장소에서 작업 기억으로 전달</li><li>Information transfers to working memory only when attention is allocated.</li></ul>",
+          "heading": "Sensory Storage, Working Memory, Long-Term Memory 및 Attention의 역할",
+          "pageRef": "P20, 23, 24",
+          "html": "<ul><li><strong>HIP 모델</strong>: Sensory Storage → <mark><strong>WM</strong></mark> → LTM</li><li><strong>Sensory Storage</strong>: 주의 선택 전 잔상 유지. Iconic(시각) &lt;1초 / Echoic(청각) 2~4초</li><li><strong>WM</strong>: <strong>7±2 chunks</strong> (실제 ~4), rehearsal 없으면 <strong>15~30초</strong> 소멸<ul><li>코드: Visual(공간) / Phonetic(언어) / Semantic(의미), <strong>Dual Coding</strong> = Visual+Phonetic 결합 시 기억↑</li></ul></li><li><strong>LTM</strong>: semantic 기반 영구 저장, 용량 무제한, 검색 속도 ∝ association 강도</li><li><strong>Attention</strong>: Sensory→WM gateway. Maintenance rehearsal(반복→WM 유지) / Elaborative rehearsal(기존 지식 연결→LTM 전달)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "HIP 모델: 감각 저장소 → <mark><strong>작업 기억(Working Memory)</strong></mark> → 장기 기억"
+            "<strong>HIP 모델</strong>: Sensory Storage → <mark><strong>WM</strong></mark> → LTM"
           ]
         },
         {
           "key": "information-processing-part-2-goal-2",
           "number": 2,
-          "heading": "Define chunking as a mechanism to overcome Working Memory capacity limits and apply it to practical UI formatting. (작업 기억 용량 한계를 극복하기 위한 메커니즘으로서 청킹 정의 및 실제 UI 포맷팅 적용)",
-          "pageRef": "Page 20, 25, HW Solution Page 6",
-          "html": "<ul><li><mark><strong>청킹(Chunking)</strong></mark>: 개별 정보를 familiar, meaningful units로 묶어 Working Memory 용량 한계를 보완</li><li>Chunking: group individual items into meaningful units to aid memory.</li><li>작업 기억 한계는 정보량이 아닌 청크 수(7±2) → 전화번호 하이픈 등 UI 분할이 효과적</li><li>WM is limited by chunk count (7±2), not raw info. UI techniques like hyphenating phone numbers help.</li></ul>",
+          "heading": "Chunking으로 WM 용량 한계 극복",
+          "pageRef": "P20, 25",
+          "html": "<ul><li><mark><strong>Chunking</strong></mark>: 개별 정보를 LTM 기반 의미 단위로 재코딩. WM 한계는 <strong>chunk 수</strong>에 의해 결정</li><li>예: 4444555566667777 → 4444 5555 6666 7777 (16→4 chunks), (123)456-7890 (10→3 chunks)</li><li>전문가 chunk ≠ 초보자 chunk → <strong>사용자 친숙도</strong> 고려 필수</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>청킹(Chunking)</strong></mark>: 개별 정보를 familiar, meaningful units로 묶어 Working Memory 용량 한계를 보완"
+            "<mark><strong>Chunking</strong></mark>: 개별 정보를 LTM 기반 의미 단위로 재코딩. WM 한계는 <strong>chunk 수</strong>에 의해 결정"
           ]
         },
         {
           "key": "information-processing-part-2-goal-3",
           "number": 3,
-          "heading": "Explain the role of semantic networks and schemas in Long-Term Memory, and apply concepts like recognition over recall and elaborative rehearsal to improve user interface design. (장기 기억의 의미 네트워크 및 스키마 역할 설명, 그리고 UI 설계 개선을 위한 인식 및 정교한 시연 개념 적용)",
-          "pageRef": "Page 21, 27, 28",
-          "html": "<ul><li>장기 기억: 스키마(정신적 틀) 형태로 의미·연관성 기반 저장</li><li>LTM stores info as schemas (mental frameworks) based on meaning and associations.</li><li>인식(Recognition) &gt; 회상(Recall) — 메뉴·아이콘 활용 인터페이스 설계</li><li>Recognition (with cues) is easier than recall (without). Design interfaces with menus and icons.</li><li>정교한 시연(Elaborative rehearsal): 새 정보를 기존 지식에 연결 → 장기 기억 전달 촉진</li><li>Elaborative rehearsal: connecting new info to existing knowledge aids LTM transfer.</li></ul>",
+          "heading": "Semantic Networks, Schemas, Recognition vs Recall",
+          "pageRef": "P21, 27, 28",
+          "html": "<ul><li><strong>Semantic Networks</strong>: 의미·연관성 기반 저장, 강한 연관 → 빠른 접근</li><li><strong>Schemas</strong>: 지식 조직하는 mental framework (예: &quot;File&quot; 메뉴 → Open, Save 자동 연상)</li><li><strong>Recognition</strong>(단서 있음, 쉬움) &gt; <strong>Recall</strong>(단서 없음, 어려움) → &quot;See &amp; choose&quot; &gt; &quot;Remember &amp; type&quot;</li><li><strong>설계</strong>: 논리적 그룹화, consistent labeling, memory 외재화(breadcrumbs, visible indicators)</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-2-goal-4",
           "number": 4,
-          "heading": "Differentiate between Selective, Focused, Divided, and Sustained attention and recognize the impact of load stress and distraction in monitoring tasks. (선택적, 집중적, 분할적, 지속적 주의력 구분 및 모니터링 작업에서 부하 스트레스와 주의 분산의 영향 인식)",
-          "pageRef": "Page 21, 29, HW Solution Page 6",
-          "html": "<ul><li>선택적: 한 출처에 주의 / 집중적: 방해 요소 무시 / 분할적: 멀티태스킹 / 지속적: 장기간 주의 유지</li><li>Selective: focus on one source. Focused: ignore distractions. Divided: multitask. Sustained: maintain attention over time.</li></ul>",
+          "heading": "Selective / Focused / Divided / Sustained Attention",
+          "pageRef": "P21, 29",
+          "html": "<ul><li><strong>Selective</strong>: 여러 채널 스캔→단일 과제. Load stress: 채널 수↑→성능↓. 자주 쓰는 display 가까이 배치</li><li><strong>Focused</strong>: 한 소스 집중, 방해 억제. 실패=distraction interference or hyper-focus로 alarm 놓침</li><li><strong>Divided</strong>: 2+과제 동시 수행. 동일 자원 경쟁→성능↓↓. <strong>Automaticity</strong>(반복→자동화)로 자원 소모↓</li><li><strong>Sustained (Vigilance)</strong>: 장기간 드문 신호 탐지. 실패: distraction, tunneling, fatigue</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-2-goal-5",
           "number": 5,
-          "heading": "Identify the causes of vigilance decrement and apply countermeasures to maintain operator alertness. (각성 저하의 원인 식별 및 운영자 각성 상태 유지를 위한 대응책 적용)",
-          "pageRef": "Page 21, 29",
-          "html": "<ul><li>장시간 모니터링, 특히 약 <mark><strong>20-35 minutes</strong></mark> 이후 detection speed와 accuracy가 떨어지는 Vigilance decrement 발생 가능</li><li>Prolonged monitoring can cause vigilance decrement.</li><li>원인 파악 + 인지공학적 대응책으로 운영자 각성 유지</li><li>Identify causes and apply cognitive engineering countermeasures to maintain alertness.</li></ul>",
+          "heading": "Vigilance Decrement 원인 및 대응책",
+          "pageRef": "P21, 29",
+          "html": "<ul><li><mark><strong>첫 20~30분</strong></mark> 내 detection 성능 급락. 원인: time-on-task fatigue + low signal probability</li><li><strong>대응책</strong>: 20~30분 제한 후 휴식 / signal conspicuity↑ / 즉각 KR feedback / artificial signal 삽입 / 공간·시간 불확실성↓ / 환경 최적화 / 충분한 training</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "장시간 모니터링, 특히 약 <mark><strong>20-35 minutes</strong></mark> 이후 detection speed와 accuracy가 떨어지는 Vigilance decrement 발생 가능"
+            "<mark><strong>첫 20~30분</strong></mark> 내 detection 성능 급락. 원인: time-on-task fatigue + low signal probability"
           ]
         },
         {
           "key": "information-processing-part-2-goal-6",
           "number": 6,
-          "heading": "Explain Wickens' Multiple Resource Theory using the dimensions of Input Modalities, Processing Stages, Processing Codes, and Response Modalities to predict multitasking interference. (멀티태스킹 간섭 예측을 위한 위켄스의 다중 자원 이론 설명)",
-          "pageRef": "Page 21, 30, HW Solution Page 7",
-          "html": "<ul><li>인지 자원은 단일 풀이 아닌 양식(시각/청각)·코드(공간적/언어적) 별 <mark><strong>different resource pools</strong></mark>로 구성된다.</li><li>Cognitive resources are independent pools separated by modality (visual/auditory) and code (spatial/verbal).</li><li>예: 운전(공간/수동) + 통화(언어/청각) = 간섭↓ / 운전 + 문자 읽기(시각 중복) = 간섭↑↑</li><li>E.g., driving + speakerphone = low interference (separate resources). Driving + texting = severe interference (same visual resource).</li></ul>",
+          "heading": "Wickens' Multiple Resource Theory (MRT)",
+          "pageRef": "P21, 30",
+          "html": "<ul><li><strong>4 Dimensions</strong>: Input(Visual/Auditory) × Stage(Perceptual-Cognitive/Response) × Code(Spatial/Verbal) × Response(Manual/Vocal)</li><li>동일 차원 같은 level 공유 → <strong>High Conflict</strong>. 다른 level → Low Conflict</li><li><strong>Driving 예</strong>: 운전(Visual+Spatial+Manual) + hands-free(Auditory+Verbal+Vocal) = Low conflict / texting(<strong>Visual</strong>+Verbal+<strong>Manual</strong>) = <strong>High conflict</strong> (23x 사고↑)</li><li>설계: 동시 과제를 <mark><strong>다른 resource pool</strong></mark>에 배분, 긴급 경고→청각 offload</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "인지 자원은 단일 풀이 아닌 양식(시각/청각)·코드(공간적/언어적) 별 <mark><strong>different resource pools</strong></mark>로 구성된다."
+            "설계: 동시 과제를 <mark><strong>다른 resource pool</strong></mark>에 배분, 긴급 경고→청각 offload"
           ]
         },
         {
           "key": "information-processing-part-2-goal-7",
           "number": 7,
-          "heading": "Define Conceptual, Movement, Spatial, and Modality compatibility and explain how high compatibility reduces mental recoding and improves response time. (개념적, 운동적, 공간적, 양식적 양립성 정의 및 높은 양립성이 멘탈 재코딩을 줄이고 반응 시간을 단축하는 방법 설명)",
-          "pageRef": "Page 22, 32, 33",
-          "html": "<ul><li><mark><strong>Conceptual Compatibility</strong></mark>: airplane icon for airport처럼 기호가 사람의 개념적 연상과 일치하는 정도이며, 전체 양립성은 자극-반응이 인간 예상·멘탈 모델과 일치하는 정도다.</li><li>Compatibility: how well stimuli-response matches human expectations (conceptual, movement, spatial, modality).</li><li>양립성↑ → 멘탈 재코딩↓ → 학습 속도↑, 반응 시간↓, 오류↓</li><li>Higher compatibility → less mental recoding → faster learning, shorter RT, fewer errors.</li></ul>",
+          "heading": "Conceptual / Movement / Spatial / Modality Compatibility",
+          "pageRef": "P22, 32, 33",
+          "html": "<ul><li><strong>Compatibility</strong>: S-R 관계가 인간 기대(mental model)와 일치하는 정도. 높을수록 mental recoding 제거→RT↓, 오류↓</li><li><mark><strong>Conceptual</strong></mark>: 기호=개념 일치 (🗑️=삭제, Red=STOP, Green=GO)</li><li><strong>Movement</strong>: 조작↔반응 방향 일치 (Population Stereotypes). CW=증가, Up/Right=On/Increase</li><li><strong>Spatial</strong>: 컨트롤-디스플레이 물리적 배치 일치. Isomorphism(공간 동형)이 최적</li><li><strong>Modality</strong>: 과제↔입출력 양식 적합. Verbal task→Auditory+Vocal / Spatial task→Visual+Manual</li><li>우선순위: <strong>movement &gt; spatial</strong> (운동 stereotype 의존도 높음)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>Conceptual Compatibility</strong></mark>: airplane icon for airport처럼 기호가 사람의 개념적 연상과 일치하는 정도이며, 전체 양립성은 자극-반응이 인간 예상·멘탈 모델과 일치하는 정도다."
+            "<mark><strong>Conceptual</strong></mark>: 기호=개념 일치 (🗑️=삭제, Red=STOP, Green=GO)"
           ]
         },
         {
           "key": "information-processing-part-2-goal-8",
           "number": 8,
-          "heading": "Identify age-related cognitive changes and implement design modifications to reduce the cognitive burden for older users. (연령 관련 인지 변화 식별 및 고령 사용자의 인지적 부담을 줄이기 위한 설계 수정 구현)",
-          "pageRef": "Page 22, 33",
-          "html": "<ul><li>65세 이후 <mark><strong>retrieving and executing responses가 전반적으로 느려지는</strong></mark> 인지·운동 처리 속도 저하가 흔하다.</li><li>After -65, pervasive slowing across cognitive and motor tasks.</li><li>설계 수정: 처리 시간 여유 확보 + 복잡성 축소 → 고령 사용자 인지 부담↓</li><li>Design: allow more processing time and reduce complexity for older users.</li></ul>",
+          "heading": "고령자(~65+) 인지 변화 및 설계 수정",
+          "pageRef": "P22, 33",
+          "html": "<ul><li><strong>저하</strong>: <mark><strong>General slowing</strong></mark> / WM disruption / LTM encoding↓ / Incompatibility 대응↓ / Perceptual deficits</li><li><strong>유지</strong>: Crystallized intelligence (지식·경험)</li><li><strong>설계 (Universal Design)</strong>: signal 강화(대비·글꼴↑) / multitasking↓→순차 설계 / compatibility 극대화 / cues·previews / error recovery 지원 / simplicity</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "65세 이후 <mark><strong>retrieving and executing responses가 전반적으로 느려지는</strong></mark> 인지·운동 처리 속도 저하가 흔하다."
+            "<strong>저하</strong>: <mark><strong>General slowing</strong></mark> / WM disruption / LTM encoding↓ / Incompatibility 대응↓ / Perceptual deficits"
           ]
         },
         {
           "key": "information-processing-part-2-goal-9",
           "number": 9,
-          "heading": "Explain mental workload and identify methods for mental workload assessment. (정신적 작업 부하 설명 및 평가 방법 식별)",
-          "pageRef": "Page 22, 34, 35",
-          "html": "<ul><li>정신적 작업 부하 = 작업 인지 요구량 / 운영자 가용 자원</li><li>Mental workload = task cognitive demand / operator available resources.</li><li>과부하(Overload) → 오류 / 저부하(Underload) → 지루함. 적절한 분산·평가 필요</li><li>Overload → errors. Underload → boredom. Must distribute and assess properly.</li><li>Secondary Task Measure는 <mark><strong>primary task가 쓰지 않은 spare capacity가 secondary task에 쓰인다</strong></mark>는 논리에 기반한다.</li></ul>",
+          "heading": "Mental Workload 정의 및 측정",
+          "pageRef": "P22, 34, 35",
+          "html": "<ul><li><strong>Workload = Demand / Capacity</strong>. 역U자 곡선: Underload(지루)→Optimal→Overload(오류↑)</li><li><strong>측정 4가지</strong>: Primary task(주 과제 성능) / <mark><strong>Secondary task</strong></mark>(여유 용량) / Physiological(HRV, pupil, P300) / Subjective(NASA-TLX, SWAT)</li><li><strong>Triangulation</strong>: 여러 카테고리 병용→실제 인지 비용 파악</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Secondary Task Measure는 <mark><strong>primary task가 쓰지 않은 spare capacity가 secondary task에 쓰인다</strong></mark>는 논리에 기반한다."
+            "<strong>측정 4가지</strong>: Primary task(주 과제 성능) / <mark><strong>Secondary task</strong></mark>(여유 용량) / Physiological(HRV, pupil, P300) / Subjective(NASA-TLX, SWAT)"
           ]
         },
         {
           "key": "information-processing-part-2-goal-10",
           "number": 10,
-          "heading": "Assess multidimensional subjective workload utilizing the six weighted subscales of the NASA-TLX. (NASA-TLX의 6가지 가중치 하위 척도를 활용한 다차원적 주관적 작업 부하 평가)",
-          "pageRef": "Page 22, 34",
-          "html": "<ul><li>NASA-TLX: 6가지 가중치 하위 척도(정신적 요구, 신체적 요구 등)로 주관적 작업 부하 수치화</li><li>NASA-TLX quantifies subjective workload via six weighted subscales (mental demand, physical demand, etc.).</li></ul>",
+          "heading": "NASA-TLX 6 Subscales",
+          "pageRef": "P22, 34",
+          "html": "<ul><li><strong>6차원</strong>: Mental Demand / Physical Demand / Temporal Demand / Performance / Effort / Frustration</li><li><strong>절차</strong>: (1) Pairwise weighting(15쌍, W=0~5) → (2) Raw rating(0~100) → (3) <strong>Score = Σ(W×R) / 15</strong></li><li>장점: 간편, 널리 채택. 한계: 사후 측정→memory bias, effort로 성능 유지 시 괴리</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "information-processing-part-2-goal-11",
           "number": 11,
-          "heading": "Address challenges in human-AI interaction by focusing on the knowledge acquisition bottleneck, system explainability, and the calibration of user trust. (지식 획득 병목 현상, 시스템 설명 가능성, 사용자 신뢰 조율에 중점을 두어 인간-AI 상호작용의 과제 해결)",
-          "pageRef": "Page 23, 35, 36",
-          "html": "<ul><li>지식 획득 병목: 전문가 암묵적 지식 → 명시적 규칙 변환 시 정보 손실</li><li>Knowledge acquisition bottleneck: loss when converting expert tacit knowledge into explicit rules.</li><li>안전 시스템에서 AI는 &#39;What&#39; + &#39;Why&#39; 모두 설명 가능해야 적절한 사용자 신뢰 확보</li><li>In safety-critical systems, AI must explain both &quot;what&quot; and &quot;why&quot; to earn appropriate user trust.</li></ul>",
+          "heading": "Human-AI Interaction 과제",
+          "pageRef": "P23, 35, 36",
+          "html": "<ul><li><strong>Knowledge Acquisition Bottleneck</strong>: tacit knowledge → explicit rules 변환 시 정보 손실</li><li><strong>Explainability</strong>: what만이 아닌 <strong>what + why</strong> 설명해야 적절한 신뢰 확보</li><li><strong>Trust Calibration</strong>: Over-trust(complacency)=잘못된 조언 무비판 수용 / Under-trust(disuse)=올바른 조언도 무시</li><li>사용자가 잘못된 AI 결정을 <strong>redirect</strong> 할 수 있어야 함</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         }
@@ -692,76 +705,75 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "vision-visual-display-design-part-1",
       "title": "Vision, Visual Display Design (Part 1)",
+      "file": "../goals_summary/07-vision-display-part1.md",
       "goals": [
         {
           "key": "vision-visual-display-design-part-1-goal-1",
           "number": 1,
-          "heading": "Identify the major anatomical structures of the eye (Cornea, Lens, Retina, and Fovea) in vision. (시각에서 눈의 주요 해부학적 구조 식별)",
-          "pageRef": "Page 16, 17",
-          "html": "<ul><li>각막(Cornea): 초점 능력 65-75% 제공 / 수정체(Lens): 거리별 모양 변화로 초점 미세 조정</li><li>Cornea: provides 65–75% of focusing power. Lens: fine-tunes focus by changing shape.</li><li>망막(Retina): 간상체+원추체 포함 / 중심와(Fovea): 원추체만으로 구성, 가장 선명한 중심 시력 담당</li><li>Retina: contains rods and cones. Fovea: cones only, sharpest central vision.</li></ul>",
+          "heading": "Major anatomical structures of the eye",
+          "pageRef": "P6",
+          "html": "<ul><li>빛 → <strong>Cornea</strong> (초점의 <strong>65~75%</strong>) → <strong>Lens</strong> (<strong>accommodation</strong>, 원근 조절) → <strong>Retina</strong> (빛 감지, <strong>Rods</strong> + <strong>Cones</strong>) → <strong>도립상</strong></li><li><strong>Fovea</strong>: 망막 중앙, <strong>Cones만</strong>, 최고 <strong>visual acuity</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-1-goal-2",
           "number": 2,
-          "heading": "Distinguish between the anatomical functions of Rods and Cones regarding daylight/night vision, color vision, motion perception, and dark/light adaptation. (간상체와 원추체의 기능 구분)",
-          "pageRef": "Page 18, 28, 29, 30",
-          "html": "<ul><li><mark><strong>원추체(Cones)</strong></mark>: 중심와 집중, 주간 시력(명소시), color perception, 고해상도 담당</li><li>Cones: concentrated in fovea; daylight (photopic) vision, color, high detail.</li><li>간상체(Rods): 망막 주변부, 야간 시력(암소시), 흑백, 움직임 감지</li><li>Rods: peripheral retina; night (scotopic) vision, B&amp;W, motion detection.</li><li>암순응: 원추체 먼저 → 간상체 인계 (30-35분) / 명순응: 동공 수축 + 간상체→원추체 전환 (1분 이내)</li><li>Dark adaptation: cones first, then rods take over (30–35 min). Light adaptation: &lt;1 min via pupil constriction and rod-to-cone switch.</li></ul>",
+          "heading": "Rods vs Cones — daylight/night, color, motion, adaptation",
+          "pageRef": "P7, 14-16",
+          "html": "<ul><li><mark><strong>Cones</strong></mark>: ~<strong>6-7M</strong>, <strong>Fovea</strong>, <strong>Photopic</strong> (주간), 색+고해상도 / L(red), M(green), S(blue) — 남성 ~<strong>8%</strong> 색각결함</li><li><strong>Rods</strong>: ~<strong>130M</strong>, 주변부, <strong>Scotopic</strong> (야간), 흑백, <strong>움직임 감지</strong></li><li><strong>Dark adaptation</strong>: Cones 먼저(0~5min) → <strong>Rod-Cone Break</strong>(5~10min) → Rods 인계(<strong>30~35min</strong>, rhodopsin 재생)</li><li><strong>Light adaptation</strong>: ~<strong>1분 이내</strong> (rod pigment bleach → cones 전환)</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>원추체(Cones)</strong></mark>: 중심와 집중, 주간 시력(명소시), color perception, 고해상도 담당"
+            "<mark><strong>Cones</strong></mark>: ~<strong>6-7M</strong>, <strong>Fovea</strong>, <strong>Photopic</strong> (주간), 색+고해상도 / L(red), M(green), S(blue) — 남성 ~<strong>8%</strong> 색각결함"
           ]
         },
         {
           "key": "vision-visual-display-design-part-1-goal-3",
           "number": 3,
-          "heading": "Explain visual accommodation and dark focus as well as the optical mechanisms of Myopia and Hyperopia. (시각적 조절 및 암초점, 근시와 원시의 광학적 메커니즘 설명)",
-          "pageRef": "Page 19, 21, HW Solution Page 1, 2",
-          "html": "<ul><li>조절(Accommodation): 수정체 형태 변화로 망막에 초점 / <mark><strong>암초점(Dark focus)</strong></mark>: empty visual field나 total darkness에서 눈이 약 1m 중간 거리로 돌아가는 resting accommodation 상태</li><li>Accommodation: lens shape changes to focus on retina. Dark focus: eye rests at -1m without visual stimuli.</li><li>근시(Myopia): 초점이 망막 앞 → 먼 물체 흐림 / 원시(Hyperopia): 초점이 망막 뒤 → 가까운 물체 흐림</li><li>Myopia: focus in front of retina (distant blur). Hyperopia: focus behind retina (near blur).</li></ul>",
+          "heading": "Accommodation, Dark Focus, Myopia/Hyperopia",
+          "pageRef": "P8-9, HW",
+          "html": "<ul><li><strong>Accommodation</strong>: Lens 형태 변화 → 원근 초점 / <strong>Near point</strong> (최소거리) / <strong>Far point</strong> (최대거리, 정상=∞)</li><li><mark><strong>Dark focus</strong></mark>: 어둠/빈 시야 → 휴식 상태 ~<strong>1m</strong> (1 Diopter) — HUD에서 물체가 더 작고 멀게 보이는 왜곡</li><li><strong>Myopia</strong> (근시): 초점 망막 <strong>앞</strong> / <strong>Hyperopia</strong> (원시): 초점 망막 <strong>뒤</strong> / <strong>Presbyopia</strong> (노안): Lens 유연성↓</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "조절(Accommodation): 수정체 형태 변화로 망막에 초점 / <mark><strong>암초점(Dark focus)</strong></mark>: empty visual field나 total darkness에서 눈이 약 1m 중간 거리로 돌아가는 resting accommodation 상태"
+            "<mark><strong>Dark focus</strong></mark>: 어둠/빈 시야 → 휴식 상태 ~<strong>1m</strong> (1 Diopter) — HUD에서 물체가 더 작고 멀게 보이는 왜곡"
           ]
         },
         {
           "key": "vision-visual-display-design-part-1-goal-4",
           "number": 4,
-          "heading": "Distinguish Visual acuity from Contrast Sensitivity. (시력과 대비 감도의 구분)",
-          "pageRef": "Page 22, 24",
-          "html": "<ul><li>시력(Visual Acuity): 미세 디테일 분간·식별 능력 (시야 선명도)</li><li>Visual acuity: ability to discriminate fine detail (sharpness of vision).</li><li>대비 감도(Contrast Sensitivity): 저조도·안개 등 낮은 대비 환경에서 물체와 배경 구별 능력</li><li>Contrast sensitivity: ability to distinguish objects from background in low-contrast conditions (fog, dim light).</li></ul>",
+          "heading": "Visual Acuity vs Contrast Sensitivity",
+          "pageRef": "P10-12",
+          "html": "<ul><li><strong>Visual Acuity</strong>: 미세 디테일 분별 / <strong>Snellen chart</strong> — 20/20 = <strong>1 min of arc</strong> / 20/50 = 정상인 50ft를 20ft에서 읽음</li><li><strong>Contrast Sensitivity</strong>: 저대비 환경 밝기 차이 구별 / <strong>Pelli-Robson test</strong> / 20/20이어도 CS 낮을 수 있음</li><li>원인: cataracts, glaucoma, macular degeneration, <strong>노화</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-1-goal-5",
           "number": 5,
-          "heading": "Compute visual angle and evaluate how environmental and personal factors affect visual acuity and contrast sensitivity. (시각 계산 및 영향 요인 평가)",
-          "pageRef": "Page 22, 26",
-          "html": "<ul><li>시각(Visual Angle): H(높이)와 D(거리) 기반 분각(minutes of arc) 계산. 거리↑ or 대상↓ → 시각↓</li><li>Visual angle: calculated in minutes of arc from height (H) and distance (D). Increases with larger or closer targets.</li><li>조도↑ → 원추체 활성화 → 시력·대비 감도↑ / 대비↓ → 동일 식별 위해 더 큰 표적 필요</li><li>Higher luminance activates cones → better acuity and contrast sensitivity. Lower contrast needs larger targets.</li></ul>",
+          "heading": "Visual angle 계산 & 영향 요인",
+          "pageRef": "P10, 13",
+          "html": "<ul><li><strong>Visual Angle (min of arc) = (H / D) × 3,438</strong></li><li><strong>Luminance↑</strong> → VA·CS 향상 후 level off / <strong>Contrast↑</strong> → 작은 target 식별 / <strong>Exposure time↑</strong> → VA 향상 (100~200ms)</li><li><strong>Target motion &gt;60°/sec</strong> → Dynamic VA 급격↓ / <strong>Age</strong> → 40세 이후 VA·CS 감소 / <strong>Training</strong> → 향상 가능</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-1-goal-6",
           "number": 6,
-          "heading": "Differentiate among visibility, legibility, and readability, and identify the typography variables that influence each. (가시성, 판독성, 가독성 구분)",
-          "pageRef": "Page 31, 32",
-          "html": "<ul><li>가시성(Visibility): 문자가 주변에서 눈에 띄는 정도</li><li>Visibility: how detectable a character is from its surroundings.</li><li><mark><strong>판독성(Legibility)</strong></mark>: 개별 문자를 혼동 없이 정확히 식별하는 수준</li><li>Legibility: accurately identifying individual characters without confusion.</li><li>가독성(Readability): 단어·문장을 문맥 속에서 쉽고 정확하게 이해하는 정도</li><li>Readability: ease of comprehending words/sentences in context.</li><li>Older low-resolution VDT의 읽기 속도 저하는 <mark><strong>dot-matrix image quality and stimulation of spatial frequency channels</strong></mark>와 연결된다.</li><li>데이터 그래프에서는 단순 2D 표현이 좋고, 3D blocks는 <mark><strong>volume illusion</strong></mark> 때문에 사용자가 높이보다 전체 부피를 지각할 수 있다.</li><li>그래픽 인터페이스 선호도나 태도 평정에는 <mark><strong>Likert Scale</strong></mark>이 흔히 쓰인다.</li></ul>",
-          "answerHighlightCount": 4,
+          "heading": "Visibility vs Legibility vs Readability",
+          "pageRef": "P18",
+          "html": "<ul><li><strong>Visibility</strong> (detectability): 따로 보이는 정도 → <strong>font size</strong></li><li><mark><strong>Legibility</strong></mark> (discriminability): 혼동 없이 식별 → <strong>stroke width-to-height ratio</strong>, <strong>W/H ratio</strong>, <strong>typeface</strong>, <strong>contrast</strong></li><li><mark><strong>Readability</strong></mark> (ease of understanding): 텍스트 이해 → <strong>inter-letter/word/line spacing</strong>, <strong>margins</strong>, <strong>sentence structure</strong></li><li>소문자 &gt; 대문자 (ascender/descender → <strong>word envelope</strong>) / <strong>Flesch</strong> = 206.835 - 0.846S - 1.015W (<strong>60~70</strong> 표준)</li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>판독성(Legibility)</strong></mark>: 개별 문자를 혼동 없이 정확히 식별하는 수준",
-            "Older low-resolution VDT의 읽기 속도 저하는 <mark><strong>dot-matrix image quality and stimulation of spatial frequency channels</strong></mark>와 연결된다.",
-            "데이터 그래프에서는 단순 2D 표현이 좋고, 3D blocks는 <mark><strong>volume illusion</strong></mark> 때문에 사용자가 높이보다 전체 부피를 지각할 수 있다.",
-            "그래픽 인터페이스 선호도나 태도 평정에는 <mark><strong>Likert Scale</strong></mark>이 흔히 쓰인다."
+            "<mark><strong>Legibility</strong></mark> (discriminability): 혼동 없이 식별 → <strong>stroke width-to-height ratio</strong>, <strong>W/H ratio</strong>, <strong>typeface</strong>, <strong>contrast</strong>",
+            "<mark><strong>Readability</strong></mark> (ease of understanding): 텍스트 이해 → <strong>inter-letter/word/line spacing</strong>, <strong>margins</strong>, <strong>sentence structure</strong>"
           ]
         },
         {
           "key": "vision-visual-display-design-part-1-goal-7",
           "number": 7,
-          "heading": "Calculate the required stroke width and letter height for printed text based on viewing distance and Snellen acuity, and the irradiation effect under varying illumination levels. (획 두께 및 글자 높이 계산, 광확산 효과)",
-          "pageRef": "HW Solution Page 2",
-          "html": "<ul><li>White-on-black 텍스트 → 광확산 효과(Irradiation effect)로 밝은 글자가 어두운 영역으로 번져 보임 → 획 두께 더 얇게 설계</li><li>White-on-black text causes irradiation effect (bright letters appear to spread). Use thinner stroke width to compensate.</li></ul>",
+          "heading": "Stroke width & letter height 계산, Irradiation effect",
+          "pageRef": "P19-20, HW",
+          "html": "<ul><li><strong>Stroke Width (in) = 1.45 × 10⁻⁵ × S × D</strong> (S=Snellen 분모, D=거리 in inches)</li><li><strong>Letter Height = Stroke Width / R</strong> (R=stroke W/H ratio 소수값, 1:6→0.167)</li><li>예: D=1200in, S=40, R=1:6 → SW=<strong>0.696in</strong>, LH=<strong>4.17in</strong></li><li><strong>Ratio 기준</strong>: Black-on-white <strong>1:6~1:8</strong> / White-on-black <strong>1:8~1:10</strong> / 저조도 <strong>1:5</strong> / 후광식 <strong>1:12~1:20</strong></li><li><strong>Irradiation effect</strong>: white-on-black에서 밝은 글자 번짐 → 획 더 <strong>얇게</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         }
@@ -770,139 +782,142 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "vision-visual-display-design-part-2",
       "title": "Vision, Visual Display Design (Part 2)",
+      "file": "../goals_summary/08-vision-display-part2.md",
       "goals": [
         {
           "key": "vision-visual-display-design-part-2-goal-1",
           "number": 1,
-          "heading": "Explain the primary uses of dynamic displays, distinguishing among quantitative, qualitative, check readings, and situation awareness. (동적 디스플레이의 주요 용도 설명)",
-          "pageRef": "Page 6, 20",
-          "html": "<ul><li>정량적: 정확한 수치 / 정성적: 대략적 값·추세 / 확인 읽기: 정상 범위 여부 빠른 확인</li><li>Quantitative: exact values. Qualitative: approximate values/trends. Check reading: quick normal-range verification.</li><li>상황 인식: 현 상태 지각(Perception) → 목표 연관 이해(Comprehension) → 미래 예측(Projection)</li><li>Situation awareness: perceive status → comprehend significance → project future state.</li></ul>",
+          "heading": "Dynamic displays — Quantitative, Qualitative, Check, SA",
+          "pageRef": "P6, 20",
+          "html": "<ul><li><strong>Quantitative</strong>: exact numeric value 읽기</li><li><strong>Qualitative</strong>: 대략값, <strong>trend</strong>, <strong>rate of change</strong></li><li><strong>Check</strong>: <strong>정상 범위</strong> 내인지 빠른 판단</li><li><strong>Situation Awareness</strong>: 현재 상태 지각 + <strong>미래 상태 예측</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-2-goal-2",
           "number": 2,
-          "heading": "Evaluate the task suitability of Analog versus Digital quantitative displays. (아날로그 vs 디지털 정량적 디스플레이의 작업 적합성 평가)",
-          "pageRef": "Page 7, 9",
-          "html": "<ul><li><mark><strong>Digital display</strong></mark>: 값이 안정적이고 정확한 numeric value를 읽거나 기록해야 할 때 우수하다. (예: 주유기)</li><li>Digital: suited for slowly changing values needing precise numeric recording.</li><li>아날로그: 값이 자주 변하거나 변화 속도·방향 빠른 파악 필요 시 (예: 속도계)</li><li>Analog: suited for rapidly changing values or quick trend/rate detection.</li><li><mark><strong>Moving scale with fixed pointer</strong></mark>는 reversal errors가 생기기 쉽고 전체 scale range를 시각화하기 어렵다.</li></ul>",
+          "heading": "Analog vs Digital quantitative displays",
+          "pageRef": "P7, 9",
+          "html": "<ul><li><strong>Golden Rule</strong>: display type = <strong>TASK requirement</strong> 에 맞추기</li><li><strong>Analog</strong>: <strong>방향/변화율</strong> 중요, 값 빠르게 변할 때, <strong>trend detection</strong> → 예: speedometer</li><li><mark><strong>Digital</strong></mark>: <strong>정확한 수치</strong> 필요, 값 천천히 변할 때, <strong>recording</strong> 작업 → 예: fuel gauge</li><li>Analog: <strong>Fixed scale + Moving pointer</strong> (일반적, reversal error↓) vs <mark><strong>Moving scale + Fixed pointer</strong></mark> (reversal error↑)</li></ul>",
           "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>Digital display</strong></mark>: 값이 안정적이고 정확한 numeric value를 읽거나 기록해야 할 때 우수하다. (예: 주유기)",
-            "<mark><strong>Moving scale with fixed pointer</strong></mark>는 reversal errors가 생기기 쉽고 전체 scale range를 시각화하기 어렵다."
+            "<mark><strong>Digital</strong></mark>: <strong>정확한 수치</strong> 필요, 값 천천히 변할 때, <strong>recording</strong> 작업 → 예: fuel gauge",
+            "Analog: <strong>Fixed scale + Moving pointer</strong> (일반적, reversal error↓) vs <mark><strong>Moving scale + Fixed pointer</strong></mark> (reversal error↑)"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-3",
           "number": 3,
-          "heading": "Describe Parallax Errors in scale readings and apply pointer design guidelines to minimize reading errors. (시차 오류 설명 및 포인터 설계 가이드라인 적용)",
-          "pageRef": "Page 10, HW Solution Page 4",
-          "html": "<ul><li>시차 오류(Parallax Error): 보는 각도에 따라 겉보기 위치 달라짐 → 포인터를 눈금 면에 최대한 가깝게 장착</li><li>Parallax error: apparent position shifts with viewing angle. Mount pointer close to scale face.</li><li>포인터 끝 -20도 뾰족, 짧은 눈금 선과 겹치지 않게, 색상은 회전 중심까지 연장</li><li>Pointer tip: -20° angle, don&#39;t overlap minor markers, color extends to center of rotation.</li></ul>",
+          "heading": "Parallax Errors & pointer design",
+          "pageRef": "P10, HW Sol. P4",
+          "html": "<ul><li><strong>Parallax</strong>: 시선 각도 차이 → 겉보기 위치 변동 → 읽기 오류</li><li>포인터 4대 가이드라인: (1) <strong>Tip ~20도</strong> 테이퍼 (2) 끝이 눈금에 <strong>닿되 겹치지 않게</strong> (3) 눈금 면에 <strong>최대한 가깝게</strong> 장착 (4) 색상 끝→<strong>axle 연장</strong>, 꼬리는 배경색</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-2-goal-4",
           "number": 4,
-          "heading": "Explain the Compatibility of Proximity Principle by analyzing the relationship between mental proximity and physical display proximity. (근접성 양립성 원리 설명)",
-          "pageRef": "Page 12, HW Solution Page 4-5",
-          "html": "<ul><li><mark><strong>Mental integration tasks</strong></mark>(높은 정신적 근접성) → 물리적으로 가까운 디스플레이가 성능↑</li><li>Integration tasks (high mental proximity) benefit from physically close displays.</li><li>집중 작업(Focused attention) → 너무 가까우면 시각적 클러터 → 성능↓</li><li>Focused attention tasks: too-close displays cause visual clutter and hurt performance.</li></ul>",
+          "heading": "Compatibility of Proximity Principle",
+          "pageRef": "P12, HW Sol. P4-5",
+          "html": "<ul><li><strong>Mental Proximity</strong>: 정보원의 <strong>cognitive integration</strong> 요구 정도</li><li><strong>Display Proximity</strong>: 정보원의 물리적/지각적 근접도</li><li><mark><strong>Integration Task</strong></mark>: display proximity↑ → 성능↑</li><li><strong>Focused Attention Task</strong>: display proximity↑ → <strong>visual clutter</strong> → 성능↓</li><li>설계: <strong>display proximity = mental proximity에 match</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>Mental integration tasks</strong></mark>(높은 정신적 근접성) → 물리적으로 가까운 디스플레이가 성능↑"
+            "<mark><strong>Integration Task</strong></mark>: display proximity↑ → 성능↑"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-5",
           "number": 5,
-          "heading": "Describe Emergent Features, such as shape or area, and explain how they facilitate simultaneous parallel processing in object displays. (창발적 특징 설명 및 병렬 처리 촉진 방법)",
-          "pageRef": "Page 13, HW Solution Page 5",
-          "html": "<ul><li><mark><strong>창발적 특징(Emergent Feature)</strong></mark>: 개별 요소에 없지만 변수 결합 시 나타나는 면적·모양 등 새로운 지각 속성</li><li>Emergent feature: new perceptual property (area, shape) that appears only when variables combine.</li><li>시각 패턴 왜곡을 통해 순차 확인 대신 동시 병렬 처리(Parallel processing) 가능</li><li>Enables parallel processing of system state through pattern distortion rather than sequential checking.</li></ul>",
+          "heading": "Emergent Features & parallel processing",
+          "pageRef": "P13, HW Sol. P5",
+          "html": "<ul><li><mark><strong>Emergent Feature</strong></mark>: 개별 부분엔 없고 <strong>전체에서 나타나는</strong> 지각적 속성 — <strong>AREA</strong>, <strong>SHAPE</strong></li><li>변수 → polygon 매핑 → 정상 = <strong>대칭 형태</strong> / 이상 = 형태 왜곡 → <strong>즉시 인식</strong></li><li>순차적 변수 확인 대신 <strong>동시(parallel) 처리</strong> 가능</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>창발적 특징(Emergent Feature)</strong></mark>: 개별 요소에 없지만 변수 결합 시 나타나는 면적·모양 등 새로운 지각 속성"
+            "<mark><strong>Emergent Feature</strong></mark>: 개별 부분엔 없고 <strong>전체에서 나타나는</strong> 지각적 속성 — <strong>AREA</strong>, <strong>SHAPE</strong>"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-6",
           "number": 6,
-          "heading": "Evaluate the performance trade-offs of Object Displays, comparing their advantages for system state integration against their disadvantages for focused attention and precise reading tasks. (객체 디스플레이의 성능 상충 관계 평가)",
-          "pageRef": "Page 14",
-          "html": "<ul><li>장점: 여러 변수 한 번에 파악 → 시스템 전반 상태 빠르게 인식</li><li>Advantage: quickly recognize overall system state by viewing multiple variables at once.</li><li>단점: 단일 변수 집중이나 정확한 숫자 값 판독에는 불리</li><li>Disadvantage: poor for focused attention on a single variable or precise numeric reading.</li></ul>",
+          "heading": "Object Display trade-offs",
+          "pageRef": "P14",
+          "html": "<ul><li><strong>장점</strong>: <strong>Integration tasks</strong>, <strong>pattern recognition</strong>, <strong>rapid state detection</strong> (예: 발전소 모니터링)</li><li><strong>단점</strong>: <strong>Focused attention</strong> 어려움, <strong>precise reading</strong> 곤란, specific query 느림 → 별도 <strong>digital counter</strong> 필요</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-2-goal-7",
           "number": 7,
-          "heading": "Explain how color and shape coding in qualitative displays reduce cognitive load by dividing continuous scales into distinct operational zones. (정성적 디스플레이에서 색상/형태 코딩의 인지 부하 감소 효과)",
-          "pageRef": "Page 16",
-          "html": "<ul><li>안전(녹색)·주의(노란색)·위험(빨간색) <mark><strong>color coding zones</strong></mark>는 system status를 즉시 의미화해 인지 처리 시간을 대폭 단축한다.</li><li>Color coding into Safe (Green), Caution (Yellow), Danger (Red) zones significantly cuts cognitive processing time.</li><li>형태 코딩(Shape coding) 추가 → 색각 이상자·저조도 환경에서도 즉각 인식 가능</li><li>Adding shape coding aids recognition for color-deficient users or low-light conditions.</li></ul>",
+          "heading": "Color/Shape coding in qualitative displays",
+          "pageRef": "P16",
+          "html": "<ul><li><strong>Qualitative Reading</strong>: &quot;안전한가?&quot; 판단 (정확한 숫자 ✕)</li><li><mark><strong>Color Coding</strong></mark>: <strong>Green</strong>(Normal) / <strong>Yellow</strong>(Caution) / <strong>Red</strong>(Danger) → 인지 처리 시간↓</li><li><strong>Shape Coding</strong>: <strong>색각 이상자</strong> / <strong>저조도</strong> 환경 보조</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "안전(녹색)·주의(노란색)·위험(빨간색) <mark><strong>color coding zones</strong></mark>는 system status를 즉시 의미화해 인지 처리 시간을 대폭 단축한다."
+            "<mark><strong>Color Coding</strong></mark>: <strong>Green</strong>(Normal) / <strong>Yellow</strong>(Caution) / <strong>Red</strong>(Danger) → 인지 처리 시간↓"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-8",
           "number": 8,
-          "heading": "Apply Gestalt principles of similarity and continuity to panel monitoring by aligning pointers to enable the pre-attentive pop-out effect in check reading. (게슈탈트 원리 적용한 패널 모니터링)",
-          "pageRef": "Page 17, HW Solution Page 5-6",
-          "html": "<ul><li>모든 다이얼 정상 상태를 <mark><strong>9시 방향 정렬</strong></mark>하면 유사성·연속성 원리로 수평 패턴이 형성된다.</li><li>Align all &quot;normal&quot; pointers to 9 o&#39;clock → creates horizontal pattern via Gestalt similarity/continuity.</li><li><mark><strong>하나만 이탈 시 패턴이 깨져 pop-out</strong></mark>하므로 pre-attentive하게 비정상 상태를 즉시 감지한다.</li><li>Any deviation breaks the pattern → pop-out effect enables instant anomaly detection.</li></ul>",
-          "answerHighlightCount": 2,
+          "heading": "Gestalt principles — check reading pop-out",
+          "pageRef": "P17, HW Sol. P5-6",
+          "html": "<ul><li><strong>9 O&#39;clock Alignment</strong>: 모든 다이얼 정상 포인터 <strong>9시(또는 12시)</strong> 정렬</li><li><strong>Similarity</strong>: 같은 방향 포인터 → 그룹 지각 / <strong>Continuity</strong>: 연속 패턴 지각</li><li><mark><strong>Pop-out Effect</strong></mark>: 이탈 포인터 → 패턴 깨짐 → <strong>pre-attentive</strong> 즉시 감지</li><li><strong>50개+ 다이얼</strong> 개별 읽기 없이 <strong>single glance</strong> 확인</li></ul>",
+          "answerHighlightCount": 1,
           "answerLines": [
-            "모든 다이얼 정상 상태를 <mark><strong>9시 방향 정렬</strong></mark>하면 유사성·연속성 원리로 수평 패턴이 형성된다.",
-            "<mark><strong>하나만 이탈 시 패턴이 깨져 pop-out</strong></mark>하므로 pre-attentive하게 비정상 상태를 즉시 감지한다."
+            "<mark><strong>Pop-out Effect</strong></mark>: 이탈 포인터 → 패턴 깨짐 → <strong>pre-attentive</strong> 즉시 감지"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-9",
           "number": 9,
-          "heading": "Evaluate signal and warning light configurations based on human factors guidelines. (신호 및 경고등 구성 평가)",
-          "pageRef": "HW Solution Page 5",
-          "html": "<ul><li>경고등: 배경 대비 눈에 띄어야 하며 최소 시각(Visual angle) 충족 필수</li><li>Warning lights must contrast with background and meet minimum visual angle.</li><li>점멸(Flash) 사용 시 최대 3가지 점멸 속도 이하로 제한 → 혼동 방지</li><li>Limit to ≤3 flash rates to prevent operator confusion.</li><li>VDT interface의 blinking text/highlighting은 routine status가 아니라 <mark><strong>highly critical warnings or urgent emergencies</strong></mark>에만 사용한다.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Signal & warning light guidelines",
+          "pageRef": "HW Sol. P5",
+          "html": "<ul><li><strong>Color</strong>: 위험 = <strong>Red</strong> / <strong>Intensity</strong>: 배경 대비 <strong>&gt;2:1</strong> / <strong>Size</strong>: 최소 <strong>1도 visual angle</strong></li><li><strong>Location</strong>: 정상 시선 <strong>30도 이내</strong> / <strong>Flash</strong>: <strong>3~10Hz</strong>, 최소 <strong>0.05초</strong></li><li><strong>Steady</strong> = 지속 상태, <mark><strong>Flashing</strong></mark> = <mark><strong>긴급/새 상태에만</strong></mark> / 점멸 속도 <strong>≤3가지</strong></li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "VDT interface의 blinking text/highlighting은 routine status가 아니라 <mark><strong>highly critical warnings or urgent emergencies</strong></mark>에만 사용한다."
+            "<strong>Steady</strong> = 지속 상태, <mark><strong>Flashing</strong></mark> = <mark><strong>긴급/새 상태에만</strong></mark> / 점멸 속도 <strong>≤3가지</strong>"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-10",
           "number": 10,
-          "heading": "Define the three levels of Situation Awareness, including Perception, Comprehension, and Projection, in the context of monitoring complex dynamic systems. (상황 인식의 3단계 정의)",
-          "pageRef": "Page 20",
-          "html": "<ul><li>상황 인식의 3단계는 <mark><strong>Perception, Comprehension, Projection</strong></mark>이다: Level 1 요소 상태 인식 / Level 2 목표 연관 의미 파악 / Level 3 미래 상태 예측</li><li>Level 1 Perception: element status. Level 2 Comprehension: significance vs. goals. Level 3 Projection: future state.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Situation Awareness 3 levels",
+          "pageRef": "P20",
+          "html": "<ul><li><strong>Level 1 <mark><strong>Perception</strong></mark></strong>: &quot;What now?&quot; — 환경 요소의 <strong>상태·속성·dynamics</strong> 지각</li><li><strong>Level 2 <mark><strong>Comprehension</strong></mark></strong>: &quot;What does it mean?&quot; — 요소 <strong>종합</strong> → <strong>significance</strong> 이해</li><li><strong>Level 3 <mark><strong>Projection</strong></mark></strong>: &quot;What next?&quot; — <strong>미래 상태 예측</strong> → <strong>proactive decision making</strong></li></ul>",
+          "answerHighlightCount": 3,
           "answerLines": [
-            "상황 인식의 3단계는 <mark><strong>Perception, Comprehension, Projection</strong></mark>이다: Level 1 요소 상태 인식 / Level 2 목표 연관 의미 파악 / Level 3 미래 상태 예측"
+            "<strong>Level 1 <mark><strong>Perception</strong></mark></strong>: &quot;What now?&quot; — 환경 요소의 <strong>상태·속성·dynamics</strong> 지각",
+            "<strong>Level 2 <mark><strong>Comprehension</strong></mark></strong>: &quot;What does it mean?&quot; — 요소 <strong>종합</strong> → <strong>significance</strong> 이해",
+            "<strong>Level 3 <mark><strong>Projection</strong></mark></strong>: &quot;What next?&quot; — <strong>미래 상태 예측</strong> → <strong>proactive decision making</strong>"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-11",
           "number": 11,
-          "heading": "Evaluate Representational Display formats using Roscoe's principles of pictorial realism, compatible motion, integration, and pursuit presentation. (Roscoe 원리를 활용한 표상적 디스플레이 평가)",
-          "pageRef": "Page 25, HW Solution Page 6-7",
-          "html": "<ul><li>회화적 사실성: 디스플레이가 실제 세계를 아날로그적으로 재현</li><li>Pictorial realism: display presents an analog representation of the real world.</li><li><mark><strong>양립성 운동(Compatible Motion)</strong></mark>: 디스플레이 움직임이 사용자 기준틀과 일치</li><li>Compatible motion: display movement aligns with operator&#39;s frame of reference.</li><li>통합(Integration): 관련 정보를 단일 화면에 모음 / 추적 제시(Pursuit): 목표물+추적자 모두 표시 → 성능↑</li><li>Integration: combine related info on one screen. Pursuit presentation: show both target and follower for better tracking.</li></ul>",
-          "answerHighlightCount": 1,
+          "heading": "Roscoe's 4 principles for representational displays",
+          "pageRef": "P25, HW Sol. P6-7",
+          "html": "<ul><li>(1) <strong>Pictorial Realism</strong>: 실세계 공간적·아날로그적 표현 + 깊이 단서</li><li>(2) <mark><strong>Compatible Motion</strong></mark>: 디스플레이 움직임 = 운영자 <strong>frame of reference</strong> → <strong>Moving-aircraft + Fixed horizon</strong></li><li>(3) <strong>Integration</strong>: 관련 정보 <strong>단일 통합 디스플레이</strong> → 스캔 시간↓</li><li>(4) <strong>Pursuit Presentation</strong>: 목표+추적자 모두 이동 &gt; compensatory display</li><li><strong>Outside-In</strong>(Bird&#39;s Eye) vs <strong>Inside-Out</strong>(Pilot&#39;s Eye) / <mark><strong>3D</strong></mark> 깊이 단서 우수, 단 <strong>head-on traffic</strong>에서 방향 모호</li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>양립성 운동(Compatible Motion)</strong></mark>: 디스플레이 움직임이 사용자 기준틀과 일치"
+            "(2) <mark><strong>Compatible Motion</strong></mark>: 디스플레이 움직임 = 운영자 <strong>frame of reference</strong> → <strong>Moving-aircraft + Fixed horizon</strong>",
+            "<strong>Outside-In</strong>(Bird&#39;s Eye) vs <strong>Inside-Out</strong>(Pilot&#39;s Eye) / <mark><strong>3D</strong></mark> 깊이 단서 우수, 단 <strong>head-on traffic</strong>에서 방향 모호"
           ]
         },
         {
           "key": "vision-visual-display-design-part-2-goal-12",
           "number": 12,
-          "heading": "Explain the dark focus trap associated with collimated Head-Up Displays (HUDs) and evaluate its resulting perceptual distortions. (HUD 암초점 함정 및 지각 왜곡 설명)",
-          "pageRef": "HW Solution Page 7",
-          "html": "<ul><li>HUD는 무한대 초점으로 시준하나, 눈은 -1m 암초점(Dark focus)으로 자연 조절되는 경향</li><li>HUDs collimate images at infinity, but the eye rests at -1m dark focus.</li><li>잘못된 초점 조절 → 실제 물체의 크기·거리 오판 (치명적 지각 왜곡)</li><li>This mis-accommodation causes perceptual distortions — misjudging real-world object size and distance.</li></ul>",
+          "heading": "HUD dark focus trap",
+          "pageRef": "HW Sol. P7",
+          "html": "<ul><li>HUD <strong>collimate</strong> → 광학적 무한대 초점 → 실제론 <strong>dark focus (~1m)</strong> 로 조절 경향</li><li><strong>Micropsia</strong>: 먼 물체가 <strong>더 작고 더 멀리</strong> 보임 → 크기·거리 오판</li><li><strong>Safety Risk</strong>: 거리 과대평가 → <strong>회피 기동 지연</strong>, 착륙 <strong>flare 타이밍 지연</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "vision-visual-display-design-part-2-goal-13",
           "number": 13,
-          "heading": "Recognize the future trends in visual displays. (시각적 디스플레이의 미래 동향 인식)",
-          "pageRef": "Page 29",
-          "html": "<ul><li>적응형(Adaptive) 디스플레이: 사용자 작업 부하·생리 상태에 맞춰 정보 밀도 자동 조정</li><li>Adaptive displays: auto-adjust information density based on user workload and physiological state.</li><li>시선 추적(Eye-tracking) 통합: 시선 위치에만 고해상도 렌더링 → 처리 효율↑</li><li>Eye-tracking integration: render high detail only where the user looks for processing efficiency.</li></ul>",
+          "heading": "Future trends in visual displays",
+          "pageRef": "P29",
+          "html": "<ul><li><strong>Adaptive Displays</strong>: workload·physiological state에 따라 자동 조정</li><li><strong>Eye-Tracking</strong>: gaze-contingent, 시선 위치만 고해상도</li><li><strong>AI-Driven</strong>: 사용자 의도 예측 → 인터페이스 동적 재구성</li><li><strong>Mixed Reality Cockpits</strong> / <strong>Neural Interface (BCI)</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         }
@@ -911,127 +926,129 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "audition-and-speech-communication-part-1",
       "title": "Audition & Speech Communication (Part 1)",
+      "file": "../goals_summary/09-audition-speech-part1.md",
       "goals": [
         {
           "key": "audition-and-speech-communication-part-1-goal-1",
           "number": 1,
-          "heading": "Explain the primary physical attributes of sound, specifically frequency and intensity, and describe how they relate to the human sensations of pitch and loudness. (소리의 주요 물리적 속성 및 음고/크기 감각과의 관계 설명)",
-          "pageRef": "Page 3, 9, 10, 11",
-          "html": "<ul><li>주파수(Hz) → 음고(Pitch) 지각 / 강도(W/m²) → 크기(Loudness) 지각</li><li><mark><strong>Pitch는 subjective psychological sensation이며 sound intensity의 영향도 받을 수 있다</strong></mark>.</li><li>Frequency (Hz) relates to pitch perception. Intensity (W/m²) relates to loudness perception.</li></ul>",
+          "heading": "Physical attributes of sound — Frequency/Intensity vs Pitch/Loudness",
+          "pageRef": "P3, 9-11",
+          "html": "<ul><li><strong>Sound</strong> = mechanical vibration in air, 가청 범위 <strong>20~20,000 Hz</strong></li><li><strong>Frequency (Hz)</strong> = objective, physical → <mark><strong>Pitch</strong></mark> = subjective (intensity, duration에도 영향)</li><li><strong>Intensity (W/m²)</strong> = objective, physical → <strong>Loudness</strong> = subjective (frequency, duration, 다른 소리에도 영향)</li><li>Loudness 단위: <strong>Sones</strong> (perceived doubling), <strong>Phons</strong> (1kHz 기준)</li><li>핵심: Freq/Intensity = <strong>물리적·객관적</strong> vs Pitch/Loudness = <strong>심리적·주관적</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>Pitch는 subjective psychological sensation이며 sound intensity의 영향도 받을 수 있다</strong></mark>."
+            "<strong>Frequency (Hz)</strong> = objective, physical → <mark><strong>Pitch</strong></mark> = subjective (intensity, duration에도 영향)"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-2",
           "number": 2,
-          "heading": "Understand the concept of the decibel (dB) as a logarithmic measure of sound pressure level (SPL) and interpret how changes in sound power affect decibel levels. (데시벨 개념 이해)",
-          "pageRef": "Page 3, 12",
-          "html": "<ul><li>SPL = 소리 압력의 로그 스케일 측정 단위. <mark><strong>소리 에너지 2배 → SPL 약 +3 dB</strong></mark></li><li>SPL is a logarithmic measure. Doubling sound energy ≈ +3 dB increase.</li></ul>",
+          "heading": "Decibel (dB) as logarithmic measure of SPL",
+          "pageRef": "P3, 12",
+          "html": "<ul><li><strong>SPL = 20 log₁₀(P / P₀)</strong> (P₀ = 20 μPa)</li><li>Energy <strong>2배</strong> → <mark><strong>+3 dB</strong></mark> (∵ 10 log₁₀ 2 ≈ 3)</li><li><strong>A-weighting (dBA)</strong>: human ear response 근사 / occupational limit = <strong>85 dBA</strong></li><li>대표 SPL: pain ~120+ / traffic ~85 / conversation ~60 / library ~30 / threshold ~0</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "SPL = 소리 압력의 로그 스케일 측정 단위. <mark><strong>소리 에너지 2배 → SPL 약 +3 dB</strong></mark>"
+            "Energy <strong>2배</strong> → <mark><strong>+3 dB</strong></mark> (∵ 10 log₁₀ 2 ≈ 3)"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-3",
           "number": 3,
-          "heading": "Differentiate between pure tones and complex sounds, and recognize how complex sounds can be represented using sound spectra. (순음과 복합음 구분)",
-          "pageRef": "Page 3, 13",
-          "html": "<ul><li>순음: 단일 주파수 정현파 / 복합음: 여러 주파수 혼합 → 스펙트럼상 여러 선·대역으로 표현</li><li>Pure tone: single-frequency sine wave. Complex sound: multiple frequencies shown as lines or bands on a spectrum.</li></ul>",
+          "heading": "Pure tone vs Complex sound",
+          "pageRef": "P3, 13",
+          "html": "<ul><li><strong>Pure tone</strong> = single freq sinusoidal (tuning fork), spectrum에서 single line</li><li><strong>Complex sound</strong> = multiple freq 합성 (speech, machinery), multiple lines/bands</li><li><strong>Bandwidth</strong> = f₂ - f₁ / ANSI <strong>10 octave bands</strong> (31.5~16kHz), <strong>1/3-octave</strong> 세분화</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-4",
           "number": 4,
-          "heading": "Identify the anatomical components of the outer, middle, and inner ear, and explain their distinct roles in transmitting sound vibrations to the brain. (외이·중이·내이 구조 및 소리 전달 역할)",
-          "pageRef": "Page 3, 19",
-          "html": "<ul><li>외이: 소리 수집 / 중이: <mark><strong>ossicles의 lever action과 tympanic membrane 대비 oval window의 작은 면적</strong></mark>으로 압력 증폭·전달 / 내이(와우): 유체 진동 → 신경 신호 변환</li><li>Outer ear: collects sound. Middle ear: amplifies via ossicles. Inner ear (cochlea): converts fluid vibration to neural impulses.</li></ul>",
+          "heading": "Outer/Middle/Inner Ear structure & function",
+          "pageRef": "P3, 19",
+          "html": "<ul><li><strong>Outer</strong>: Pinna + Canal + Eardrum / canal resonance <strong>2~5kHz에서 max 12dB</strong></li><li><strong>Middle</strong>: <strong>Malleus→Incus→Stapes</strong> / oval window pressure <mark><strong>~22× 증폭</strong></mark> / <strong>Acoustic reflex</strong> (stapedius 수축)</li><li><strong>Inner</strong>: <strong>Cochlea</strong> + <strong>Basilar membrane</strong> + <strong>Organ of Corti</strong> → fluid→neural 변환, <strong>Tonotopic organization</strong></li><li><strong>Acoustic Reflex</strong>: trigger <strong>~80dB</strong> above threshold, attenuation max <strong>20dB</strong>, sustain <strong>max 15min</strong>, <strong>Latency 35~150ms</strong> → impulse noise 보호 불가 ⚠</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "외이: 소리 수집 / 중이: <mark><strong>ossicles의 lever action과 tympanic membrane 대비 oval window의 작은 면적</strong></mark>으로 압력 증폭·전달 / 내이(와우): 유체 진동 → 신경 신호 변환"
+            "<strong>Middle</strong>: <strong>Malleus→Incus→Stapes</strong> / oval window pressure <mark><strong>~22× 증폭</strong></mark> / <strong>Acoustic reflex</strong> (stapedius 수축)"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-5",
           "number": 5,
-          "heading": "Compare and contrast the place (resonance) theory and the temporal theory of hearing. (장소 이론과 시간 이론 비교)",
-          "pageRef": "Page 3, 21",
-          "html": "<ul><li>장소 이론: 기저막의 특정 위치가 주파수별로 다르게 진동</li><li>Place theory: specific basilar membrane locations vibrate for different frequencies.</li><li><mark><strong>시간 이론(Temporal theory)</strong></mark>: 특히 low-frequency tones below about 1000 Hz에서 청각 신경이 소리 주파수의 시간 패턴에 맞춰 발화한다고 설명</li><li>Temporal theory: auditory nerves fire matching the incoming sound&#39;s time pattern.</li></ul>",
+          "heading": "Place theory vs Temporal theory",
+          "pageRef": "P3, 21",
+          "html": "<ul><li>두 이론은 <strong>complementary</strong></li><li><strong>Place</strong>: basilar membrane <strong>특정 위치</strong>에서 max vibration; high freq→oval window 근처, low freq→apex / effective <strong>1,000~5,000 Hz</strong></li><li><mark><strong>Temporal</strong></mark>: nerve fires in <strong>temporal pattern</strong> matching freq / effective <strong>&lt; 1,000 Hz</strong> / 한계: <strong>&gt;1,000 firings/s 불가</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "<mark><strong>시간 이론(Temporal theory)</strong></mark>: 특히 low-frequency tones below about 1000 Hz에서 청각 신경이 소리 주파수의 시간 패턴에 맞춰 발화한다고 설명"
+            "<mark><strong>Temporal</strong></mark>: nerve fires in <strong>temporal pattern</strong> matching freq / effective <strong>&lt; 1,000 Hz</strong> / 한계: <strong>&gt;1,000 firings/s 불가</strong>"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-6",
           "number": 6,
-          "heading": "Define the concept of auditory masking and its effects on audibility. (청각적 마스킹 개념 및 가청도 영향)",
-          "pageRef": "Page 4, 27",
-          "html": "<ul><li>신호 감지: 절대 임계치가 아닌 배경 소음에 의한 마스킹 임계치를 초과해야 함</li><li>To detect a signal, it must exceed the masked threshold (raised by background noise), not just the absolute threshold.</li></ul>",
+          "heading": "Auditory masking",
+          "pageRef": "P4, 22",
+          "html": "<ul><li><strong>Masking</strong> = 한 소리가 다른 소리의 <strong>audibility threshold 상승</strong></li><li><strong>Near-frequency</strong>: masker freq 및 harmonics 근처에서 최대 효과</li><li>High-intensity masker → <strong>spreads to higher freq</strong> / <strong>Critical band</strong>: 이 band 내 noise만 효과적 masking</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-7",
           "number": 7,
-          "heading": "Identify specific environmental and task-related circumstances where auditory displays offer significant advantages over visual displays. (청각 디스플레이가 시각보다 유리한 상황 식별)",
-          "pageRef": "Page 4, HW Solution Page 2, 7",
-          "html": "<ul><li>메시지 짧고 단순, 즉각 조치 필요, 시각 과부하, 너무 밝거나 어두운 환경 시 청각↑</li><li>Auditory preferred when messages are short/simple, immediate action needed, visual system overloaded, or extreme lighting.</li></ul>",
+          "heading": "Auditory vs Visual display advantages",
+          "pageRef": "P4, 25",
+          "html": "<ul><li><strong>Auditory</strong>: simple/short, immediate action, <strong>visual overloaded</strong>, receiver moving</li><li><strong>Visual</strong>: complex/long, later reference, spatial info, no immediate action, auditory overloaded</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-8",
           "number": 8,
-          "heading": "Describe the four primary human functions involved in receiving auditory signals: detection, absolute identification, relative discrimination, and localization. (청각 신호 수신의 4가지 주요 기능)",
-          "pageRef": "Page 4, 26",
-          "html": "<ul><li>감지(Detection) / 절대적 식별(Absolute identification) / 상대적 판별(Relative discrimination) / 위치 파악(Localization)</li><li>Detection → Absolute identification → Relative discrimination → Localization.</li></ul>",
+          "heading": "Four primary auditory functions",
+          "pageRef": "P4, 26",
+          "html": "<ul><li><strong>Detection</strong>: signal 존재 여부 / <strong>Absolute Identification</strong>: 단독 제시 signal 식별</li><li><strong>Relative Discrimination</strong>: 2+ signals 비교 구분 / <strong>Localization</strong>: direction 결정</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-9",
           "number": 9,
-          "heading": "Explain the concept of the Just-Noticeable Difference (JND) and its implications for designing auditory signals. (JND 개념 및 청각 신호 설계 시사점)",
-          "pageRef": "Page 4, 30",
-          "html": "<ul><li>JND = 감지 가능한 가장 작은 차이. 신뢰할 수 있는 구분 위해 임계치보다 30-60dB 이상 필요</li><li>JND = smallest detectable difference. Reliable discrimination requires signals 30–60 dB above threshold.</li><li>pure tones를 기억에 의존해 absolute identification하게 하면 인간은 보통 <mark><strong>frequency levels 약 4-7개</strong></mark>만 안정적으로 구분하므로 위험하다.</li></ul>",
+          "heading": "JND & design implications",
+          "pageRef": "P4, 30",
+          "html": "<ul><li><strong>JND</strong> = <strong>50%</strong> probability로 감지 가능한 minimum change</li><li><strong>Intensity JND</strong>: <strong>≥60dB</strong> above threshold에서 smallest, <strong>1,000 &amp; 4,000 Hz</strong>에서 best</li><li><strong>Frequency JND</strong>: <strong>&lt;1,000 Hz</strong>에서 smallest, intensity <strong>≥30dB</strong>, duration <strong>&gt;0.1s</strong> 필요</li><li><strong>Absolute ID</strong> (Miller): Intensity <strong>4-5</strong> / Frequency <mark><strong>4-7</strong></mark> / Duration <strong>2-3</strong> / combined <strong>9 levels</strong></li><li>전략: <strong>MORE dimensions × FEWER steps</strong></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "pure tones를 기억에 의존해 absolute identification하게 하면 인간은 보통 <mark><strong>frequency levels 약 4-7개</strong></mark>만 안정적으로 구분하므로 위험하다."
+            "<strong>Absolute ID</strong> (Miller): Intensity <strong>4-5</strong> / Frequency <mark><strong>4-7</strong></mark> / Duration <strong>2-3</strong> / combined <strong>9 levels</strong>"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-10",
           "number": 10,
-          "heading": "Explain how the human auditory system utilizes phase and intensity differences to localize the direction of a sound source (stereophony). (소리 방향 위치 파악 원리)",
-          "pageRef": "Page 4, 31",
-          "html": "<ul><li>&lt;1,500Hz: 양이 간 시간 차이(ITD) 활용 / &gt;3,000Hz: 양이 간 강도 차이(ILD) 활용</li><li>Below 1,500 Hz: Interaural Time Difference (ITD). Above 3,000 Hz: Interaural Level Difference (ILD).</li></ul>",
+          "heading": "Sound localization mechanisms",
+          "pageRef": "P4, 31",
+          "html": "<ul><li><strong>ITD</strong> (Interaural Time Diff): <strong>&lt;1,500 Hz</strong>, ~<strong>0.8ms</strong> difference</li><li><strong>ILD</strong> (Interaural Level Diff): <strong>&gt;3,000 Hz</strong>, head shadow</li><li><strong>Spectral Cues (Pinna)</strong>: all freq, <strong>up-down localization</strong></li><li><strong>Head Movement</strong>: resolves <strong>front-back ambiguity</strong></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-11",
           "number": 11,
-          "heading": "Apply general design principles for auditory displays, such as compatibility, approximation, and dissociability, to ensure effective information transfer. (청각 디스플레이 설계 원칙 적용)",
-          "pageRef": "Page 4, 33",
-          "html": "<ul><li>양립성(Compatibility): 인간 예상과 일치 / <mark><strong>근사성(Approximation)</strong></mark>: attention-demanding signal 뒤에 precise designation signal을 주는 2단계 경고 / <mark><strong>분리성(Dissociability)</strong></mark>: 배경 소음·타 경고와 명확 구분</li><li>Compatibility: match human expectations. Approximation: two-stage alerts. Dissociability: stand out from noise and other alarms.</li></ul>",
+          "heading": "Auditory display design principles",
+          "pageRef": "P4, 33",
+          "html": "<ul><li><strong>Compatibility</strong>: high pitch=&quot;up&quot;, fast rate=&quot;urgent&quot;</li><li><mark><strong>Approximation</strong></mark>: 2-stage — Attention signal → Designation signal</li><li><mark><strong>Dissociability</strong></mark>: background noise/speech와 명확 구분</li><li><strong>Parsimony</strong>: 필요 정보만 / <strong>Invariance</strong>: same signal=same info / <strong>Standardization</strong>: consistent coding</li></ul>",
           "answerHighlightCount": 2,
           "answerLines": [
-            "양립성(Compatibility): 인간 예상과 일치 / <mark><strong>근사성(Approximation)</strong></mark>: attention-demanding signal 뒤에 precise designation signal을 주는 2단계 경고 / <mark><strong>분리성(Dissociability)</strong></mark>: 배경 소음·타 경고와 명확 구분"
+            "<mark><strong>Approximation</strong></mark>: 2-stage — Attention signal → Designation signal",
+            "<mark><strong>Dissociability</strong></mark>: background noise/speech와 명확 구분"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-1-goal-12",
           "number": 12,
-          "heading": "Recognize the principles of presentation for auditory displays, including avoiding extremes and establishing appropriate signal intensity relative to ambient noise levels. (청각 디스플레이 제시 원칙 인식)",
-          "pageRef": "Page 4, 27, 34",
-          "html": "<ul><li>극단적 소리 회피 (놀람 반응·작업 방해 방지) + <mark><strong>마스킹 임계치보다 15-25 dB 높게</strong></mark> 설정</li><li>Avoid extreme sounds (prevent startle/disruption). Set intensity 15–25 dB above masked threshold.</li></ul>",
+          "heading": "Presentation principles for auditory displays",
+          "pageRef": "P4, 27, 34",
+          "html": "<ul><li><strong>Avoid extremes</strong> (startle 방지) / masked threshold +<mark><strong>15~25dB</strong></mark> / <strong>interrupted/variable</strong> signals (adaptation 방지)</li><li>Detection: quiet env → threshold+<strong>40~50dB</strong> / pure tone <strong>200~300ms</strong> build-up / very high intensity → <strong>choice RT 저하</strong></li><li><strong>7 ways to improve detection in noise</strong>: ①critical band 내 noise↓ ②intensity↑(+15~25dB) ③duration <strong>≥0.5s</strong> ④shift signal to noise valley ⑤<strong>phase-shift</strong> across ears ⑥signal to <strong>one ear only</strong> ⑦<strong>1,000~4,000Hz</strong> complex signals</li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "극단적 소리 회피 (놀람 반응·작업 방해 방지) + <mark><strong>마스킹 임계치보다 15-25 dB 높게</strong></mark> 설정"
+            "<strong>Avoid extremes</strong> (startle 방지) / masked threshold +<mark><strong>15~25dB</strong></mark> / <strong>interrupted/variable</strong> signals (adaptation 방지)"
           ]
         }
       ]
@@ -1039,16 +1056,17 @@ window.ERGONOMICS_SUMMARY = {
     {
       "key": "audition-and-speech-communication-part-2",
       "title": "Audition & Speech Communication (Part 2)",
+      "file": "../goals_summary/10-audition-speech-part2.md",
       "goals": [
         {
           "key": "audition-and-speech-communication-part-2-goal-1",
           "number": 1,
-          "heading": "Evaluate the characteristics and effectiveness of various warning and alarm signals based on factors such as frequency, intensity, environmental conditions, and response requirements. (경고 및 알람 신호의 특성과 효과성 평가)",
+          "heading": "Evaluate the characteristics and effectiveness of various warning and alarm signals. (경고 및 알람 신호의 특성과 효과성 평가)",
           "pageRef": "Page 6",
-          "html": "<ul><li>알람 강도, 주파수, 주의 집중 능력, 소음 투과 능력 등 기준으로 특성 분류</li><li>Warning devices classified by intensity, frequency, attention-getting ability, and noise-penetration ability.</li><li>Warning alarms는 귀의 민감도를 활용하기 위해 일반적으로 <mark><strong>500 to 3000 Hz</strong></mark> 범위가 권장된다.</li></ul>",
+          "html": "<ul><li><strong>8가지 알람 장치 특성 비교</strong> (Intensity / Frequency / Attention-getting / Noise-penetration):<ul><li><strong>Diaphone(foghorn)</strong>: Very high intensity, Very low freq, Good attention, 저주파 소음에서 Poor</li><li><strong>Horn</strong>: High intensity, Low~High freq, Good attention, Good penetration</li><li><strong>Whistle</strong>: High intensity, Low~High freq, <strong>intermittent일 때</strong> Good, 주파수 적절히 선택 시 Good</li><li><strong>Siren</strong>: High intensity, Low~High freq, <strong>pitch 오르내릴 때 Very good</strong>, rising/falling freq → Very good penetration</li><li><strong>Bell</strong>: Medium intensity, Med~High freq, Good, 저주파 소음에서 Good</li><li><strong>Buzzer</strong>: Low~Med intensity, Low~Med freq, Good, Fair (스펙트럼이 배경 소음에 맞을 때)</li><li><strong>Chimes &amp; Gong</strong>: Low~Med, Low~Med, Fair, Fair</li><li><strong>Oscillator</strong>: Low~High, Med~High, <strong>intermittent일 때</strong> Good, 주파수 적절히 선택 시 Good</li></ul></li><li><strong>설계 권장사항</strong> (Page 7):<ul><li>주파수 범위: <strong>200~5,000 Hz</strong> 일반용; <mark><strong>500~3,000 Hz</strong></mark> 선호 (귀 민감도 peak)</li><li><strong>장거리</strong>: &lt; 1,000 Hz 사용 (고주파는 300m 넘으면 감쇠)</li><li><strong>장애물 통과</strong>: &lt; 500 Hz (저주파가 벽/장벽 우회)</li><li><strong>변조 신호</strong>(modulated) &gt; 정상음(steady tone): 1~8 beeps/s 또는 warbling 1~3 Hz</li><li>배경소음이 약한 주파수 대역 선택 (<strong>spectral separation</strong>)</li><li>다중 경고 시 각각 <strong>구별 가능</strong>해야 하며, 중간 강도 <strong>85~95 dBA</strong> 사용</li><li><strong>전용 채널</strong> 사용 (다른 오디오 소스와 공유 금지)</li></ul></li><li><strong>Reaction Time</strong> (Page 8):<ul><li><strong>Beep</strong> (best): intermittent horn 425 Hz, on 0.7s / off 0.6s</li><li><strong>Yeow</strong> (best): descending freq sweep 800→100 Hz every 1.4s</li><li><strong>Wail</strong> (worst): slow freq rise 400→925 Hz over 3.8s</li><li><strong>Simple RT</strong>: intensity 높을수록 → 반응 빠름 (monotonic)</li><li><strong>Choice RT</strong>: <strong>중간 강도(85~95 dBA)</strong>가 가장 빠름; 고강도 → <strong>startle reflex</strong> → 선택 반응(response selection) 저하</li></ul></li></ul>",
           "answerHighlightCount": 1,
           "answerLines": [
-            "Warning alarms는 귀의 민감도를 활용하기 위해 일반적으로 <mark><strong>500 to 3000 Hz</strong></mark> 범위가 권장된다."
+            "주파수 범위: <strong>200~5,000 Hz</strong> 일반용; <mark><strong>500~3,000 Hz</strong></mark> 선호 (귀 민감도 peak)"
           ]
         },
         {
@@ -1056,7 +1074,7 @@ window.ERGONOMICS_SUMMARY = {
           "number": 2,
           "heading": "Describe phonemes and its characteristics such as coarticulation and context dependency. (음소 정의 및 동시 조음·문맥 의존성)",
           "pageRef": "Page 11",
-          "html": "<ul><li>음소 = 단어 의미를 바꿀 수 있는 최소 음성 단위. 동시 조음(Coarticulation): 이웃 음소에 따라 음향 특성 변화</li><li>Phoneme = smallest speech unit that changes word meaning. Coarticulation: acoustic properties change with neighbors.</li><li>문맥 의존성: 단독보다 문맥 속에서 더 잘 인식</li><li>Context dependency: better recognized in context than in isolation.</li></ul>",
+          "html": "<ul><li><strong>Phoneme</strong> = 단어 의미를 바꿀 수 있는 <strong>최소 음성 단위</strong></li><li>영어: <strong>44 phonemes</strong> (20 vowels: 12 monophthongs + 8 diphthongs, 24 consonants)</li><li><strong>Coarticulation(동시 조음)</strong>: 이웃 음소에 따라 음향 특성 변화하지만 같은 음소로 지각<ul><li>예: /d/ in &#39;di&#39; vs &#39;du&#39;, &quot;Did you...?&quot; → [didʒu]</li></ul></li><li><strong>Context Dependency(문맥 의존성)</strong>: 자연 발화에서 단어를 분리하면 <strong>~50%가 인식 불가</strong> (Pollack &amp; Pickett, 1964)</li><li><strong>모음 vs 자음</strong>: 모음 = 음향 <strong>파워</strong> 대부분 차지 (예: /a/ in &#39;talk&#39;은 /th/ in &#39;then&#39;보다 <strong>680배 = 28 dB</strong> 더 큼), 자음 = <strong>명료도 정보</strong> 대부분 담당</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
@@ -1065,24 +1083,24 @@ window.ERGONOMICS_SUMMARY = {
           "number": 3,
           "heading": "Analyze the differences in acoustic power between vowels and consonants, and their relative impact on speech intelligibility. (모음·자음의 음향적 차이 및 명료도 영향)",
           "pageRef": "Page 11",
-          "html": "<ul><li><mark><strong>Vowels possess much greater speech power</strong></mark>, 소음 마스킹 저항↑, 의미 전달 기여↓</li><li>Vowels: high acoustic power, noise-resistant, but contribute less to meaning.</li><li><mark><strong>Consonants carry the critical cues for intelligibility</strong></mark>, 음향 파워↓, 소음에 쉽게 마스킹</li><li>Consonants: low acoustic power, easily masked, but carry critical intelligibility cues.</li></ul>",
-          "answerHighlightCount": 2,
+          "html": "<ul><li><mark><strong>Vowels(모음)</strong></mark>: 음향 파워 높음 → 소음 마스킹에 저항력 있음, but <strong>명료도 기여 낮음</strong></li><li><mark><strong>Consonants(자음)</strong></mark>: 음향 파워 낮음 → 소음에 <strong>쉽게 마스킹</strong>, but <strong>명료도의 핵심 단서</strong> 제공</li><li>실용적 함의: 소음 환경에서 자음 손실이 곧 명료도 하락 → 자음 보존이 설계 핵심</li><li><strong>Speech Spectrum</strong> (Page 12):<ul><li>대화 수준: <strong>55~65 dBA</strong>; 큰 소리: 최대 <strong>85 dBA</strong></li><li>남성: 여성보다 <strong>3~5 dB</strong> 더 크고, 저주파 에너지 더 많음</li><li><mark><strong>Band-specific SNR</strong></mark>이 이해도 결정</li><li>음성 강도 표: Weak 45 dBA / Normal 55 / Telephone·Lecture 65 / Loud 75 / Shouting 85 dBA</li></ul></li><li><strong>Speech Visualization</strong> (Page 13): Waveform(시간-강도), Spectrogram(시간-주파수+강도 음영), Spectrum(주파수-강도 at 특정 시점)</li></ul>",
+          "answerHighlightCount": 3,
           "answerLines": [
-            "<mark><strong>Vowels possess much greater speech power</strong></mark>, 소음 마스킹 저항↑, 의미 전달 기여↓",
-            "<mark><strong>Consonants carry the critical cues for intelligibility</strong></mark>, 음향 파워↓, 소음에 쉽게 마스킹"
+            "<mark><strong>Vowels(모음)</strong></mark>: 음향 파워 높음 → 소음 마스킹에 저항력 있음, but <strong>명료도 기여 낮음</strong>",
+            "<mark><strong>Consonants(자음)</strong></mark>: 음향 파워 낮음 → 소음에 <strong>쉽게 마스킹</strong>, but <strong>명료도의 핵심 단서</strong> 제공",
+            "<mark><strong>Band-specific SNR</strong></mark>이 이해도 결정"
           ]
         },
         {
           "key": "audition-and-speech-communication-part-2-goal-4",
           "number": 4,
-          "heading": "Differentiate between the criteria of speech intelligibility and speech quality when evaluating the effectiveness of a speech communication system. (명료도와 품질 구분)",
+          "heading": "Differentiate between the criteria of speech intelligibility and speech quality. (명료도와 품질 구분)",
           "pageRef": "Page 14",
-          "html": "<ul><li><mark><strong>명료도(Intelligibility)</strong></mark>: degree to which the message is correctly recognized, 자음 의존, 메시지 이해 정확도 → 경고·안전 시스템에 중요</li><li>Intelligibility: depends on consonants, measures comprehension accuracy — critical for warnings/safety.</li><li><mark><strong>품질(Quality)</strong></mark>: naturalness and speaker recognizability, 모음·운율·자연스러움·유쾌함 → 사용자 만족도·화자 식별에 중요</li><li>Quality: driven by vowels, measures naturalness — important for user satisfaction and speaker identity.</li><li><mark><strong>Articulation Index (AI)</strong></mark>는 frequency bands별 weighted signal-to-noise ratio를 계산해 speech intelligibility를 예측한다.</li></ul>",
-          "answerHighlightCount": 3,
+          "html": "<ul><li><mark><strong>Speech Intelligibility(명료도)</strong></mark>:<ul><li>메시지 이해도 측정 (% words recognized, accuracy)</li><li>청자에게 전송 → 듣고 반복/질문 응답으로 평가</li><li><strong>자음 + 문맥 단서</strong>에 의존</li><li>로봇/합성 음성에서도 높을 수 있음</li><li><strong>경고, 군사, 안전 시스템</strong>에 핵심</li></ul></li><li><mark><strong>Speech Quality(품질)</strong></mark>:<ul><li>자연스러움·유쾌함 측정</li><li><strong>선호도 평점</strong>(excellent→unacceptable) 또는 비교 선호 테스트로 측정</li><li><strong>모음, 운율(prosody), fidelity</strong>에 의존</li><li>화자 식별·사용자 만족에 중요 (전화통화 등)</li><li>장기 사용 수용성에 필수</li></ul></li><li>핵심 대비: Intelligibility = <strong>정보 전달 정확도</strong> vs Quality = <strong>화자 정체성·현실감</strong></li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>명료도(Intelligibility)</strong></mark>: degree to which the message is correctly recognized, 자음 의존, 메시지 이해 정확도 → 경고·안전 시스템에 중요",
-            "<mark><strong>품질(Quality)</strong></mark>: naturalness and speaker recognizability, 모음·운율·자연스러움·유쾌함 → 사용자 만족도·화자 식별에 중요",
-            "<mark><strong>Articulation Index (AI)</strong></mark>는 frequency bands별 weighted signal-to-noise ratio를 계산해 speech intelligibility를 예측한다."
+            "<mark><strong>Speech Intelligibility(명료도)</strong></mark>:",
+            "<mark><strong>Speech Quality(품질)</strong></mark>:"
           ]
         },
         {
@@ -1090,7 +1108,7 @@ window.ERGONOMICS_SUMMARY = {
           "number": 5,
           "heading": "Explain the components of a speech communication system. (음성 통신 시스템 구성 요소 설명)",
           "pageRef": "Page 16",
-          "html": "<ul><li>화자(Speaker) → 메시지(Message) → 전송 시스템(Transmission) → 청자(Listener) + 소음 환경(Environment)</li><li>Speaker → Message → Transmission system → Listener + noisy environment.</li></ul>",
+          "html": "<ul><li><strong>4대 구성 요소</strong>: <strong>Speaker</strong> → <strong>Message</strong> → <strong>Transmission System</strong> → <strong>Listener</strong></li><li><strong>Environment</strong>(Noise, Room)가 전 과정에 영향</li><li>각 요소가 명료도에 미치는 영향:<ul><li><strong>Speaker</strong>: 발음, 억양, 리듬, 명확한 발성, 속도, 유창성 (Page 17)</li><li><strong>Message</strong>: 음소 혼동, 어휘 특성, 문맥 특성</li><li><strong>Transmission</strong>: 필터링, 클리핑, 잔향</li><li><strong>Listener</strong>: 청력, 나이, 청력 보호구, 훈련</li><li><strong>Environment</strong>: 소음, 잔향</li></ul></li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
@@ -1099,19 +1117,20 @@ window.ERGONOMICS_SUMMARY = {
           "number": 6,
           "heading": "Describe the acoustic characteristics of a speaker with high speech intelligibility. (높은 명료도 화자의 음향적 특성)",
           "pageRef": "Page 18",
-          "html": "<ul><li>음절 지속 시간↑, 음성 강도↑ → 신호 대 잡음비(SNR)↑</li><li>Longer syllable duration + greater intensity → higher SNR.</li><li>휴지기↓(말하는 시간↑), 목소리 주파수 변화↑ → 청자 주의 유지</li><li>Fewer pauses + greater vocal frequency variation → better listener attention.</li></ul>",
+          "html": "<ul><li>Bilger, Hanley &amp; Steer (1955) 연구: 우수 화자 vs 비명료 화자의 <strong>4가지 음향 차이</strong>:<ol><li><strong>Longer syllable duration(긴 음절 지속시간)</strong> → 청자 청각 시스템이 각 음소를 통합할 시간 확보</li><li><strong>Greater speech intensity(높은 음성 강도)</strong> → 배경 소음 대비 <strong>S/N ratio 향상</strong></li><li><strong>More speech time / fewer pauses(적은 휴지기)</strong> → 전송 시간 효율적 사용, 청자 주의 유지</li><li><strong>Greater vocal frequency variation(큰 음성 주파수 변화)</strong> → pitch 변화가 리듬 구조·주의 조절 개선</li></ol></li><li><strong>Speech training</strong>: 조음·명료도 <strong>moderate 수준</strong> 개선 가능, but 조음기관의 구조적 차이는 대부분 고정</li></ul>",
           "answerHighlightCount": 0,
           "answerLines": []
         },
         {
           "key": "audition-and-speech-communication-part-2-goal-7",
           "number": 7,
-          "heading": "Identify how message characteristics, such as vocabulary size, word length, and context, influence the intelligibility of speech in noisy environments. (메시지 특성이 소음 환경 명료도에 미치는 영향)",
+          "heading": "Identify how message characteristics influence the intelligibility of speech in noisy environments. (메시지 특성이 소음 환경 명료도에 미치는 영향)",
           "pageRef": "Page 19",
-          "html": "<ul><li><mark><strong>restricted vocabulary size and predictable, meaningful sentences</strong></mark> → 소음 환경 명료도↑ / 단일 문자 대신 철자 알파벳(alpha, bravo) 사용 → 명료도↑</li><li>Smaller vocabulary → better intelligibility. Word-spelling alphabets (alpha, bravo) outperform single letters.</li><li>긴 단어 &gt; 짧은 단어 (더 많은 음성 단서) / 문장 &gt; 독립 단어 (문맥 도움)</li><li>Longer words provide more cues. Sentences beat isolated words due to context.</li></ul>",
-          "answerHighlightCount": 1,
+          "html": "<ul><li><strong>Phoneme confusions</strong>: 혼동 잘 되는 음소 그룹 → MNDGBVZ, TKPFS</li><li><strong>Word features</strong>:<ul><li><strong>Word-spelling alphabet</strong> (alpha, bravo, charlie) &gt; 단일 문자 (A, B) → 명료도 향상</li><li><strong>익숙한 단어</strong> &gt; 낯선 단어</li><li><strong>긴 단어</strong> &gt; 짧은 단어 (음성 단서 더 많아서 식별 용이)</li></ul></li><li><strong>Context features</strong>:<ul><li><strong>Sentences &gt; isolated words &gt; nonsense syllables</strong> (문맥이 지각 보조)</li><li><mark><strong>어휘 수(vocabulary)가 작을수록</strong></mark> → 소음 환경에서 명료도 향상</li><li><mark><strong>표준 문장 구조</strong></mark> 사용 + 정보 전달 순서 고정 (예: bin location, part number, part name, quantity)</li><li>수신자에게 사용될 어휘·문장 구조 <strong>사전 숙지</strong> 시키기</li></ul></li><li><strong>효과적 메시지 설계 가이드라인 4가지</strong>:<ol><li>짧은 단어/단일 문자 피하기 → word-spelling alphabet 사용</li><li>어휘 수 최소화</li><li>표준 문장 구조 사용</li><li>수신자에게 어휘·문장 구조 사전 교육</li></ol></li></ul>",
+          "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>restricted vocabulary size and predictable, meaningful sentences</strong></mark> → 소음 환경 명료도↑ / 단일 문자 대신 철자 알파벳(alpha, bravo) 사용 → 명료도↑"
+            "<mark><strong>어휘 수(vocabulary)가 작을수록</strong></mark> → 소음 환경에서 명료도 향상",
+            "<mark><strong>표준 문장 구조</strong></mark> 사용 + 정보 전달 순서 고정 (예: bin location, part number, part name, quantity)"
           ]
         },
         {
@@ -1119,11 +1138,11 @@ window.ERGONOMICS_SUMMARY = {
           "number": 8,
           "heading": "Apply human factors guidelines for integrating synthesized speech into systems. (합성 음성 시스템 통합 가이드라인 적용)",
           "pageRef": "Page 28",
-          "html": "<ul><li>경고 메시지: 명료도 극대화 설정 + 비경고 정보 혼재 시 경고 전용 신호음 제공</li><li>Warnings: maximize intelligibility. Provide a dedicated warning tone if mixed with non-warning info.</li><li>일반 정보: 자연스러운 목소리로 수용성↑, 시각 표시보다 확실한 장점 있을 때만 제한적 사용</li><li>General info: use natural voice for acceptance. Use only when it clearly outperforms visual displays.</li><li><mark><strong>Synthesis by analysis</strong></mark>는 단어를 연결할 때 natural coarticulation이 부족해 awkward and choppy하게 들릴 수 있다.</li><li>합성 음성 메시지 recall을 높이려면 <mark><strong>inter-word intervals(pauses)를 늘려</strong></mark> 청자가 처리할 시간을 확보한다.</li></ul>",
+          "html": "<ul><li><strong>합성 음성 유형</strong> (Page 26):<ul><li><strong>Analog/Digital Recording</strong>: 매우 높은 품질, 자연스러움, but 고정 어휘만 가능, 대용량 저장 (8,000 samples/s)</li><li><strong>Synthesis by Analysis(압축 디지털화, LPC)</strong>: 저장 공간 절약, 녹음 수준 품질, but 고정 어휘, 단어 연결 시 <mark><strong>부자연스러운 coarticulation</strong></mark> (예: &#39;bookcase&#39; = /k/ 두 번)</li><li><strong>Synthesis by Rule(TTS)</strong>: <strong>무제한 어휘</strong>, 메모리 최소, 새 어휘에 화자 불필요, but 품질 낮음, prosody 모델링 어려움</li></ul></li><li><strong>합성 음성 성능</strong> (Page 27):<ul><li>자연 음성 99% vs 최고 합성 95% vs 최악 합성 84%</li><li><strong>Adaptation effect</strong>: 짧은 노출/훈련으로 명료도 크게 향상</li><li><strong>Memory burden</strong>: 합성 음성은 자연 음성보다 <strong>처리 용량 더 필요</strong> → 메시지 기억 어려움</li><li>해결책: <mark><strong>inter-word interval 증가</strong></mark> (1s→5s로 recall 거의 2배), pause-grouped digit strings</li></ul></li><li><strong>사용자 선호도</strong> (Page 29):<ul><li>Intelligibility =/= Preference (명료해도 불쾌할 수 있음)</li><li>합성 음성 묘사: machinelike, choppy, harsh/grainy, flat, noisy</li><li>조종석 조종사: <strong>기계적 목소리 선호</strong> (인간 승무원 음성과 구별 위해)</li><li><strong>Intonation pattern</strong>: continuant(rising pitch) 그룹 전달이 선호됨</li></ul></li><li><strong>8가지 가이드라인</strong> (Page 30):<ol><li><strong>Voice differentiation</strong>: 경고 음성은 시스템 내 다른 음성과 <strong>질적으로 다르게</strong> (특히 조종석)</li><li><strong>Alerting tones</strong>: 경고 전용이면 사전 경고음 불필요; 비경고 정보도 있으면 <strong>경고 전용 tone 추가</strong></li><li><strong>Maximize intelligibility</strong>: 안전-critical 메시지에서 명료도 최대화 설정</li><li><strong>Natural voice for general use</strong>: 일반 정보는 자연스러운 목소리로 <strong>사용자 수용성</strong> 향상</li><li><strong>Replay mode</strong>: 복잡한 정보에 <strong>재생 기능</strong> 제공 (단, 실제 사용률 낮음 - Roelofs, 1987)</li><li><strong>User interrupt</strong>: 숙련 사용자가 메시지 <strong>중간에 중단</strong> 가능하게 → 효율성</li><li><strong>Training period</strong>: 운영 전 시스템 음성에 <strong>사전 노출</strong> 제공</li><li><strong>Use sparingly</strong>: 시각 대안보다 <strong>확실히 우수할 때만</strong> 사용 (&#39;high-tech fever&#39; 경계)</li></ol></li></ul>",
           "answerHighlightCount": 2,
           "answerLines": [
-            "<mark><strong>Synthesis by analysis</strong></mark>는 단어를 연결할 때 natural coarticulation이 부족해 awkward and choppy하게 들릴 수 있다.",
-            "합성 음성 메시지 recall을 높이려면 <mark><strong>inter-word intervals(pauses)를 늘려</strong></mark> 청자가 처리할 시간을 확보한다."
+            "<strong>Synthesis by Analysis(압축 디지털화, LPC)</strong>: 저장 공간 절약, 녹음 수준 품질, but 고정 어휘, 단어 연결 시 <mark><strong>부자연스러운 coarticulation</strong></mark> (예: &#39;bookcase&#39; = /k/ 두 번)",
+            "해결책: <mark><strong>inter-word interval 증가</strong></mark> (1s→5s로 recall 거의 2배), pause-grouped digit strings"
           ]
         }
       ]
@@ -1132,6 +1151,8 @@ window.ERGONOMICS_SUMMARY = {
   "stats": {
     "totalModules": 10,
     "totalGoals": 103,
-    "totalAnswerHighlights": 78
+    "totalQuizAnswers": 75,
+    "matchedQuizAnswers": 75,
+    "totalAnswerHighlights": 89
   }
 };
