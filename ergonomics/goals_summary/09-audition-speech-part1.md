@@ -19,15 +19,20 @@
 - **Bandwidth** = f₂ - f₁ / ANSI **10 octave bands** (31.5~16kHz), **1/3-octave** 세분화
 
 ### Goal 4 : Outer/Middle/Inner Ear structure & function [P3, 19]
-- **Outer**: Pinna + Canal + Eardrum / canal resonance **2~5kHz에서 max 12dB**
-- **Middle**: **Malleus→Incus→Stapes** / oval window pressure **~22× 증폭** / **Acoustic reflex** (stapedius 수축)
-- **Inner**: **Cochlea** + **Basilar membrane** + **Organ of Corti** → fluid→neural 변환, **Tonotopic organization**
-- **Acoustic Reflex**: trigger **~80dB** above threshold, attenuation max **20dB**, sustain **max 15min**, **Latency 35~150ms** → impulse noise 보호 불가 ⚠
+| 구조 | 구성/작동 | 핵심 기능/수치 |
+|---|---|---|
+| **Outer** | Pinna + Canal + Eardrum | canal resonance **2~5kHz에서 max 12dB** |
+| **Middle** | **Malleus→Incus→Stapes** / **Acoustic reflex** (stapedius 수축) | oval window pressure **~22× 증폭** |
+| **Inner** | **Cochlea** + **Basilar membrane** + **Organ of Corti** | fluid→neural 변환, **Tonotopic organization** |
+| **Acoustic Reflex** | trigger **~80dB** above threshold | attenuation max **20dB**, sustain **max 15min**, **Latency 35~150ms** → impulse noise 보호 불가 ⚠ |
 
 ### Goal 5 : Place theory vs Temporal theory [P3, 21]
 - 두 이론은 **complementary**
-- **Place**: basilar membrane **특정 위치**에서 max vibration; high freq→oval window 근처, low freq→apex / effective **1,000~5,000 Hz**
-- **Temporal**: nerve fires in **temporal pattern** matching freq / effective **< 1,000 Hz** / 한계: **>1,000 firings/s 불가**
+
+| 이론 | 작동 원리 | 주파수 범위 | 한계/특징 |
+|---|---|---|---|
+| **Place** | basilar membrane **특정 위치**에서 max vibration | effective **1,000~5,000 Hz** | high freq→oval window 근처, low freq→apex |
+| **Temporal** | nerve fires in **temporal pattern** matching freq | effective **< 1,000 Hz** | 한계: **>1,000 firings/s 불가** |
 
 ### Goal 6 : Auditory masking [P4, 22]
 - **Masking** = 한 소리가 다른 소리의 **audibility threshold 상승**
@@ -43,23 +48,31 @@
 - **Relative Discrimination**: 2+ signals 비교 구분 / **Localization**: direction 결정
 
 ### Goal 9 : JND & design implications [P4, 30]
-- **JND** = **50%** probability로 감지 가능한 minimum change
-- **Intensity JND**: **≥60dB** above threshold에서 smallest, **1,000 & 4,000 Hz**에서 best
-- **Frequency JND**: **<1,000 Hz**에서 smallest, intensity **≥30dB**, duration **>0.1s** 필요
-- **Absolute ID** (Miller): Intensity **4-5** / Frequency **4-7** / Duration **2-3** / combined **9 levels**
-- 전략: **MORE dimensions × FEWER steps**
+| 항목 | 조건/수치 | 설계 의미 |
+|---|---|---|
+| **JND** | **50%** probability로 감지 가능한 minimum change | 감지 가능한 최소 변화 기준 |
+| **Intensity JND** | **≥60dB** above threshold에서 smallest, **1,000 & 4,000 Hz**에서 best | 강도 변화 구분이 쉬운 조건 |
+| **Frequency JND** | **<1,000 Hz**에서 smallest, intensity **≥30dB**, duration **>0.1s** 필요 | 주파수 변화 구분 조건 |
+| **Absolute ID** (Miller) | Intensity **4-5** / Frequency **4-7** / Duration **2-3** / combined **9 levels** | 한 차원에 너무 많은 단계 배정 금지 |
+| 전략 | **MORE dimensions × FEWER steps** | 여러 차원에 적은 단계씩 분산 |
 
 ### Goal 10 : Sound localization mechanisms [P4, 31]
-- **ITD** (Interaural Time Diff): **<1,500 Hz**, ~**0.8ms** difference
-- **ILD** (Interaural Level Diff): **>3,000 Hz**, head shadow
-- **Spectral Cues (Pinna)**: all freq, **up-down localization**
-- **Head Movement**: resolves **front-back ambiguity**
+| 단서 | 주파수 범위 | 역할 |
+|---|---|---|
+| **ITD** (Interaural Time Diff) | **<1,500 Hz** | ~**0.8ms** difference |
+| **ILD** (Interaural Level Diff) | **>3,000 Hz** | head shadow |
+| **Spectral Cues (Pinna)** | all freq | **up-down localization** |
+| **Head Movement** | all freq | resolves **front-back ambiguity** |
 
 ### Goal 11 : Auditory display design principles [P4, 33]
-- **Compatibility**: high pitch="up", fast rate="urgent"
-- **Approximation**: 2-stage — Attention signal → Designation signal
-- **Dissociability**: background noise/speech와 명확 구분
-- **Parsimony**: 필요 정보만 / **Invariance**: same signal=same info / **Standardization**: consistent coding
+| 원칙 | 의미 |
+|---|---|
+| **Compatibility** | high pitch="up", fast rate="urgent" |
+| **Approximation** | 2-stage — Attention signal → Designation signal |
+| **Dissociability** | background noise/speech와 명확 구분 |
+| **Parsimony** | 필요 정보만 |
+| **Invariance** | same signal=same info |
+| **Standardization** | consistent coding |
 
 ### Goal 12 : Presentation principles for auditory displays [P4, 27, 34]
 - **Avoid extremes** (startle 방지) / masked threshold +**15~25dB** / **interrupted/variable** signals (adaptation 방지)
